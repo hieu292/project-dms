@@ -1,0 +1,6 @@
+F:\project-dms\Development\DMS\DMS-Application\DMS_BUS\bin\Debug\DMS_BUS.dll.config
+F:\project-dms\Development\DMS\DMS-Application\DMS_BUS\bin\Debug\DMS_BUS.dll
+F:\project-dms\Development\DMS\DMS-Application\DMS_BUS\bin\Debug\DMS_BUS.pdb
+F:\project-dms\Development\DMS\DMS-Application\DMS_BUS\obj\Debug\ResolveAssemblyReference.cache
+F:\project-dms\Development\DMS\DMS-Application\DMS_BUS\obj\Debug\DMS_BUS.dll
+F:\project-dms\Development\DMS\DMS-Application\DMS_BUS\obj\Debug\DMS_BUS.pdb
