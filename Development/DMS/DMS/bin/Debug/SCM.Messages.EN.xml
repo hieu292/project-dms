@@ -1,0 +1,1737 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SCM>
+  <Messages>
+    <Name>messages.generate.date</Name>
+    <Value>Start date must be less than end date</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.generate.success</Name>
+    <Value>Generate successfully</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.general</Name>
+    <Value>Error</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.general</Name>
+    <Value>Warning</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.general</Name>
+    <Value>Messages</Value>
+  </Messages>
+  <Messages>
+    <Name>confirms.general</Name>
+    <Value>Confirm</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>error.InsertUpdate</Name>
+    <Value>Can't Insert or Update '{0} {1}'</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.export.nothing</Name>
+    <Value>Customer '{0}' have been exported. Please, update status if you want to export.</Value>
+  </Messages>
+    
+    
+    
+    <Messages>
+    <Name>PPO.status.0</Name>
+    <Value>PPO is registered</Value>
+  </Messages>
+  <Messages>
+    <Name>PPO.status.2</Name>
+    <Value>Unzip imported PPO file fail</Value>
+  </Messages>
+  <Messages>
+    <Name>PPO.status.4</Name>
+    <Value>Insert imported data fail</Value>
+  </Messages>
+  <Messages>
+    <Name>PPO.status.5</Name>
+    <Value>PPO has just been imported into database, ready to revise</Value>
+  </Messages>
+  <Messages>
+    <Name>PPO.status.7</Name>
+    <Value>Revised PPO is empty</Value>
+  </Messages>
+  <Messages>
+    <Name>PPO.status.10</Name>
+    <Value>Revise PPO fail</Value>
+  </Messages>
+  <Messages>
+    <Name>PPO.status.15</Name>
+    <Value>PPO has been revised</Value>
+  </Messages>
+  <Messages>
+    <Name>PPO.status.20</Name>
+    <Value>PPO has been approved</Value>
+  </Messages>
+   <Messages>
+    <Name>PPO.status.22</Name> 
+    <Value>Split PPO fail</Value>
+  </Messages>
+  <Messages>
+    <Name>PPO.status.25</Name>
+    <Value>PPO has been split to daily PPO</Value>
+  </Messages>
+  <Messages>
+    <Name>PPO.status.30</Name>
+    <Value>PPO has been exported to txt</Value>
+  </Messages>
+  <Messages>
+    <Name>PPO.status.55</Name>
+    <Value>Express PPO has been generated</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.ACCOUNT_NOT_EXIST</Name>
+    <Value>Account not exist</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.PASSWORD_WRONG</Name>
+    <Value>Password is wrong</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.ACCOUNT_INACTIVE</Name>
+    <Value>Account is not active</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.ACCOUNT_EXPIRED</Name>
+    <Value>Account expired</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.login.PASSWORD_EXPIRED</Name>
+    <Value>Password expired</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.year.invalid</Name>
+    <Value>Year is not valid. Year must be between {0} and {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.week.invalid</Name>
+    <Value>Week is not valid. Week must be between {0} and {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.invalid</Name>
+    <Value>{0} is not valid. Please enter again.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.required</Name>
+    <Value>{0} is required.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.min0</Name>
+    <Value>{0} must be greater than or equal to 0.</Value>
+  </Messages>
+  <!-- nghiahbt added 24-May-07 -->
+   <Messages>
+    <Name>errors.max100</Name>
+    <Value>{0} must be smaller than or equal to 100.</Value>
+  </Messages>
+  <!-- nghiahbt added 24-May-07 -->
+  <Messages>
+    <Name>errors.compare0</Name>
+    <Value>{0} must be greater than 0.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.min</Name>
+    <Value>{0} can not be less than {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.range0100</Name>
+    <Value>{0} must be greater than 0 and less than or equal to 100.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.max</Name>
+    <Value>{0} can not be greater than {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.maxlength</Name>
+    <Value>{0} can not be greater than {1} characters.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.minlength</Name>
+    <Value>{0} can not be less than {1} characters.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.compare.equal</Name>
+    <Value>{0} must be less than or equal to {1}.</Value>
+  </Messages> 
+  <!-- nghiahtb add 25-May-07 begin-->
+  <Messages>
+    <Name>errors.compare.equalto</Name>
+    <Value>{0} must be equal to {1}.</Value>
+  </Messages> 
+  <!-- nghiahtb add 25-May-07 begin-->
+  <Messages>
+    <Name>errors.compare.number</Name>
+    <Value>{0} must be greater than or equal to {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.dupplicate</Name>
+    <Value>This row is already exist!</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.compare.datetime</Name>
+    <Value>{0} must be before {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.byte</Name>
+    <Value>{0} must be a byte.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.int</Name>
+    <Value>{0} must be a int.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.double</Name>
+    <Value>{0} must be a double.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.number</Name>
+    <Value>{0} must be a number.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.date</Name>
+    <Value>{0} must be a date.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.promotion.import.nodata</Name>
+    <Value>There is no data in excel file. Maybe the template this excel file is not correct.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.promotion.export.nodatafound</Name>
+    <Value>No data found. You must allocate quantity to customers.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.promotion.search.week</Name>
+    <Value>Data's errors. The number of customers in each week is not matched.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.promotion.import.week</Name>
+    <Value>The imported weeks and the original weeks are not the same.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.promotion.import.quantity.equal</Name>
+    <Value>The total of quantities ({0}) is not equal to the quota ({1}).</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.promotion.export.save</Name>
+    <Value>The total of quantities ({0}) is not equal to the quota ({1}).</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.promotion.import.inativeall</Name>
+    <Value>All week of this promotion are inactive. Abort save.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.promotion.import.equal</Name>
+    <Value>The import promotion information is not equal the original promotion information.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.promotion.checkcust</Name>
+    <Value>{0} is different from the original data.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.promotion.flagchagned</Name>
+    <Value>Changed. The original quantity is {0}.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.promotion.importsave.fail</Name>
+    <Value>Data has been changed. Save data fail.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.promotion.inactive.changed</Name>
+    <Value>Cannot change the quantity of an inactive week. The original quantity is {0}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.promotion.import.cust</Name>
+    <Value>The number of import customer is not equal the number of original promotion region.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.promotion.import.same</Name>
+    <Value>The import data is the same the original data. Abort save.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.promotion.import</Name>
+    <Value>This file is not a valid excel file. HO-SCM System cannot import this file.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.time</Name>
+    <Value>{0} must be a time.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.string</Name>
+    <Value>{0} must be a string.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.char</Name>
+    <Value>{0} must be a character.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.email</Name>
+    <Value>{0} is a not valid email address.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.emails</Name>
+    <Value>{0} is not a valid email list.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.datatype</Name>
+    <Value>{0} must be a {0}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.userName.exist</Name>
+    <Value>User name's already existed. Please change the user name.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.string.specialChar</Name>
+    <Value>{0} cannot contain any special character (such as @, #, $, %, * ...)</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.promotionweek.max</Name>
+    <Value>The number of weeks of one promotion cannot be greater than {0}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.promotionCust.matched</Name>
+    <Value>Errors on promotion cust. The number of customer is not matched.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.promotionweek.matched</Name>
+    <Value>Errors on promotion week. The number of week is not matched.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.swapcust.sumquantity</Name>
+    <Value>The total quantity of suppliers is not equal the total quantity of receivers.</Value>
+  </Messages>
+  <!-- nghiaht added 20-Jun-07 begin -->
+  <Messages>
+    <Name>errors.swapcust.sumquantity</Name>
+    <Value>The total quantity of suppliers is not equal the total quantity of receivers.</Value>
+  </Messages>
+  <!-- nghiaht added 20-Jun-07 end -->
+  <Messages>
+    <Name>errors.swapcust.poolquantity</Name>
+    <Value>Pool quantity must be non-negative</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.swapregion.poolquantity</Name>
+    <Value>Pool quantity must be non-negative</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.swapcust.concur</Name>
+    <Value>The customer cannot be both supplier and receiver</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.swapregion.sumquantity</Name>
+    <Value>The total quantity of suppliers is not equal the total quantity of receivers or one of them is equal to 0.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.swapcust.datachanged</Name>
+    <Value>Data has been changed. Please load data again.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.swapcust.approve</Name>
+    <Value>Cannot approve. Data has been changed. Please load data again.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.swapregion.overslap</Name>
+    <Value>Overlap</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.policy.update</Name>
+    <Value>Errors. Maybe data's been changed. Please refresh data.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.swapregion.concur</Name>
+    <Value>The region cannot be both supplier and receiver</Value>
+  </Messages> 
+  <!-- nghiahbt added 13-Jun-07 begin -->
+    <Messages>
+    <Name>errors.swapcust.approve.quantityGreater</Name>
+    <Value>Quantity must be smaller or equal to Available.</Value>
+  </Messages> 
+  <Messages>
+    <Name>errors.swapregion.noquantity</Name>
+    <Value>There is no quantity for swapping.</Value>
+  </Messages>
+  <!-- nghiahbt added 13-Jun-07 end -->
+  <Messages>
+    <Name>errors.swapregion.datachanged</Name>
+    <Value>Data has been changed. Please load data again.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.promotion.delete</Name>
+    <Value>Cannot find this promotion. Maybe it has been delete.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.swapregion.approve</Name>
+    <Value>Cannot approve. Data has been changed. Please load data again.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.region.ratio.100</Name>
+    <Value>Sum of {0} must be equal to 100.</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.delete</Name>
+    <Value>Do you want to delete {0}?</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.inactive</Name>
+    <Value>Do you want to set {0} to InActive Status?</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.policy</Name>
+    <Value>You must save this role to database before set policy to this role.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.data.found</Name>
+    <Value>{0} record(s) found.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save</Name>
+    <Value>Do you want to save?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save.success</Name>
+    <Value>Save data successfully.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save.fail</Name>
+    <Value>Save data fail.</Value>
+  </Messages>
+   <!-- duylnk 20081111 -->
+  <Messages>
+    <Name>messages.save.nothing</Name>
+    <Value>Nothing to save. Data have not been changed.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.delete.nothing</Name>
+    <Value>Nothing to delete. Please mark the rows before delete.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save.validation.error</Name>
+    <Value>Cannot save. Data is invalid.</Value>
+  </Messages>
+   <!-- end duylnk 20081111 -->
+  <Messages>
+    <Name>messages.approveppo.success</Name>
+    <Value>Approve PPO successfully</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.approveppo.fail</Name>
+    <Value>Approve PPO fail</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.swapcust.approve.success</Name>
+    <Value>Approve swap customer successfully</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.swapregion.approve.success</Name>
+    <Value>Approve swap regions successfully</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.swapregion.approve.fail</Name>
+    <Value>Approve swap regions fail.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.swapcust.approve.invalid</Name>
+    <Value>Have no data to approve</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.swap.week.require</Name>
+    <Value>You must choose a week.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.swap.region.require</Name>
+    <Value>You must choose a region.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.form.create</Name>
+    <Value>Form name is not correct. Cannot create a form with type {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.changepassword.success</Name>
+    <Value>Change password successfully.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.changepassword.fail</Name>
+    <Value>Cann't change password.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.form.close</Name>
+    <Value>Do you want to close this form?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.logout</Name>
+    <Value>Do you want to log out?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.approve</Name>
+    <Value>Are you sure you want to approve?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.export.success</Name>
+    <Value>Export {0} successfully.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.export.fail</Name>
+    <Value>Export {0} fail.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.swapcust.nodata</Name>
+    <Value>There is no data to swap. You should allocate quantity for customers.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.approve.swapcust.nodata</Name>
+    <Value>There is no data to approve. Maybe it's approved already.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.swapregion.nodata</Name>
+    <Value>There is no data to swap. You should allocate quantity for regions and customers.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.approve.swapregion.nodata</Name>
+    <Value>There is no data to approve. Maybe it's approved already.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.username.title</Name>
+    <Value>User: {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.exit</Name>
+    <Value>Do you want to exit?</Value>
+  </Messages>
+
+<!-- Khoa -->
+  <Messages>
+    <Name>errors.priority.dupplicate</Name>
+    <Value>Non-main products only have priority 1 when having stock in at least one region</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.one</Name>
+    <Value>There is at least one product having priority 1</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.main</Name>
+    <Value>Please choose main product for the one having priority 1</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.main.count</Name>
+    <Value>There is one main product only</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.custlist.wrongfile</Name>
+    <Value>Wrong file or file is being in use</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.custlist.wrongcolumn</Name>
+    <Value>Wrong file format! Invalid column name</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.custlist.norow</Name>
+    <Value>The selected file has no available rows</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.custlist.custinfo</Name>
+    <Value>The selected file has some customers lacking of information</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.custlist.maxcolumn</Name>
+    <Value>The selected file has invalid column numbers</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.custlist.wrongregion</Name>
+    <Value>The selected file has some customers not belong to region {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.stocklist.wrongfile</Name>
+    <Value>Wrong file or file is being in use</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.stocklist.wrongcolumn</Name>
+    <Value>Wrong file format! Invalid column name</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.stocklist.norow</Name>
+    <Value>The selected file has no available rows</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.stocklist.productinfo</Name>
+    <Value>The selected file has some products lacking of information</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.stocklist.maxcolumn</Name>
+    <Value>The selected file has invalid column numbers</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.stocklist.wrongproduct</Name>
+    <Value>The selected file has some products not belong to BasePack {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.export.excludestock.success</Name>
+    <Value>Export Exclusive Stock List Successfully</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.export.excludestockRR.success</Name>
+    <Value>Export Exclude Stock RR List Successfully</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.lost</Name>
+    <Value>Edited quantity is less than current quantity. All the customer quantity will be lost? Continue saving?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.require.delete</Name>
+    <Value>Please check delete column before deleting</Value>
+  </Messages>
+<!-- nghiahbt added 14-Jun-07 begin -->   
+  <Messages>
+    <Name>messages.require.Allowdelete</Name>
+    <Value>Can not delete promtion(s). Delete only promotion having statuses: New, Allocated, InActive. </Value>
+  </Messages>
+  <Messages>
+<!-- nghiahbt added 14-Jun-07 end -->   
+    <Name>messages.require.inactive</Name>
+    <Value>Please check desired column before set to InActive</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.export</Name>
+    <Value>Do you want to export to file?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.form.alreadyopen</Name>
+    <Value>{0}'s already opened. You must close the child form before show {0}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.date</Name>
+    <Value>Date is not valid! Please try again!</Value>
+  </Messages>  
+   <Messages>
+    <Name>errors.bool</Name>
+    <Value>Please choose Y or N!</Value>
+  </Messages> 
+  <Messages>
+    <Name>errors.required.year</Name>
+    <Value>Year is required</Value>
+  </Messages>  
+  <Messages>
+    <Name>messages.success</Name>
+    <Value>   Save successfully</Value>
+  </Messages> 
+  <Messages>
+    <Name>messages.delete</Name>
+    <Value>   Delete successfully</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.inactive</Name>
+    <Value>   Set status InActive successfully</Value>
+  </Messages>  
+  <Messages>
+    <Name>errors.fill.one</Name>
+    <Value>Please fill in {0}</Value>
+  </Messages> 
+  <Messages>
+    <Name>errors.login</Name>
+    <Value>User and Password is correct</Value>
+  </Messages> 
+  <Messages>
+    <Name>errors.noresult</Name>
+    <Value>   No search entry found</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.greater</Name>
+    <Value>{0} must be greater than {1}</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.fill</Name>
+    <Value>Please fill in all the fields</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.rate</Name>
+    <Value>Please fill in rate for week</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.region</Name>
+    <Value>Please fill in quantity for at least one region</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.year</Name>
+    <Value>To Year must not be less than From Year</Value>
+  </Messages>
+   <Messages>
+    <Name>errors.week</Name>
+    <Value>To Week must not be less than From Week</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.available</Name>
+    <Value>No group is available</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.exist</Name>
+    <Value>{0} does not exist.</Value>
+  </Messages>  
+  <Messages>
+    <Name>errors.distance</Name>
+    <Value>{0} must be greater than {1} and less than {2}.</Value>
+  </Messages> 
+  <Messages>
+    <Name>errors.exist.already</Name>
+    <Value>{0} exists already.</Value>
+  </Messages> 
+  <Messages>
+    <Name>messages.unchanged</Name>
+    <Value>Nothing changed! Save abort!</Value>
+  </Messages> 
+  <Messages>
+    <Name>errors.inactive</Name>
+    <Value>This week is inactive. Can not change data!</Value>
+  </Messages> 
+<!-- End of Khoa -->
+
+
+<!-- Nguyen -->
+
+  <Messages>
+    <Name>errors.searchfail</Name>
+    <Value>Fail to execute search command.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.delete.fail</Name>
+    <Value>Fail to delete records.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.initdata</Name>
+    <Value>Fail to init data.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.delete</Name>
+    <Value>Fail to delete data.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.save.fail</Name>
+    <Value>Fail to save data.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.generateSPS.fail</Name>
+    <Value>Fail to generate Special Stock Policy.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.exportSP.fail</Name>
+    <Value>Fail to export Stock Policy.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.checkSP.fail</Name>
+    <Value>Fail to verify Stock Policy.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.checkMainProduct.fail</Name>
+    <Value>Fail to verify main product.</Value>
+  </Messages>
+  
+ <Messages>
+    <Name>errors.exportSP.CreateDirectoryFail</Name>
+    <Value>Can not find directory, please check the path to export Stock Policy.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportSP.success</Name>
+    <Value>Export Stock Policy successfully at {0}.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportSP.confirm</Name>
+    <Value>Do you want to export Stock Policy?</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportSP.cancel</Name>
+    <Value>Export Stock Policy cancelled by user.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportSP.notexist</Name>
+    <Value>All Stock Policy exported .</Value>
+  </Messages>
+     
+  <Messages>
+    <Name>messages.exportParam.success</Name>
+    <Value>Export parameters successfully at {0}.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportParam.exported</Name>
+    <Value>All parameters exported, data must be updated before exporting again.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportParam.cancel</Name>
+    <Value>Export parameters cancelled by user.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.checkSP.success</Name>
+    <Value>Verify Stock Policy success.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.checkSP.noresult</Name>
+    <Value>You defined all Stock Policy.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>messages.checkMainProduct.success</Name>
+    <Value>Verify successfully .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.checkMainProduct.fail</Name>
+    <Value>Fail to verify.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.checkMainProduct.noresult</Name>
+    <Value>No records.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.exportParam.fail</Name>
+    <Value>Fail to export parameters.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.exportParam.CreateDirectoryFail</Name>
+    <Value>Can not find directory, please check the path to export parameters.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>errors.equal</Name>
+    <Value>{0} must equal {1}.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>errors.between</Name>
+    <Value>{0} must beetween {1} and {2}.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>errors.percentage</Name>
+    <Value>Total percentage of four weeks equal 100 and every week equal 25. Or total percentage of each week equal 100.</Value>
+  </Messages>
+     
+   <Messages>
+    <Name>errors.overlap</Name>
+    <Value>Period can not overlap.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.duplicate</Name>
+    <Value>Duplicate data, you have already defined this Stock Policy.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>errors.match</Name>
+    <Value>{0} not match with {1}. Please enter again.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>errors.invalid.customer</Name>
+    <Value>Customer is not valid. Please enter again.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.general</Name>
+    <Value>Errors.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>warnings.search</Name>
+    <Value>Data's changed. You must save data before search.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.invalidweek</Name>
+    <Value>Invalid week at {0}.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.invalidyear</Name>
+    <Value>Invalid year at {0}.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.invalidfromto</Name>
+    <Value>{0} must be greater than or equal to {1}.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.invalid.selectweek</Name>
+    <Value>You must select year and week.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>warnings.invalid.selectperiod</Name>
+    <Value>You must select from week and to week.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.select</Name>
+    <Value>You must select one record.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.save.confirm</Name>
+    <Value>Do you want to save ?</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>messages.delete.confirm</Name>
+    <Value>Do you want to delete ?</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>messages.delete.success</Name>
+    <Value>Delete successfully.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>messages.delete.warning</Name>
+    <Value>You must select record to delete.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>messages.deleteSPD.warning</Name>
+    <Value>You deleted all Special Stock Policy of one Standard Stock Policy, related Standard Stock Policy is deleted too.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.update.success</Name>
+    <Value>Save data successfully.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.generateSP.success</Name>
+    <Value>Genereate Stock Policy successfully.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.generateSP.notexist</Name>
+    <Value>All Standard Stock Policy generated. You must update Standard Stock Policy before generating.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.generateSP.confirm</Name>
+    <Value>Do you want to generate Stock Policy ?</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>warnings.generateSP.NotGenerate</Name>
+    <Value>You must generate all Stock Policy before exporting.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.createfolderParam.confirm</Name>
+    <Value>Folder for exporting parameter not found or invalid path, do you want to export to {0} folder by default?</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.createfolderSP.confirm</Name>
+    <Value>Folder for exporting Stock Policy not found or invalid path, do you want to export to {0} folder by default?</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.update.ConcurrencyViolation</Name>
+    <Value>You can not manipulate with these records. You must refesh data by searching data again, and then you can edit data .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.update.ConnectFail</Name>
+    <Value>General network error. Please check your network .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.unauthorised</Name>
+    <Value>You are not authorized to update .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.invalid.LevelStdsku</Name>
+    <Value>If you define Stock Policy for strategic region, others must match for whole region or you can define another period.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.invalid.Conflict</Name>
+    <Value>If you define Stock Policy for strategic region, others must match for whole region or you can define another period.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>warnings.generateSP.AskForGenerate</Name>
+    <Value>There are un-generated Stock Policy. System generate Stock Policy now. </Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.update.notpermit</Name>
+    <Value>You can not edit this field.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>warnings.verifySP.NotGenerate</Name>
+    <Value>You must generate all Stock Policy before verifying.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.conflictAddDelete</Name>
+    <Value>You are adding new data , you can not delete.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.maxRows</Name>
+    <Value>The number of rows exported exceed Excel rows.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.UseByOtherUser</Name>
+    <Value>This function is used by another user, please try later.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.CanNotLoadParameters</Name>
+    <Value>Can not read all parameters .Please ask your administrator to check data.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.DefineSC.InvalidCustomer</Name>
+    <Value>Invalid customer or customer does not belong to your authorized region.</Value>
+  </Messages>
+     <Messages>
+    <Name>warnings.DefineSC.InputData</Name>
+    <Value>You must input Division or Category or Brand or Brandy.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.DefineSC.MaxMin</Name>
+    <Value>{0} must range from {1} to {2}.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.DefineSC.overlap</Name>
+    <Value>Period of Shipping Calendar can not overlap.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.DefineSC.duplicate</Name>
+    <Value>Duplicate data , you have already defined this Shipping Calendar.</Value>
+  </Messages>  
+<!-- End of Nguyen -->
+<!-- Begin of VuPD -->
+<Messages>
+    <Name>PPOManually.Saving.Fail_Duplicate_Week</Name>
+    <Value>Duplicate data, you have already defined this proposal purchase order for this week</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.Fail_Duplicate_Day</Name>
+    <Value>Duplicate data, you have already defined proposal purchase order for today</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.OK_Week</Name>
+    <Value>The PPO data is saved successfully. {0} Note : you can not make any change on this proposal purchase order from now</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.OK_Day</Name>
+    <Value>The PPO data is saved successfully. {0} Note : you can not make any change on this proposal purchase order from now</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.Failed_Week</Name>
+    <Value>The proposal purchase order for this week has not been created. System could not find any data to save.</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.Failed_Day</Name>
+    <Value>The proposal purchase order for today has not been created. System could not find any data to save.</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.Failed</Name>
+    <Value>There is error in system, couldn't find anything to save (current data table is null).</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.Confirm</Name>
+    <Value>Do you want to save ?</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.Null_Record</Name>
+    <Value>There is a empty record. Please fill it or delete it.</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.Null_Record_Grid</Name>
+    <Value>Empty record, fill it with item code.</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.Zero_QTY</Name>
+    <Value>This items order as zero unit.</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.Zero_QTY_MSG</Name>
+    <Value>There are items order as zero unit, please make sure it has oder quantity greater than zero or delete it if needn't.</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.NewPPO.Confirm</Name>
+    <Value>Do you want to create a new proposal purchase order ?</Value>
+</Messages> 
+
+<Messages>
+    <Name>PPOManually.Duplicate.P_ID</Name>
+    <Value>There is(are) item(s) have been already defined, please make sure you are choosing right Product ID.</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Fantal.Error</Name>
+    <Value>Fantal error, couldn't process this operation.</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.Duplicate_PID</Name>
+    <Value>This item has been defined.</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.Nothing</Name>
+    <Value>There is nothing to save, please make sure there is data available to save.</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.TxtWeek.Invalid</Name>
+    <Value>Week value can not greater than 52 and less than 1.</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.Fail_Duplicate_CustCode_Week</Name>
+    <Value>This customer has been already created proposal purchase order for this week.</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.Fail_Duplicate_CustCode_Day</Name>
+    <Value>This customer has been already created proposal purchase order for today.</Value>
+</Messages> 
+<Messages>
+    <Name>PPOManually.Saving.Fail_Wrong_CustCode</Name>
+    <Value>This customer has not been existing or not authorized, please correct customer code.</Value>
+</Messages> 
+<!-- nghiahbt begin -->
+<Messages>
+    <Name>PPOManually.NotNull</Name>
+    <Value>This column must not blank.</Value>
+</Messages>
+<!-- nghiahbt end -->
+<!-- End of VuPD -->
+<!-- Begin of Tuanvt -->
+<Messages>
+    <Name>errors.frmDeliveryWeight.wrongCustomer</Name>
+    <Value>The selected file has some customers not belong to user's region or are inactive.</Value>
+</Messages>
+<Messages>
+    <Name>errors.frmDeliveryWeight.wrongFile</Name>
+    <Value>The selected file is wrong format.</Value>
+</Messages>
+<!-- End of Tuanvt -->
+<!-- Begin version define -->
+<Messages>
+    <Name>frmAbout.txtAboutInfo.Content</Name>
+    <Value>This software copyrighted by Tan Hiep Phat. Vendor Managed Inventory and Tan Hiep Phat Logos are trademarks  of the Tan Hiep Phat. All rights reserved.</Value>
+</Messages>
+<Messages>
+    <Name>frmAbout.txtAboutInfo.Content_seperate</Name>
+    <Value>_</Value>
+</Messages>
+<Messages>
+    <Name>frmAbout.lblVersion.Content</Name>
+    <Value>{0}v.{1}. Build 30-November-2010</Value>
+</Messages>
+<!-- End of version define -->
+<Messages>
+    <Name>errors.NotDefineShipTo</Name>
+    <Value>There is no ship to of this distributor.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.allocation.duplicate.KeyGrd</Name>
+    <Value>Region,Customer Code,Ship To Code,Category have existed in Grid!</Value>
+  </Messages>
+   <Messages>
+    <Name>messages.allocation.duplicate.KeyDatabase</Name>
+    <Value>Region,Customer,ShipToCode,CatID have existed in DataBase!</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.allocation.total</Name>
+    <Value>Total of six day must be equal 100</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.allocation.delete.No</Name>
+    <Value>Parameter had exported, No delete</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.allocation.delete.Yes</Name>
+    <Value>Parameter can delete</Value>
+  </Messages>
+  <!-- Begin hieuvt3 -->
+  <Messages>
+    <Name>messages.exportSimilarSKU.success</Name>
+    <Value>Export Similar BasePack successfully.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportSimilarSKU.confirm</Name>
+    <Value>Do you want to export Similar BasePack?</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportSimilarSKU.cancel</Name>
+    <Value>Export Similar BasePack cancelled by user.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportSimilarSKU.notexist</Name>
+    <Value>There is not new Similar BasePack to export .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.exportSimilarSKU.CreateDirectoryFail</Name>
+    <Value>Create Directory Fail .</Value>
+  </Messages>
+    
+  <Messages>
+    <Name>messages.createfolderSimilarSKU.confirm</Name>
+    <Value>Folder for exporting Similar BasePack not found or invalid path, do you want to export to {0} folder by default?</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.exportSimilarSKU.NotSaveNewData</Name>
+    <Value>Don't save new Data. Not export new Data !</Value>
+  </Messages>
+  <!-- End hieuvt3 -->
+  
+  <!-- Begin Tuannh2 -->
+  
+  <Messages>
+    <Name>messages.ExportShippingCalendar.success</Name>
+    <Value>Export Daily Shipping Calendar successfully at {0}.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportShippingCalendar.confirm</Name>
+    <Value>Do you want to export Daily Shipping Calendar?</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportShippingCalendar.notexist</Name>
+    <Value>There are no Daily Shipping Calendar to export.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.exportShippingCalendar.CreateDirectoryFail</Name>
+    <Value>Can not find directory, please check the path to export Daily Shipping Calendar.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.createfolderShippingCalendar.confirm</Name>
+    <Value>Folder for exporting Shipping Calendar not found or invalid path, do you want to export to {0} folder by default?</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportShippingCalendar.cancel</Name>
+    <Value>Export Daily Shipping Calendar cancelled by user.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.Permit.NotInput</Name>
+    <Value>Not exist Shipping Calendar at this day.</Value>
+  </Messages>
+  <!-- End Tuannh2 -->
+  <!-- Begin QuangHT -->
+  <Messages>
+  <Name>frmSimilarSKUDefinition.grdSSKU.validate.empty</Name>
+  <Value>You must enter data!!!</Value>
+  </Messages>
+  <Messages>
+  <Name>frmSimilarSKUDefinition.grdSSKU.validate.FromWeek_ToWeek</Name>
+  <Value>From Week must be &lt; To Week</Value>
+  </Messages>
+  <Messages>
+  <Name>frmSimilarSKUDefinition.grdSSKU.validate.MaxMinFromWeek</Name>
+  <Value>Week must be in between 1 and 52 </Value>
+  </Messages>
+  <Messages>
+  <Name>frmSimilarSKUDefinition.grdSSKU.validate.row2row</Name>
+  <Value>You cannot define many Similar BasePack for a BasePack</Value>
+  </Messages>
+  <Messages>
+  <Name>frmSimilarSKUDefinition.grdSSKU.validate.overlap</Name>
+  <Value>You defined Week-Year overlap</Value>
+  </Messages>
+  <Messages>
+  <Name>frmSimilarSKUDefinition.grdSSKU.Delete.checkExported</Name>
+  <Value>This BasePack was already exported, You cann't delete!!</Value>
+  </Messages>
+  <Messages>
+  <Name>frmSimilarSKUDefinition.grdSSKU.Delete.checked</Name>
+  <Value>You must select a record at least to delete!!</Value>
+  </Messages>
+  <!-- End QuangHT -->
+  <Messages>
+  <Name>messages.allocation.MustEnterData</Name>
+  <Value>Press F3 to select data.</Value>
+  </Messages>
+  <!-- Add 22-12-2008-->
+  <Messages>
+    <Name>messages.allocation.PressKey</Name>
+    <Value>Fill in data or Press F3 to select data.</Value>
+  </Messages>
+  
+  <!--DucND added-->
+  <Messages>
+  <Name>messages.dms.InvalidEmail</Name>
+  <Value>Invalid email</Value>
+  </Messages>
+  <!--end-->
+  <Messages>
+  <Name>messages.export.SP.success</Name>
+  <Value>Data export successfully at "{0}". Do you want to open this folder?</Value>
+  </Messages>
+   <!-- Begin frmSPDefineByShipTo -->
+   <Messages>
+  <Name>messages.SP.Validate.Duplicate</Name>
+  <Value>Duplicate data ,can overlap period.</Value>
+  </Messages>
+   <Messages>
+  <Name>messages.SP.Validate.MustInput</Name>
+  <Value>You must enter data(exemple: PRESS F3)</Value>
+  </Messages>
+  <Messages>
+  <Name>messages.SP.Validate.WeekLength</Name>
+  <Value>This length must be 6 munber(example 200826)</Value>
+  </Messages>
+  <Messages>
+  <Name>messages.SP.Validate.Week</Name>
+  <Value>Week must be in between 1 and 52</Value>
+  </Messages>
+  <Messages>
+  <Name>messages.SP.Validate.MaxMinFromWeek</Name>
+  <Value>FromWeek must be &lt;= ToWeek</Value>
+  </Messages>
+  <Messages>
+  <Name>messages.SP.Validate.CurrentWeek</Name>
+  <Value>ToWeek must be &gt;= Current Week {0}</Value>
+  </Messages>
+   <!-- End  frmSPDefineByShipTo -->
+  <!--hieuvt3 begin frmCalendarMaster--> 
+  <Messages>
+  <Name>messages.frmCalendarMaster.DateExisted</Name>
+  <Value> Holiday does exist </Value>
+  </Messages>
+  <!--hieuvt3 end-->
+  <!-- Begin of frmDefineInActiveSKU-->
+  <Messages>
+  <Name>messages.InActiveSTDSKU.Validate.Duplicate.Database</Name>
+  <Value> Duplicate data in Database,can overlap period.</Value>
+  </Messages>
+   <Messages>
+  <Name>messages.InActiveSTDSKU.Validate.Duplicate.DataGrid</Name>
+  <Value> Duplicate data on Grid,can overlap period.</Value>
+  </Messages>
+  <!-- End of frmDefineInActiveSKU-->
+  
+  <!-- Start Template -->
+	<Messages>
+		<Name>common.SaveSuccess</Name>
+		<Value>Save successfully.</Value>
+	</Messages>
+	
+	<Messages>
+		<Name>common.Info</Name>
+		<Value>Information.</Value>
+	</Messages>
+	
+	<Messages>
+		<Name>common.SaveNotChange</Name>
+		<Value>No changes found. Save aborted.</Value>
+	</Messages>
+	
+	<Messages>
+		<Name>common.Delete.NotCheck</Name>
+		<Value>Please, Check the rows want to delete before click delete button.</Value>
+	</Messages>
+	
+	<Messages>
+		<Name>common.Validate.isRequired</Name>
+		<Value>{0} is Required.</Value>
+	</Messages>
+	
+	<Messages>
+		<Name>common.Validate.isExisted</Name>
+		<Value>{0} is Existed.</Value>
+	</Messages>
+	
+	<Messages>
+		<Name>messages.colCustCode.Required</Name>
+		<Value>Cust code must choose.</Value>
+	</Messages>
+  <!--End Template-->
+  
+  <!--DefinePanoSKU-->
+	<Messages>
+		<Name>DefinePanoSKU.Validate.isRequired</Name>
+		<Value>BasePack is Required.</Value>
+	</Messages>
+	
+	<Messages>
+		<Name>DefinePanoSKU.Validate.isExisted</Name>
+		<Value>Both [BRANDY] and [BasePack] are Existed in Grid.</Value>
+	</Messages>
+	<!--End DefinePanoSKU-->
+	
+	<!-- DefinePanoShipTo -->
+	<Messages>
+		<Name>DefinePanoShipTo.Validate.isExisted</Name>
+		<Value>[ShipToCode,BPCS] is Existed in Grid.</Value>
+	</Messages>
+	
+	<!-- End DefinePanoShipTo -->
+  <!--frmSwapCust-->
+  <Messages>
+    <Name>frmSwapCust.Export.Success</Name>
+    <Value>Export Successfully. File path: {0}. Do you want to open it?</Value>
+  </Messages>
+  <Messages>
+    <Name>frmSwapCust.Export.Fail</Name>
+    <Value>Export Failed. </Value>
+  </Messages>
+  <Messages>
+    <Name>frmSwapCust.Import.Fail.NegativePool</Name>
+    <Value>Cannot import Swap. Pool quantity cannot be negative. </Value>
+  </Messages>
+  <Messages>
+    <Name>frmSwapCust.Import.Fail.InvalidFile</Name>
+    <Value>Cannot import Swap. Invalid file. File name must be {0}. </Value>
+  </Messages>
+  <Messages>
+    <Name>frmSwapCust.Import.Fail.InvalidFormat</Name>
+    <Value>Cannot import Swap. The format of this file is not valid. </Value>
+  </Messages>
+  <Messages>
+    <Name>frmSwapCust.Import.Success</Name>
+    <Value>Import Swap successfully. </Value>
+  </Messages>
+  <Messages>
+    <Name>frmSwapCust.Import.Success.HasError</Name>
+    <Value>Import Swap successfully but data has error. </Value>
+  </Messages>
+  <!--end frmSwapCust-->
+
+  
+<!--begin: frmBaselinedRR -->
+
+  <Messages>
+    <Name>frmBaselinedRR.bntExport.fail</Name>
+    <Value>Exported fail with Ship To '{0}'. Please, checked data.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>frmBaselinedRR.btnCopy.Warning</Name>
+    <Value>Not existed BaseLine_RR > 0 with Customer: '{0}' and Ship To: '{1}'. Copy fail</Value>
+  </Messages>
+  <Messages>
+    <Name>frmBaselinedRR.btnCopy.WarningEmpty</Name>
+    <Value>Can't copy for Customer or ShipTo is empty.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>frmBaselinedRR.btnImport.Success</Name>
+    <Value>Import successfully.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmBaselinedRR.btnImport.fail</Name>
+    <Value>Import fail.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>frmBaselinedRR.btnImport.NotExistedCustCode</Name>
+    <Value>Customer code don't exist. Please check again</Value>
+  </Messages>
+  <Messages>
+    <Name>frmBaselinedRR.btnImport.InvalidFile</Name>
+    <Value>Input file invalid, Please check again. File name must be format: (HOSCM_BASELINEDRR)_(cust_code)[_*].(xls)</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmBaselinedRR.btnImport.InvalidCell</Name>
+    <Value>Input file invalid at rows {0}</Value>
+  </Messages>
+  <!--end: frmBaselinedRR -->
+  
+<!--begin: frmCopyBaselinedRR -->
+  <Messages>
+    <Name>frmCopyBaselinedRR.btnOK.Successful</Name>
+    <Value>Copy successfully!</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>frmCopyBaselinedRR.btnOK.Warning</Name>
+    <Value>Please, Choosing customer, shipto want to copy!</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>frmCopyBaselinedRR.btnOK.WarningEmpty</Name>
+    <Value>Can't copy for customer code or ship to code is empty.</Value>
+  </Messages>
+<!--end: frmCopyBaselinedRR -->
+
+  <!--begin: frmRuralSKUMaintain -->
+  <Messages>
+    <Name>frmRuralSKUMaintain.btnCopy.Warning</Name>
+    <Value>Not existed BaseLine_RR > 0 with Customer: '{0}' and Ship To: '{1}'. Copy fail</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>frmRuralSKUMaintain.btnCopy.WarningEmpty</Name>
+    <Value>Can't copy for Customer or ShipTo is empty.</Value>
+  </Messages>
+  <!--end: frmRuralSKUMaintain -->
+
+  <!--begin: frmCopyRuralSKUMaintain -->
+<Messages>
+  <Name>frmCopyRuralSKUMaintain.btnOK.Successful</Name>
+  <Value>Copy successfully!</Value>
+</Messages>
+
+<Messages>
+  <Name>frmCopyRuralSKUMaintain.btnOK.Warning</Name>
+  <Value>Please, Choosing customer, shipto want to copy!</Value>
+</Messages>
+
+<Messages>
+  <Name>frmCopyRuralSKUMaintain.btnOK.WarningEmpty</Name>
+  <Value>Can't copy for customer code or ship to code is empty.</Value>
+</Messages>
+<!--end: frmCopyRuralSKUMaintain -->
+  
+  <Messages>
+    <Name>frmDMSManagement.ChangeCode.Question</Name>
+    <Value>When change to the new code, you cannot return to the old code. Do you want to continue?</Value>
+  </Messages>
+  <Messages>
+    <Name>frmDMSManagement.ChangeCode.Success</Name>
+    <Value>Customer code has been changed successfully.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmExportEXPPPTMP.Generate.Nothing</Name>
+    <Value>Please select PPO to generate.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmExportEXPPPTMP.Generate.Success</Name>
+    <Value>Your chosen nonDMS PPOs have been generated and exported successfully at: {0}</Value>
+  </Messages>
+  <Messages>
+    <Name>frmExportEXPPPTMP.Generate.Error</Name>
+    <Value>Error: Customer {0}, PPO data is empty</Value>
+  </Messages>
+  <Messages>
+    <Name>frmSPFrequencyReport.Export.Success</Name>
+    <Value>Export Successfully. File path: {0}. Do you want to open it?</Value>
+  </Messages>
+  <Messages>
+    <Name>frmSPFrequencyReport.Export.Fail</Name>
+    <Value>Export Failed. </Value>
+  </Messages>
+  <Messages>
+    <Name>frmSPFrequencyReport.errors.noresult</Name>
+    <Value>No records found. Please adjust the time then try again.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmSPFrequencyReport.errors.invalidTime</Name>
+    <Value>Invalid input time. Please adjust From Week and To Week.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.importPPO.success</Name>
+    <Value>Import PPOs finished !</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importPPO.wrongfile</Name>
+    <Value>Your selected file is not a PPO file!</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importPPO.wrongppo</Name>
+    <Value>Wrong PPO !</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importPPO.existed</Name>
+    <Value>This PPO has existed!</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importPPO.unzipfail</Name>
+    <Value>Cannot unzip file !</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.importPPO.unzipfail</Name>
+    <Value>Cannot unzip file !</Value>
+  </Messages>
+
+  <!--DuyLNK 2009-07-03-->
+<Messages>
+  <Name>frmSMSConfiguration.Parameters.Error</Name>
+  <Value>PPO Processing Duration, PPO Import Duration must be numeric and PPO Processing Duration must be greater than PPO Import Duration.</Value>
+</Messages>
+
+  <!--DuyLNK 2009-08-24-->
+  <Messages>
+    <Name>frmDefineParameter.Error.SearchGrdCust</Name>
+    <Value>Error when load ship to and parameter list.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineParameter.Error.grdCust_SelectionChangedt</Name>
+    <Value>Error when load parameter list for selected ship to code.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineParameter.Warning.IsDataChanged</Name>
+    <Value>Nothing to save.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineParameter.Error.btnSave_Click</Name>
+    <Value>Error when save data.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineParameter.Success.btnSave_Click</Name>
+    <Value>Save data successfully.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>frmDefineParameter.Error.GetAllParam</Name>
+    <Value>Error when load parameter list.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineParameter.Error.btnDelete_Click</Name>
+    <Value>Error when delete parameter list.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineParameter.Confirm.btnDelete_Click</Name>
+    <Value>All selected parameters of all ship to code will be deleted too. Do you want to continue?</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>frmDefineParameter.Nothing.btnDelete_Click</Name>
+    <Value>Please select parameter to delete.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineParameter.Success.btnDelete_Click</Name>
+    <Value>Delete parameter successfully. Parameter list will be refreshed.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineParameter.Nothing.btnSave_Click</Name>
+    <Value>Nothing to save.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineParameter.Empty.btnSave_Click</Name>
+    <Value>Parameter ID cannot be blank.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineParameter.Confirm.btnAdd_Click</Name>
+    <Value>You should save the data before add new parameter, because when new parameter added, this form will reload and your changed data will be lost. Click Cancel to return and save your data or click OK to continue?</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineParameter.Confirm.btnResend_Click</Name>
+    <Value>Do you want HO-SCMService to export parameters of selected Ship To again?</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineParameter.Error.btnResend_Click</Name>
+    <Value>Error when resend parameters.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineParameter.Success.btnResend_Click</Name>
+    <Value>Your command is assigned to HO-SCMService successfully. Please wait for the export time.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmDefineParameter.Unchecked.btnResend_Click</Name>
+    <Value>Please select Ship To to resend parameters.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmNewParameter.Success.btnSave_Click</Name>
+    <Value>Save data successfully. Parameter list will be refreshed.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmNewParameter.Invalid.btnSave_Click</Name>
+    <Value>Parameter ID must be not in {'DAILY_LEAD_TIME', 'DIST_TYPE', 'SHIP_TO_CODE'}.</Value>
+  </Messages>
+  <Messages>
+    <Name>frmNewParameter.Error.btnSave_Click</Name>
+    <Value>Error when save parameter.</Value>
+  </Messages>
+  <!--DaoTH 2010-05-31-->
+  <Messages>
+    <Name>messages.calendar.wrongfile</Name>
+    <Value>Wrong file or file is being in use</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.calendar.norow</Name>
+    <Value>The selected file has no available rows</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.calendar.maxcolumn</Name>
+    <Value>The selected file has invalid column numbers</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.calendar.wrongcolumn</Name>
+    <Value>Wrong file format! Invalid column name</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.distributor.nodata</Name>
+    <Value>The distributor "{0}" does not exist in database.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>messages.exportPPO.nodata</Name>
+    <Value>There's no data in this PPO.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.PPOExisted</Name>
+    <Value>PPO for next week existed. Cannot generate PPO for "{0}" Ship To Code.</Value>
+  </Messages>
+  
+  
+  <Messages>
+    <Name>messages.calendar.calendarinfo</Name>
+    <Value>The selected file has some calendars lacking of information</Value>
+  </Messages>
+  <Messages>    
+    <Name>messages.calendar.add</Name>
+    <Value>Add calendar successful</Value>
+    
+  </Messages>
+  <Messages>
+    <Name>messages.calendar.false</Name>
+    <Value>data exist</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.calendar.Import</Name>
+    <Value>Import successful</Value>
+  </Messages>
+</SCM>

@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<SCM>
+  <Messages>
+    <Name>errors.invalid</Name>
+    <Value>{0} không hợp lệ. Xin vui lòng nhập lại</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.required</Name>
+    <Value>{0} không được để trống. Xin vui lòng nhập lại.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.min0</Name>
+    <Value>{0} phải lớn hơn hoặc bằng 0.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.compare0</Name>
+    <Value>{0} phải lớn hơn 0.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.max</Name>
+    <Value>{0} không được lớn hơn {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.min</Name>
+    <Value>{0} không được nhỏ hơn {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.maxlength</Name>
+    <Value>{0} không thể nhiều hơn {1} kí tự.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.minlength</Name>
+    <Value>{0} không thể ít hơn {1} kí tự.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.compare.number</Name>
+    <Value>{0} phải lớn hơn hoặc bằng {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.compare.datetime</Name>
+    <Value>{0} phải trước {1}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.byte</Name>
+    <Value>{0} phải là kiểu byte.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.int</Name>
+    <Value>{0} phải là kiểu số nguyên.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.double</Name>
+    <Value>{0} phải là kiểu số thực.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.number</Name>
+    <Value>{0} phải là kiểu số.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.date</Name>
+    <Value>{0} phải là kiều ngày tháng</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.time</Name>
+    <Value>{0} phải là kiểu giờ.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.string</Name>
+    <Value>{0} must be a string.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.char</Name>
+    <Value>{0} phải là kiểu chuỗi.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.email</Name>
+    <Value>{0} không phải là địa chỉ email hợp lệ.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.emails</Name>
+    <Value>{0} không phải là một danh sách email hợp lệ.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.datatype</Name>
+    <Value>{0} phải là {0}.</Value>
+  </Messages>
+  <Messages>
+    <Name>errors.swapcust.concur</Name>
+    <Value>Concur</Value>
+  </Messages>
+  <Messages>
+    <Name>warnings.delete</Name>
+    <Value>Bạn có muốn xóa {0} không?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save</Name>
+    <Value>Bạn có thực sự muốn lưu không?</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save.success</Name>
+    <Value>Lư dữ liệu thành công.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.save.fail</Name>
+    <Value>Lưu dữ liệu thất bại.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.exit</Name>
+    <Value>Bạn có thực sự muốn thoát khỏi chương trình không?</Value>
+  </Messages>
+  
+  
+<!-- Nguyen -->
+
+  <Messages>
+    <Name>errors.searchfail</Name>
+    <Value>Tìm kiếm không thành công.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.delete.fail</Name>
+    <Value> Xóa không thành công.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.initdata</Name>
+    <Value> Khởi tạo dữ liệu không thành công.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.delete</Name>
+    <Value>Xóa không thành công.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.save.fail</Name>
+    <Value>Lưu dữ liệu không thành công.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.generateSPS.fail</Name>
+    <Value>Tạo dữ liệu Stock Policy chi tiết không thành công.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.exportSP.fail</Name>
+    <Value>Xuất dữ liệu Stock Policy không thành công.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.checkSP.fail</Name>
+    <Value>Kiểm tra Stock Policy không thành công .</Value>
+  </Messages>
+    
+  <Messages>
+    <Name>errors.exportSP.CreateDirectoryFail</Name>
+    <Value>Không thể tìm thấy thư mục , xin kiểm tra lại đường dẫn thư mục xuất Stock Policy .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportSP.success</Name>
+    <Value>Xuất dữ liệu Stock Policy thành công , tại thư mục {0} .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportSP.confirm</Name>
+    <Value>Bạn có thật sự muốn xuất dữ liệu Stock Policy ?</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportSP.cancel</Name>
+    <Value>Xuất dữ liệu Stock Policy bị hủy bỏ bởi người sử dụng.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportSP.notexist</Name>
+    <Value>Tất cả Stock Policy đã được xuất dữ liệu .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportParam.success</Name>
+    <Value>Xuất dữ liệu Stock Parameters thành công , tại thư mục {0} .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportParam.exported</Name>
+    <Value>Tất cả dữ liệu Stock Parameters đã được xuất dữ liệu , dữ liệu cần được cập nhật mới trước khi xuất dữ liệu .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.exportParam.cancel</Name>
+    <Value>Thao tác xuất dữ liệu Stock Parameters đã bị dừng bởi nguời sử dụng.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.checkSP.success</Name>
+    <Value>Kiểm tra Stock Policy thành công .</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>messages.checkSP.noresult</Name>
+    <Value>Tất cả Stock Policy bạn muốn kiểm tra đã được định nghĩa.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.exportParam.fail</Name>
+    <Value>Xuất dữ liệu Stock Parameters không thành công.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>errors.exportParam.CreateDirectoryFail</Name>
+    <Value>Không thể tìm thấy thư mục , xin kiểm tra lại đường dẫn thư mục xuất Stock Parameters .</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>errors.equal</Name>
+    <Value>{0} phải bằng {1} .</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>errors.between</Name>
+    <Value>{0} phải trong khoảng {1} và {2} .</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>errors.percentage</Name>
+    <Value>Tổng phần trăm 4 tuần phải bằng 100 hoặc tổng phần trăm mỗi tuần bằng 100.</Value>
+  </Messages>
+     
+   <Messages>
+    <Name>errors.overlap</Name>
+    <Value>Thời gian không được trùng nhau.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>errors.match</Name>
+    <Value>{0} không phù hợp với {1}.Xin vui lòng nhập lại .</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>errors.invalid.customer</Name>
+    <Value>Khách hàng không hợp lệ . Xin vui lòng nhập lại .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.general</Name>
+    <Value>Lỗi.</Value>
+  </Messages>
+
+  <Messages>
+    <Name>warnings.search</Name>
+    <Value>Dữ liệu đã thay đổi. Bạn phải lưu dữ liệu trước khi tìm kiếm.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.invalidweek</Name>
+    <Value>Tuần không hợp lệ {0}.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.invalidyear</Name>
+    <Value>Năm không hợp lệ {0}.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.invalidfromto</Name>
+    <Value>{0} phải lớn hơn hoặc bằng {1}.</Value>
+  </Messages>
+    
+  <Messages>
+    <Name>warnings.invalid.selectweek</Name>
+    <Value>Bạn phải chọn cả năm và tuần.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.invalid.selectperiod</Name>
+    <Value>Bạn phải chọn cả tuần đầu và tuần cuối .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.select</Name>
+    <Value>Bạn phải chọn một dòng dữ liệu.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.save.confirm</Name>
+    <Value>Bạn có thật sự muốn lưu?</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>messages.delete.confirm</Name>
+    <Value>Bạn có thật sự muốn xoá?</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>messages.delete.success</Name>
+    <Value>Xóa thành công.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>messages.delete.warning</Name>
+    <Value>Bạn phải chọn ít nhất một dòng để xoá</Value>
+  </Messages>
+    
+  <Messages>
+    <Name>messages.update.success</Name>
+    <Value>Lưu dữ liệu thành công.</Value>
+  </Messages>
+  
+   <Messages>
+    <Name>messages.generateSP.success</Name>
+    <Value>Tạo dữ liệu Stock Policy thành công.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.generateSP.notexist</Name>
+    <Value>Tất cả Standard Stock Policy đã được chuyển sang chi tiết .Bạn phải cập nhật Standard Stock Policy trước khi chuyển sang chi tiết .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.generateSP.confirm</Name>
+    <Value>Bạn có muốn tạo dữ liệu Stock Policy chi tiết?.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.generateSP.NotGenerate</Name>
+    <Value>Bạn phải tạo dữ liệu Stock Policy chi tiết cho tất cả Standard Stock Policy trước khi kiểm tra .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.createfolderParam.confirm</Name>
+    <Value>Thư mục để xuất Stock Parameter không tìm thấy, hệ thống tự động xuất tại thư mục C:\EXPORTED_PARAM?</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.createfolderSP.confirm</Name>
+    <Value>Thư mục để xuất Stock Policy không tìm thấy , hệ thống tự động xuất tại thư mục C:\EXPORTED_SP?</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.update.ConcurrencyViolation</Name>
+    <Value>Dữ liệu không đồng bộ ! Hệ thống buộc phải kết thúc màn hình làm việc hiện tại .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.update.ConnectFail</Name>
+    <Value>Lỗi do kết nối mạng , xin vui lòng kiểm tra kết nối mạng .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.unauthorised</Name>
+    <Value>Bạn chưa được phân quyền để cập nhật dữ liệu .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>errors.invalid.LevelStdsku</Name>
+    <Value>Nếu định nghĩa Stock Policy cho Strategic Region , STDSKU không được có dữ liệu .</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.invalid.HigherLevelSP</Name>
+    <Value>Nếu bạn định nghĩa Stock Policy cho Strategic region, các thông tin phải trùng với Region hoặc bạn chọn khoảng thời gian khác.</Value>
+  </Messages>
+  
+  <Messages>
+    <Name>warnings.generateSP.AskForGenerate</Name>
+    <Value>Stock Policy chưa được xuất chi tiết . Bạn có muốn xuất chi tiết trước khi đóng cửa sổ làm việc ? </Value>
+  </Messages>
+  
+  <Messages>
+    <Name>messages.update.notpermit</Name>
+    <Value>Bạn không thể sửa .</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.allocation.duplicate.Key</Name>
+    <Value>Region,Customer,ShipToCode,CatID have existed!</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.allocation.total</Name>
+    <Value>Tổng giá trị của 6 ngày phải bằng 100 %.</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.allocation.delete.No</Name>
+    <Value>Parameter had exported, No delete</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.allocation.delete.Yes</Name>
+    <Value>Parameter can delete</Value>
+  </Messages>
+  <Messages>
+    <Name>messages.Permit.NotInput</Name>
+    <Value>Not exist shipping calendar at this day.</Value>
+  </Messages>
+<!-- End of Nguyen -->
+ <Messages>
+  <Name>messages.allocation.MustEnterData</Name>
+  <Value>You must enter data!!!</Value>
+  </Messages>
+ <Messages>
+  <Name>messages.export.SP.success</Name>
+  <Value>Data export successfuly at {0} \n Do you want open this folder?</Value>
+  </Messages>
+  
+  <!--begin: frmRuralSKUMaintain -->
+  <Messages>
+    <Name>frmRuralSKUMaintain.btnCopy.WarningEmpty</Name>
+    <Value>Không thể sao chép Customer Code hay ShipTo Code rỗng!</Value>
+  </Messages>
+  <!--end: frmRuralSKUMaintain -->
+
+  <!--begin: frmCopyRuralSKUMaintain -->
+  <Messages>
+    <Name>frmCopyRuralSKUMaintain.btnOK.Successful</Name>
+    <Value>Sao chép thành công!</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmCopyRuralSKUMaintain.btnOK.Warning</Name>
+    <Value>Xin chọn Customer Code, ShipTo Code muốn sao chép!</Value>
+  </Messages>
+
+  <Messages>
+    <Name>frmCopyRuralSKUMaintain.btnOK.WarningEmpty</Name>
+    <Value>Không thể sao chép Customer Code hay ShipTo Code rỗng!</Value>
+  </Messages>
+  <!--end: frmCopyRuralSKUMaintain -->
+</SCM>

@@ -1,0 +1,710 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{335111FD-CD1C-4F2F-AAD6-842BFE3E9607}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>bin\Debug\Icons\VMIIcon.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>SCM</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SCM</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>SCM.frmMain</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="dotnetskin.skincontrols, Version=1.1.2336.29007, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\dotnetskin.skincontrols.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=0.85.4.369, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.Excel, Version=1.5.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=1.2.10.0, Culture=neutral, PublicKeyToken=1b44e1d426115821, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Common, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Microsoft.Practices.EnterpriseLibrary.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Data, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Microsoft.Practices.EnterpriseLibrary.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.EnterpriseLibrary.Logging, Version=3.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Microsoft.Practices.EnterpriseLibrary.Logging.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Practices.ObjectBuilder, Version=1.0.51206.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\Microsoft.Practices.ObjectBuilder.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="purecomponents.nicepanel, Version=1.0.1013.4, Culture=neutral, PublicKeyToken=2f0f2e4259d7a8e4">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\purecomponents.nicepanel.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="UnicodeConvertLibs, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>DLL\UnicodeConvertLibs.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\Add.gif" />
+    <Content Include="Resources\Delete.gif" />
+    <Content Include="Resources\HO-SchemeScartchSchemeInformation.png" />
+    <Content Include="Resources\HO-ScratchCard-ViewResult.png" />
+    <Content Include="Resources\iconScratchCard.png" />
+    <Content Include="Resources\Icon_ScratchCard.png" />
+    <Content Include="Resources\importfile.png" />
+    <Content Include="Resources\logo.png" />
+    <Content Include="Resources\logoDMS.PNG" />
+    <Content Include="Resources\Reset.png" />
+    <Content Include="Resources\save.png" />
+    <Content Include="Resources\SendIcon.png" />
+    <Content Include="Resources\SendReport.png" />
+    <Content Include="Resources\viewSummary.png" />
+    <None Include="App.config" />
+    <None Include="bin\Debug\Log4Net.config" />
+    <None Include="bin\Debug\Template\Template For Promotion.xls" />
+    <None Include="Data\DataSet\ReportData.xsc">
+      <DependentUpon>ReportData.xsd</DependentUpon>
+    </None>
+    <None Include="Data\DataSet\ReportData.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>ReportData.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Data\DataSet\ReportData.xss">
+      <DependentUpon>ReportData.xsd</DependentUpon>
+    </None>
+    <Content Include="App.ico" />
+    <Content Include="bin\Debug\Icons\applications.ico" />
+    <Content Include="bin\Debug\Icons\book.ico" />
+    <Content Include="bin\Debug\Icons\calendar.ico" />
+    <Content Include="bin\Debug\Icons\cascade.ico" />
+    <Content Include="bin\Debug\Icons\chart.ico" />
+    <Content Include="bin\Debug\Icons\chart2.ico" />
+    <Content Include="bin\Debug\Icons\check.ico" />
+    <Content Include="bin\Debug\Icons\compstui-3.ico" />
+    <Content Include="bin\Debug\Icons\configure.ico" />
+    <Content Include="bin\Debug\Icons\contact_list.ico" />
+    <Content Include="bin\Debug\Icons\delivery.ico" />
+    <Content Include="bin\Debug\Icons\edit.ico" />
+    <Content Include="bin\Debug\Icons\English.ico" />
+    <Content Include="bin\Debug\Icons\exec.ico" />
+    <Content Include="bin\Debug\Icons\exit.ico" />
+    <Content Include="bin\Debug\Icons\export.ico" />
+    <Content Include="bin\Debug\Icons\export2.ico" />
+    <Content Include="bin\Debug\Icons\files_add.ico" />
+    <Content Include="bin\Debug\Icons\files_edit.ico" />
+    <Content Include="bin\Debug\Icons\find.ico" />
+    <Content Include="bin\Debug\Icons\find2.ico" />
+    <Content Include="bin\Debug\Icons\find3.ico" />
+    <Content Include="bin\Debug\Icons\folder_downloads.ico" />
+    <Content Include="bin\Debug\Icons\help.ico" />
+    <Content Include="bin\Debug\Icons\home.ico" />
+    <Content Include="bin\Debug\Icons\import.ico" />
+    <Content Include="bin\Debug\Icons\lock.ico" />
+    <Content Include="bin\Debug\Icons\logout.ico" />
+    <Content Include="bin\Debug\Icons\maintainuser.ico" />
+    <Content Include="bin\Debug\Icons\maximized.ico" />
+    <Content Include="bin\Debug\Icons\min.ico" />
+    <Content Include="bin\Debug\Icons\money.ico" />
+    <Content Include="bin\Debug\Icons\money2.ico" />
+    <Content Include="bin\Debug\Icons\move.ico" />
+    <Content Include="bin\Debug\Icons\new.ico" />
+    <Content Include="bin\Debug\Icons\paint.ico" />
+    <Content Include="bin\Debug\Icons\save_as3.ico" />
+    <Content Include="bin\Debug\Icons\stock.ico" />
+    <Content Include="bin\Debug\Icons\stock2.ico" />
+    <Content Include="bin\Debug\Icons\style.ico" />
+    <Content Include="bin\Debug\Icons\swap.ico" />
+    <Content Include="bin\Debug\Icons\swap2.ico" />
+    <Content Include="bin\Debug\Icons\up.ico" />
+    <Content Include="bin\Debug\Icons\user.ico" />
+    <Content Include="bin\Debug\Icons\user2.ico" />
+    <Content Include="bin\Debug\Icons\users.ico" />
+    <Content Include="bin\Debug\Icons\user_add.ico" />
+    <Content Include="bin\Debug\Icons\user_edit.ico" />
+    <Content Include="bin\Debug\Icons\Vietnam.ico" />
+    <Content Include="bin\Debug\Icons\VMIIcon.ico" />
+    <Content Include="bin\Debug\Images\AddIcon.png" />
+    <Content Include="bin\Debug\Images\addUser.png" />
+    <Content Include="bin\Debug\Images\AllocateDailyPercent.png" />
+    <Content Include="bin\Debug\Images\allocationQtyIcon.png" />
+    <Content Include="bin\Debug\Images\ApprovePPOicon.png" />
+    <Content Include="bin\Debug\Images\ApproveSwapIcon.png" />
+    <Content Include="bin\Debug\Images\arrival1024.jpg" />
+    <Content Include="bin\Debug\Images\bg_button.png" />
+    <Content Include="bin\Debug\Images\CalendarIcon.png" />
+    <Content Include="bin\Debug\Images\casePalletParam.png" />
+    <Content Include="bin\Debug\Images\ChartIcon.png" />
+    <Content Include="bin\Debug\Images\ChgPassIcon.png" />
+    <Content Include="bin\Debug\Images\CloseIcon.png" />
+    <Content Include="bin\Debug\Images\daillyPPOicon.png" />
+    <Content Include="bin\Debug\Images\DefDailyShippingCalendarIcon.png" />
+    <Content Include="bin\Debug\Images\DefineAllocattionIcon.png" />
+    <Content Include="bin\Debug\Images\DefineParametersIcon.gif" />
+    <Content Include="bin\Debug\Images\definePriorityIcon.png" />
+    <Content Include="bin\Debug\Images\defineRegion.png" />
+    <Content Include="bin\Debug\Images\defineShiptoIcon.png" />
+    <Content Include="bin\Debug\Images\DefineSpecialIcon.png" />
+    <Content Include="bin\Debug\Images\defineStandarIcon.png" />
+    <Content Include="bin\Debug\Images\defineWarehouseStockIcon.png" />
+    <Content Include="bin\Debug\Images\DefLeadTimeIcon.png" />
+    <Content Include="bin\Debug\Images\DefPanoBasePackIcon.png" />
+    <Content Include="bin\Debug\Images\DefPanoShippingCalendarIcon.png" />
+    <Content Include="bin\Debug\Images\DefShipppingCalendarIcon.png" />
+    <Content Include="bin\Debug\Images\DefSimilarBasePackIcon.png" />
+    <Content Include="bin\Debug\Images\deliveryIcon.png" />
+    <Content Include="bin\Debug\Images\dreamsky12.jpg" />
+    <Content Include="bin\Debug\Images\editIcon.png" />
+    <Content Include="bin\Debug\Images\editUserIcon.png" />
+    <Content Include="bin\Debug\Images\exitIcon.png" />
+    <Content Include="bin\Debug\Images\ExpExclusRunningRateIcon.png" />
+    <Content Include="bin\Debug\Images\ExpPPOTemplateIcon.png" />
+    <Content Include="bin\Debug\Images\GenAddxOrderIcon.png" />
+    <Content Include="bin\Debug\Images\genIcon.png" />
+    <Content Include="bin\Debug\Images\GenPPOicon.png" />
+    <Content Include="bin\Debug\Images\gfx_42.jpg" />
+    <Content Include="bin\Debug\Images\gfx_422 Medium.jpg" />
+    <Content Include="bin\Debug\Images\groupUserIcon.png" />
+    <Content Include="bin\Debug\Images\iconVMI.png" />
+    <Content Include="bin\Debug\Images\importPPOicon.png" />
+    <Content Include="bin\Debug\Images\listIcon.png" />
+    <Content Include="bin\Debug\Images\LoginIcon.png" />
+    <Content Include="bin\Debug\Images\logoFPT.png" />
+    <Content Include="bin\Debug\Images\LogoutIcon.png" />
+    <Content Include="bin\Debug\Images\mac_button_blue.png" />
+    <Content Include="bin\Debug\Images\mac_button_cyan.png" />
+    <Content Include="bin\Debug\Images\mac_button_maveric.png" />
+    <Content Include="bin\Debug\Images\mac_button_orange.png" />
+    <Content Include="bin\Debug\Images\mac_button_silver.png" />
+    <Content Include="bin\Debug\Images\MaintainAllocationIcon.png" />
+    <Content Include="bin\Debug\Images\MaintainBasePackParamIcon.png" />
+    <Content Include="bin\Debug\Images\maintainCFOTTargetIcon.gif" />
+    <Content Include="bin\Debug\Images\maintainDeliveryWight.png" />
+    <Content Include="bin\Debug\Images\MaintainExclusiveListIcon.png" />
+    <Content Include="bin\Debug\Images\MaintainMinOrdQtyIcon.png" />
+    <Content Include="bin\Debug\Images\MaintainRegionIcon.png" />
+    <Content Include="bin\Debug\Images\MaintainRuralBasePackIcon.png" />
+    <Content Include="bin\Debug\Images\maintainShippingCalendarIcon.png" />
+    <Content Include="bin\Debug\Images\OrderIcon.png" />
+    <Content Include="bin\Debug\Images\OrderIcon_1.png" />
+    <Content Include="bin\Debug\Images\PPOdetailIcon.png" />
+    <Content Include="bin\Debug\Images\PrintIcon.png" />
+    <Content Include="bin\Debug\Images\printIcon2.png" />
+    <Content Include="bin\Debug\Images\reportIcon.png" />
+    <Content Include="bin\Debug\Images\report_chartIcon.png" />
+    <Content Include="bin\Debug\Images\RevisedPPOicon.png" />
+    <Content Include="bin\Debug\Images\searhIcon.png" />
+    <Content Include="bin\Debug\Images\settingIcon.png" />
+    <Content Include="bin\Debug\Images\SettingIcon2.png" />
+    <Content Include="bin\Debug\Images\settingIcon3.png" />
+    <Content Include="bin\Debug\Images\SwapIcon.png" />
+    <Content Include="bin\Debug\Images\SynchIcon.png" />
+    <Content Include="bin\Debug\Images\Thienthan.jpg" />
+    <Content Include="bin\Debug\Images\ViewAllocQtyIcon.png" />
+    <Content Include="bin\Debug\Images\viewMainIteamsIcon.png" />
+    <Content Include="bin\Debug\Images\ViewMissedListIcon.png" />
+    <Content Include="bin\Debug\Images\viewPPOpending_icon.png" />
+    <Content Include="bin\Debug\Images\VMIIcon.ico" />
+    <Content Include="bin\Debug\Images\VMI_bgfooter_login.png" />
+    <Content Include="bin\Debug\Images\VMI_bgTitle_login.png" />
+    <Content Include="bin\Debug\Images\VMI_bg_button_style.png" />
+    <Content Include="bin\Debug\Images\VMI_button.PNG" />
+    <Content Include="bin\Debug\Images\VMI_buttonCancel.png" />
+    <Content Include="bin\Debug\Images\VMI_button_style.png" />
+    <Content Include="bin\Debug\Images\VMI_LoginBT.png" />
+    <Content Include="bin\Debug\SCM.Messages.EN.xml" />
+    <Content Include="bin\Debug\SCM.Messages.VN.xml" />
+    <Content Include="bin\Debug\SCM.Titles.EN.xml" />
+    <Content Include="bin\Debug\SCM.Titles.VN.xml" />
+    <Content Include="DLL\dotnetskin.skincontrols.dll" />
+    <Content Include="DLL\ICSharpCode.SharpZipLib.dll" />
+    <Content Include="DLL\Interop.Excel.dll" />
+    <Content Include="DLL\log4net.dll" />
+    <Content Include="DLL\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="DLL\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="DLL\Microsoft.Practices.EnterpriseLibrary.Logging.dll" />
+    <Content Include="DLL\Microsoft.Practices.ObjectBuilder.dll" />
+    <Content Include="DLL\purecomponents.nicepanel.dll" />
+    <Content Include="DLL\UnicodeConvertLibs.dll" />
+    <Content Include="Image\btnHover.png" />
+    <Content Include="Image\frmAbout.png" />
+    <Content Include="Image\Home.ico" />
+    <Content Include="Image\ico16_0078.ico" />
+    <Content Include="Image\ico16_0156.ico" />
+    <Content Include="Image\ico16_0159.ico" />
+    <Content Include="Image\ico16_0164.ico" />
+    <Content Include="Image\ico16_0189.ico" />
+    <Content Include="Image\ico16_0206.ico" />
+    <Content Include="Image\ico16_0214.ico" />
+    <Content Include="Image\ico16_0218.ico" />
+    <Content Include="Image\ico16_0261.ico" />
+    <Content Include="Image\ico16_0267.ico" />
+    <Content Include="Image\ico16_0274.ico" />
+    <Content Include="Image\ico16_0276.ico" />
+    <Content Include="Image\ico16_0377.ico" />
+    <Content Include="Image\ico16_0382.ico" />
+    <Content Include="Image\ico16_0392.ico" />
+    <Content Include="Image\ico16_0394.ico" />
+    <Content Include="Image\ico16_0403.ico" />
+    <Content Include="Image\ico16_0404.ico" />
+    <Content Include="Image\ico16_0406.ico" />
+    <Content Include="Image\ico16_0410.ico" />
+    <Content Include="Image\ico16_0412.ico" />
+    <Content Include="Image\ico16_0413.ico" />
+    <Content Include="Image\ico16_0417.ico" />
+    <Content Include="Image\ico16_0419.ico" />
+    <Content Include="Image\ico16_0422.ico" />
+    <Content Include="Image\ico16_0429.ico" />
+    <Content Include="Image\ico16_0430.ico" />
+    <Content Include="Image\ico16_0431.ico" />
+    <Content Include="Image\ico16_0433.ico" />
+    <Content Include="Image\ico16_0439.ico" />
+    <Content Include="Image\ico16_0440.ico" />
+    <Content Include="Image\ico16_0446.ico" />
+    <Content Include="Image\ico16_0451.ico" />
+    <Content Include="Image\ico16_0457.ico" />
+    <Content Include="Image\ico16_0462.ico" />
+    <Content Include="Image\ico16_0465.ico" />
+    <Content Include="Image\ico16_0466.ico" />
+    <Content Include="Image\ico16_0469.ico" />
+    <Content Include="Image\ico16_0473.ico" />
+    <Content Include="Image\ico16_0475.ico" />
+    <Content Include="Image\ico16_0481.ico" />
+    <Content Include="Image\ico16_0482.ico" />
+    <Content Include="Image\ico16_0483.ico" />
+    <Content Include="Image\ico16_0485.ico" />
+    <Content Include="Image\ico16_0489.ico" />
+    <Content Include="Image\ico16_0490.ico" />
+    <Content Include="Image\ico16_0495.ico" />
+    <Content Include="Image\ico16_0496.ico" />
+    <Content Include="Image\ico16_0497.ico" />
+    <Content Include="Image\ico16_0498.ico" />
+    <Content Include="Image\ico16_0501.ico" />
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BUS\Authenticate\clsAutPolicyBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BUS\Authenticate\clsAutUserBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BUS\Authenticate\clsParameterBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BUS\Authenticate\clsSMSConfigurationBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BUS\Authenticate\clsTrackingUserBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BUS\Authenticate\clsUserRoleBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BUS\clsBaseBO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridComboBoxColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridDisableCell.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridRadioColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridTextAutoHilight.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\DataGridTimePickerColumn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MDMenuItem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Controls\MDToolBarButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DAL\Authenticate\clsAutPolicyDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\Authenticate\clsAutUserDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\Authenticate\clsParameterDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\Authenticate\clsSMSConfigurationDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\Authenticate\clsSMSReportDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\Authenticate\clsTrackingUserDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\Authenticate\clsUserRoleDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DAL\clsBaseDAO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Data\DataSet\ReportData.cs">
+      <DependentUpon>ReportData.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Data\DataSet\ReportData.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>ReportData.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Data\SCM_PARAMETERData.cs" />
+    <Compile Include="Entity\ReportDataEtt.cs" />
+    <Compile Include="Entity\ReportParamEtt.cs" />
+    <Compile Include="Entity\SCM_PARAMETEREtt.cs" />
+    <Compile Include="Entity\SCM_PARAMETERKey.cs" />
+    <Compile Include="Modules\Authenticate\frmAutPolicy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Authenticate\frmChangeCustCode.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Authenticate\frmChangePWD.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Authenticate\frmEditUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Authenticate\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Authenticate\frmMaintainUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Authenticate\frmParameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Authenticate\frmSMSConfiguration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\Authenticate\frmUserRole.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\frmAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\frmAbout.Designer.cs">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modules\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Modules\IDataEdit.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\IDataViewer.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Modules\Trace_User\frmHistoryTracking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\clsCommon.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsConstants.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsCryptography.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsEncrypt.cs" />
+    <Compile Include="Utils\clsFormManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsGlobal.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsGridCopyPaste.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsIOUtil.cs" />
+    <Compile Include="Utils\clsResources.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsStyleManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsSystemConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsTitleManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\clsZip.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils\Constant.cs" />
+    <Compile Include="Utils\CustomColumStyles.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utils\DataServices.cs" />
+    <Compile Include="Utils\DBConvertUtil.cs" />
+    <Compile Include="Utils\SQLHelper.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\clsBaseObject.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\clsCustomer.cs" />
+    <Compile Include="Entity\clsPPODetail.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\clsPPOHeader.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\clsPPORevised.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\clsPromotion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\clsPromotionCustWeek.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\clsPromotionRegion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\clsPromotionWeek.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Entity\clsUserRegion.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <EmbeddedResource Include="bin\Debug\ReportTemplate\QualifieldDetailResult.rdlc" />
+    <EmbeddedResource Include="Controls\DataGridComboBoxColumn.resx">
+      <DependentUpon>DataGridComboBoxColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DataGridDisableCell.resx">
+      <DependentUpon>DataGridDisableCell.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DataGridRadioColumn.resx">
+      <DependentUpon>DataGridRadioColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DataGridTextAutoHilight.resx">
+      <DependentUpon>DataGridTextAutoHilight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\DataGridTimePickerColumn.resx">
+      <DependentUpon>DataGridTimePickerColumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MDMenuItem.resx">
+      <DependentUpon>MDMenuItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Controls\MDToolBarButton.resx">
+      <DependentUpon>MDToolBarButton.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bin\Debug\ReportTemplate\QualifieldResult.rdlc" />
+    <EmbeddedResource Include="Modules\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Authenticate\frmAutPolicy.resx">
+      <DependentUpon>frmAutPolicy.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Authenticate\frmChangeCustCode.resx">
+      <DependentUpon>frmChangeCustCode.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Authenticate\frmChangePWD.resx">
+      <DependentUpon>frmChangePWD.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Authenticate\frmEditUser.resx">
+      <DependentUpon>frmEditUser.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Authenticate\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Authenticate\frmMaintainUsers.resx">
+      <DependentUpon>frmMaintainUsers.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Authenticate\frmParameter.resx">
+      <DependentUpon>frmParameter.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Authenticate\frmSMSConfiguration.resx">
+      <DependentUpon>frmSMSConfiguration.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Authenticate\frmUserRole.resx">
+      <DependentUpon>frmUserRole.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Modules\Trace_User\frmHistoryTracking.resx">
+      <DependentUpon>frmHistoryTracking.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utils\CustomColumStyles.resx">
+      <DependentUpon>CustomColumStyles.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Resources\Thumbs.db" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

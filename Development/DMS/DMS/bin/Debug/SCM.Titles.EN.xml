@@ -1,0 +1,7099 @@
+<SCM>
+	<!-- frmLogin -->
+	<Titles>
+		<Name>frmLogin.lbUserName</Name>
+		<Value>User Name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmLogin.lbPassword</Name>
+		<Value>Password</Value>
+	</Titles>
+	<Titles>
+		<Name>frmLogin.btnLogin</Name>
+		<Value></Value>
+	</Titles>
+	<Titles>
+		<Name>frmLogin.btnCancel</Name>
+		<Value></Value>
+	</Titles>
+	<!-- frmLogin -->
+	<!--Tooltip message -->
+	<Titles>
+		<Name>Tooltip.ShipToCode</Name>
+		<Value>Code: {0}</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToName</Name>
+		<Value>Name: {0}</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToAddress</Name>
+		<Value>Address: {0}</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToPhone</Name>
+		<Value>Phone: {0}</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToContactPerson</Name>
+		<Value>Contact person: {0}</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToPromotionPercent</Name>
+		<Value>Allocation percent: {0}%</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToMainSite</Name>
+		<Value>Main site: {0}</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToRural</Name>
+		<Value>Rural: {0}</Value>
+	</Titles>
+	<Titles>
+		<Name>Tooltip.ShipToStatus</Name>
+		<Value>Status: {0}</Value>
+	</Titles>	
+  <!-- frmMain -->
+  <Titles>
+		<Name>Week</Name>
+		<Value>Week</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPPOLog</Name>
+		<Value>Tracking Deposit</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.Title</Name>
+		<Value>HO-SCM System</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPromotion_View</Name>
+		<Value>View Allocation</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPromotion_Define</Name>
+		<Value>Define Allocation</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuFile</Name>
+		<Value>File</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPPO</Name>
+		<Value>PPO</Value>
+	</Titles>
+   <Titles>
+		<Name>frmMain.mnuPPOGeneration</Name>
+		<Value>Generate PPO</Value>
+	</Titles>
+	<Titles>
+		<Name>frmModifyScratchCard.grbSchemiInformation</Name>
+		<Value>Scratch Card Information</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSeparate</Name>
+		<Value>-</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuCO</Name>
+		<Value>CO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPromotion</Name>
+		<Value>Allocation</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuCloseAllWindow</Name>
+		<Value>Close All Windows</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSC</Name>
+		<Value>Shipping Calendar</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuAddSC</Name>
+		<Value>Define Shipping Calendar</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSP</Name>
+		<Value>Stock Policy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSKU_Lack_MainProduct</Name>
+		<Value>View Lack Main Items</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPPOManually</Name>
+		<Value>Create PPO Manually</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuCheckLackSP</Name>
+		<Value>View Missed List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuRegionSKUPriority</Name>
+		<Value>Define Priority Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSysAdmin</Name>
+		<Value>Admin</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuWindow</Name>
+		<Value>Window</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuHelp</Name>
+		<Value>Help</Value>
+	</Titles>
+	<!-- ThucNV - 2011 : Add menu-->
+	<Titles>
+		<Name>frmMain.mnuReport</Name>
+		<Value>Report</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuReport</Name>
+		<Value>Report</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuManagementReport</Name>
+		<Value>Scratch Card Management Report</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuImportApprovedClaim</Name>
+		<Value>Import Approved Claim</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuScheme</Name>
+		<Value>Scheme Definition</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuScratchCard</Name>
+		<Value>Scratch Card</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuScratchCard</Name>
+		<Value>Scratch Card</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuImportApprovedClaim</Name>
+		<Value>Import Approved Claim and Payment for Distributor</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuModifyScratchCard</Name>
+		<Value>Modify Scratch Card</Value>
+	</Titles>
+	<!-- End -->
+  <Titles>
+		<Name>frmMain.mnuCOSearch</Name>
+		<Value>Search CO</Value>
+	</Titles>mnuLackPPO
+  <Titles>
+		<Name>frmMain.mnuPPOSearch</Name>
+		<Value>View PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPPOApprove</Name>
+		<Value>Approve PPO</Value>
+	</Titles>
+	<Titles>
+		<Name>frmMain.mnuPromotionAllocate</Name>
+		<Value>Promotion Allocate</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuLackPPO</Name>
+		<Value>View Pending PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuMaintenanceSC</Name>
+		<Value>Maintain Shipping Calendar</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuAddSC</Name>
+		<Value>Define Shipping Calendar</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSPDefault</Name>
+		<Value>Define Standard</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSPSpecial</Name>
+		<Value>Define Special</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSPExportImport</Name>
+		<Value>Export/Import Stock Policy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuAddUser</Name>
+		<Value>Add User</Value>
+	</Titles>
+<Titles>
+		<Name>frmMain.mnuTrackingUser</Name>
+		<Value>History Tracking User</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuLogin</Name>
+		<Value>Log in</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuLogout</Name>
+		<Value>Log out</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSKU_Priority</Name>
+		<Value>Define Priority</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuWindowCascade</Name>
+		<Value>Cascade windows</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuHelpTopic</Name>
+		<Value>Help topic</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSKU_Stock</Name>
+		<Value>Maintain Region Stock</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuMaintainUsers</Name>
+		<Value>Manage User</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuUserRole</Name>
+		<Value>Manage Role</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPromotion_Maintain</Name>
+		<Value>Maintain Allocation</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSKU_Exclude</Name>
+		<Value>Maintain Exclusive List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPromotion_Swap</Name>
+		<Value>Swap For Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPromotion_Allocate</Name>
+		<Value>Allocate Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPromotion_Approve</Name>
+		<Value>Approve Swap</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSKU_MinimumQTY</Name>
+		<Value>Maintain Min Order Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSKU_ExportExclude</Name>
+		<Value>Export Exclusive Stock List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSKU_ExcludeRR</Name>
+		<Value>Export Exclusive Running Rate List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuChangePWD</Name>
+		<Value>Change password</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuWindowTileHorizontal</Name>
+		<Value>Tile windows horizontally</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuWindowTileVertical</Name>
+		<Value>Tile windows vertically</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSeperate</Name>
+		<Value>Help Seperate</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuHelpAbout</Name>
+		<Value>About</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSeperate</Name>
+		<Value>-</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSPExportSP</Name>
+		<Value>Export Stock Policy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuExit</Name>
+		<Value>Exit</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPromotion_QTY</Name>
+		<Value>View Allocation</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuEN</Name>
+		<Value>English</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuVN</Name>
+		<Value>Vi?t Nam</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuMaximized</Name>
+		<Value>Maximize form when appears</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSystemStyle</Name>
+		<Value>System style</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuColorFocusControl</Name>
+		<Value>Color focus control</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuParameter</Name>
+		<Value>Configure Parameter</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuExportParam</Name>
+		<Value>Export Stock Paramters</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPromotion_SwapReg</Name>
+		<Value>Swap For Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuDeliveryWeight</Name>
+		<Value>Maintain Delivery weight</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuShipTo</Name>
+		<Value>Ship To</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuShipToMaintain</Name>
+		<Value>Maintain Ship To</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSCM</Name>
+		<Value>SCM</Value>
+	</Titles>
+  <Titles>
+    <Name>frmMain.mnuExportEXPPPOTMP</Name>
+    <Value>Export PPO Template</Value>
+  </Titles>
+  <Titles>
+		<Name>frmMain.mnuSCMMaintain</Name>
+		<Value>Maintain SCM Target</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuCustomerSMS</Name>
+		<Value>Maintain Customer SMS Info</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSKUViewMainItem</Name>
+		<Value>View Main Items</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuRuralSKUMaintain</Name>
+		<Value>Maintain Rural BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPPOAdjustmentManagement</Name>
+		<Value>Maintain BasePack Parameters</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuSKU_DefineCase_Pallet</Name>
+		<Value>Case/Pallet Definition</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuMinFullParameters</Name>
+		<Value>Min Full Parameters</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuReports</Name>
+		<Value>Scratch Card Management Report</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuRptPPODetail</Name>
+		<Value>PPO Detail</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuRptDefineParameters</Name>
+		<Value>Define Parameters</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuRptRevisedPPODetail</Name>
+		<Value>PPO amount after revising by System</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuRptPromotionForwarding</Name>
+		<Value>Allocation Forwarding</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuRptPromotionAllocated</Name>
+		<Value>Allocation Allocated</Value>
+	</Titles>
+  <!-- End of frmMain -->
+
+  <!-- frmAbout -->
+  <Titles>
+		<Name>frmAbout.Title</Name>
+		<Value>About</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAbout.lblCopyRights</Name>
+		<Value>Copyrights by Tan Hiep Phat Vietnam.
+All uses and changes must be at permission dddof Tan Hiep Phat Vietnam.</Value>
+	</Titles>
+  
+  <!-- End of frmAbout -->
+
+
+
+  <!-- frmLogin -->
+  <Titles>
+		<Name>frmLogin.Title</Name>
+		<Value>Login</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLogin.lblUserName</Name>
+		<Value>User name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLogin.lblPassword</Name>
+		<Value>Password</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLogin.btnLogin</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmLogin.btnCancel</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmLogin.lblOK</Name>
+		<Value>Login</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLogin.lblCancel</Name>
+		<Value>Cancel</Value>
+	</Titles>
+  <!-- End of frmLogin -->
+
+
+
+  <!-- frmChangePWD -->
+  <Titles>
+		<Name>frmChangePWD.Title</Name>
+		<Value>Change password</Value>
+	</Titles>
+  <Titles>
+		<Name>frmChangePWD.lblOldPassword</Name>
+		<Value>Old password</Value>
+	</Titles>
+  <Titles>
+		<Name>frmChangePWD.lblNewPassword</Name>
+		<Value>New password</Value>
+	</Titles>
+  <Titles>
+		<Name>frmChangePWD.lblConfirmPassword</Name>
+		<Value>Confirm new password</Value>
+	</Titles>
+  <Titles>
+		<Name>frmChangePWD.btnOK</Name>
+		<Value>OK</Value>
+	</Titles>
+  <Titles>
+		<Name>frmChangePWD.btnCancel</Name>
+		<Value>Cancel</Value>
+	</Titles>
+  <!-- End of frmChangePWD -->
+
+
+
+
+  <!-- frmAddUser -->
+  <Titles>
+		<Name>frmAddUser.Title</Name>
+		<Value>User Information</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.lblUserName</Name>
+		<Value>User name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.lblPassword</Name>
+		<Value>Password</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.lblConfirmPassword</Name>
+		<Value>Confirm password</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.lblFirstName</Name>
+		<Value>First name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.lblLastName</Name>
+		<Value>Last name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.lblAddress</Name>
+		<Value>Address</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.lblEmail</Name>
+		<Value>Email</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.lblPhone</Name>
+		<Value>Phone</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.lblStartDate</Name>
+		<Value>From date</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.lblEndDate</Name>
+		<Value>To date</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.lblURoleID</Name>
+		<Value>Role</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.lblStatus</Name>
+		<Value>Status</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.btnSave</Name>
+		<Value>   Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAddUser.btnCancel</Name>
+		<Value>   Cancel</Value>
+	</Titles>
+  <!-- End of frmAddUser -->
+
+
+
+
+  <!-- frmMaintainUsers -->
+  <Titles>
+		<Name>frmMaintainUsers.Title</Name>
+		<Value>User Management</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.lblUserName</Name>
+		<Value>User name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.lblFirstName</Name>
+		<Value>First name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.lblLastName</Name>
+		<Value>Last name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.lblAddress</Name>
+		<Value>Address</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.lblEmail</Name>
+		<Value>Email</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.lblURoleID</Name>
+		<Value>Role</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.lblStatus</Name>
+		<Value>Status</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.grd.SCM_AUT_USER.USERNAME</Name>
+		<Value>User name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.grd.SCM_AUT_USER.FIRSTNAME</Name>
+		<Value>First name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.grd.SCM_AUT_USER.LASTNAME</Name>
+		<Value>Last name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.grd.SCM_AUT_USER.ADDRESS</Name>
+		<Value>Address</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.grd.SCM_AUT_USER.EMAIL</Name>
+		<Value>Email</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.grd.SCM_AUT_USER.UROLE_ID</Name>
+		<Value>Role</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.grd.SCM_AUT_USER.STATUS</Name>
+		<Value>Status</Value>
+	</Titles>
+  <!--DuyLNK 2009-06-17 add them column Phone-->
+  <Titles>
+    <Name>frmMaintainUsers.grd.SCM_AUT_USER.PHONE</Name>
+    <Value>Phone</Value>
+  </Titles>
+  <Titles>
+		<Name>frmMaintainUsers.grpButton</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.btnAdd</Name>
+		<Value>   Add</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.btnEdit</Name>
+		<Value>   Edit</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.btnDelete</Name>
+		<Value>   Delete</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.btnRights</Name>
+		<Value>   Rights</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMaintainUsers.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <!-- End of frmMaintainUsers -->
+
+  <!-- frmUserRole -->
+  <Titles>
+		<Name>frmUserRole.Title</Name>
+		<Value>Role Management</Value>
+	</Titles>
+  <Titles>
+		<Name>frmUserRole.lblURoleID</Name>
+		<Value>Role ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmUserRole.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmUserRole.grd.SCM_AUT_USERROLE.UROLE_ID</Name>
+		<Value>Role ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmUserRole.grd.SCM_AUT_USERROLE.ROLE_NAME</Name>
+		<Value>Role name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmUserRole.btnPolicy</Name>
+		<Value>   Policy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmUserRole.btnAdd</Name>
+		<Value>  Add</Value>
+	</Titles>
+  <Titles>
+		<Name>frmUserRole.btnDelete</Name>
+		<Value>  Delete</Value>
+	</Titles>
+  <Titles>
+		<Name>frmUserRole.btnSave</Name>
+		<Value>  Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmUserRole.btnCancel</Name>
+		<Value>   Cancel</Value>
+	</Titles>
+  <Titles>
+		<Name>frmUserRole.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <!-- End of frmUserRole -->
+
+
+  <!-- frmAutPolicy -->
+  <Titles>
+		<Name>frmAutPolicy.Title</Name>
+		<Value>Policy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAutPolicy.grd.SCM_AUT_POLICY.FORM_ID</Name>
+		<Value>Form ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAutPolicy.grd.SCM_AUT_POLICY.FORM_NAME</Name>
+		<Value>Form name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAutPolicy.grd.SCM_AUT_POLICY.MENU_NAME</Name>
+		<Value>Menu name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAutPolicy.grd.SCM_AUT_POLICY.DESCRIPTION</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAutPolicy.grd.SCM_AUT_POLICY.Selected</Name>
+		<Value>Select</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAutPolicy.chkSelected</Name>
+		<Value>Check</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAutPolicy.btnSave</Name>
+		<Value>  Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAutPolicy.btnCancel</Name>
+		<Value>  Cancel</Value>
+	</Titles>
+  <Titles>
+    <Name>frmAutPolicy.btnSearch</Name>
+    <Value>  Search</Value>
+  </Titles>
+  <Titles>
+    <Name>frmAutPolicy.lblFormName</Name>
+    <Value>Form Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmAutPolicy.lblMenuName</Name>
+    <Value>Menu Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmAutPolicy.lblDesc</Name>
+    <Value>Description</Value>
+  </Titles>
+  <!-- End of frmAutPolicy -->
+
+
+  <!-- frmAutUserRegion -->
+  <Titles>
+		<Name>frmAutUserRegion.Title</Name>
+		<Value>Rights Management.</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAutUserRegion.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAutUserRegion.lblStrategicRegion</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAutUserRegion.grpButton</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmAutUserRegion.btnOK</Name>
+		<Value>OK</Value>
+	</Titles>
+  <Titles>
+		<Name>frmAutUserRegion.btnCancel</Name>
+		<Value>Cancel</Value>
+	</Titles>
+  <!-- End of frmAutUserRegion -->
+
+
+
+
+  <!-- frmPPOSearch -->
+  <Titles>
+		<Name>frmPPOSearch.Title</Name>
+		<Value>Search PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.grpSearch</Name>
+		<Value>Search PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.lblCustCode</Name>
+		<Value>Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.lblYear</Name>
+		<Value>Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.lblWeek</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.grd</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.grd.SCM_PPO_HEADER.PPO_CODE</Name>
+		<Value>PPO Code </Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.grd.SCM_PPO_HEADER.CUST_CODE</Name>
+		<Value>Customer </Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.grd.SCM_PPO_HEADER.ORD_DATE</Name>
+		<Value>Order date </Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.grd.SCM_PPO_HEADER.WEEK_NO</Name>
+		<Value>Week '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.grd.SCM_PPO_HEADER.YEAR_NO</Name>
+		<Value>Year '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.grd.SCM_PPO_HEADER.STATUS_NAME</Name>
+		<Value>Status </Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.grd.SCM_PPO_HEADER.TYPE</Name>
+		<Value>Type </Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.grd.SCM_PPO_HEADER.REGION_CODE</Name>
+		<Value>Region Code </Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.grd.SCM_PPO_HEADER.REGION_NAME</Name>
+		<Value>Region Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.grpButton</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.btnReport</Name>
+		<Value>   Report</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.btnPPODetail</Name>
+		<Value>   PPO Detail</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.btnRevisedPPO</Name>
+		<Value>    Revised PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.btnDailyPPO</Name>
+		<Value>   Daily PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.btnExport</Name>
+		<Value>   Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOSearch.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <!-- End of frmPPOSearch -->
+
+
+  <!-- frmPPOGeneration -->
+  <Titles>
+		<Name>frmPPOGeneration.Title</Name>
+		<Value>PPO Generation</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.grpSearch</Name>
+		<Value>Search PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.lblCustCode</Name>
+		<Value>Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.lblYear</Name>
+		<Value>Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.lblWeek</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+    <Name>frmPPOGeneration.lblType</Name>
+    <Value>Type</Value>
+  </Titles>
+  <Titles>
+    <Name>frmPPOGeneration.lblDMS</Name>
+    <Value>DMS</Value>
+  </Titles>
+  <Titles>
+		<Name>frmPPOGeneration.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.grd</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.grd.SCM_PPO_HEADER.PPO_CODE</Name>
+		<Value>PPO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.grd.SCM_PPO_HEADER.CUST_CODE</Name>
+		<Value>Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.grd.SCM_PPO_HEADER.LAST_PPO_CODE</Name>
+		<Value>Last PPO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.grd.SCM_PPO_HEADER.WEEK_NO</Name>
+		<Value>Week '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.grd.SCM_PPO_HEADER.YEAR_NO</Name>
+		<Value>Year '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.grd.SCM_PPO_HEADER.REGION_CODE</Name>
+		<Value>Region Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.grd.SCM_PPO_HEADER.REGION_NAME</Name>
+		<Value>Region Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.grd.SCM_PPO_HEADER.SELECTED</Name>
+		<Value>Check</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.chkSelected</Name>
+		<Value>Check All</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.btnGenerate</Name>
+		<Value>   Generate</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.btnExport</Name>
+		<Value>   Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOGeneration.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <!-- End of frmPPOGeneration -->
+
+
+  <!-- frmPPOApprove -->
+  <Titles>
+		<Name>frmPPOApprove.Title</Name>
+		<Value>Search PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.grpSearch</Name>
+		<Value>Search PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.lblCustCode</Name>
+		<Value>Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.lblYear</Name>
+		<Value>Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.lblWeek</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.grd</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.grd.SCM_PPO_HEADER.PPO_CODE</Name>
+		<Value>PPO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.grd.SCM_PPO_HEADER.CUST_CODE</Name>
+		<Value>Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.grd.SCM_PPO_HEADER.ORD_DATE</Name>
+		<Value>Order date</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.grd.SCM_PPO_HEADER.WEEK_NO</Name>
+		<Value>Week '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.grd.SCM_PPO_HEADER.YEAR_NO</Name>
+		<Value>Year '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.grd.SCM_PPO_HEADER.STATUS_NAME</Name>
+		<Value>Status</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.grd.SCM_PPO_HEADER.TYPE</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.grd.SCM_PPO_HEADER.REGION_CODE</Name>
+		<Value>Region Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.grd.SCM_PPO_HEADER.REGION_NAME</Name>
+		<Value>Region Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.grpButton</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.btnReport</Name>
+		<Value>   Report</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.btnPPODetail</Name>
+		<Value>   PPO Detail</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.btnRevisedPPO</Name>
+		<Value>    Revised PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.btnDailyPPO</Name>
+		<Value>   Daily PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.btnExport</Name>
+		<Value>   Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOApprove.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <!-- End of frmPPOApprove -->
+
+
+
+  <!-- frmLackPPO -->
+  <Titles>
+		<Name>frmLackPPO.Title</Name>
+		<Value>Lack PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.grpSearch</Name>
+		<Value>Search PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.lblCustCode</Name>
+		<Value>Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.lblYear</Name>
+		<Value>Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.lblWeek</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+    <Name>frmLackPPO.lblType</Name>
+    <Value>Type</Value>
+  </Titles>
+  <Titles>
+    <Name>frmLackPPO.lblDMS</Name>
+    <Value>DMS</Value>
+  </Titles>
+  <Titles>
+		<Name>frmLackPPO.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.grd</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.grd.SCM_PPO_HEADER.PPO_CODE</Name>
+		<Value>PPO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.grd.SCM_PPO_HEADER.CUST_CODE</Name>
+		<Value>Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.grd.SCM_PPO_HEADER.ORD_DATE</Name>
+		<Value>Order date</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.grd.SCM_PPO_HEADER.WEEK_NO</Name>
+		<Value>Week '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.grd.SCM_PPO_HEADER.YEAR_NO</Name>
+		<Value>Year '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.grd.SCM_PPO_HEADER.STATUS_NAME</Name>
+		<Value>Status</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.grd.SCM_PPO_HEADER.TYPE</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.grd.SCM_PPO_HEADER.REGION_CODE</Name>
+		<Value>Region Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.grd.SCM_PPO_HEADER.REGION_NAME</Name>
+		<Value>Region Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.grpButton</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.btnPPODetail</Name>
+		<Value>   PPO Detail</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.btnExport</Name>
+		<Value>   Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmLackPPO.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <!-- End of frmLackPPO -->
+
+
+
+  <!-- frmPPODetail -->
+  <Titles>
+		<Name>frmPPODetail.Title</Name>
+		<Value>PPO Detail</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grpHeader</Name>
+		<Value>PPO Header</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.lblPPOCode</Name>
+		<Value>PPO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.lblCustCode</Name>
+		<Value>Customer</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPODetail.lblShipToCode</Name>
+		<Value>Ship to code</Value>
+	</Titles>
+  <Titles>
+    <Name>frmPPODetail.lblShipToName</Name>
+    <Value>Ship to name</Value>
+  </Titles>
+	<Titles>
+		<Name>frmPPODetail.lblOrdDate</Name>
+		<Value>Order date</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.lblWeekNo</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grpSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.lblBrandyID</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.lblVariantID</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.lblPackSize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grd</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.STDSKU_NAME</Name>
+		<Value>BasePack Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.ORI_QTY</Name>
+		<Value>Original quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.ORD_QTY</Name>
+		<Value>Order quantity</Value>
+	</Titles>
+<!-- nghiahbt 21-Apr-2007 begin -->
+  <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.SHIPTO1_QTY</Name>
+		<Value>Ship to 1 Ord Qty</Value>
+	</Titles>
+  
+   <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.SHIPTO2_QTY</Name>
+		<Value>Ship to 2 Ord Qty</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.SHIPTO3_QTY</Name>
+		<Value>Ship to 3 Ord Qty</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.SHIPTO4_QTY</Name>
+		<Value>Ship to 4 Ord Qty</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.SHIPTO5_QTY</Name>
+		<Value>Ship to 5 Ord Qty</Value>
+	</Titles>
+<!-- nghiahbt 21-Apr-2007 end -->  
+  <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.UOM</Name>
+		<Value>UOM</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.BRAND_ID</Name>
+		<Value>Brand ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.DEV</Name>
+		<Value>%</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.NOTE</Name>
+		<Value>Note</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.CASE_PRICE</Name>
+		<Value>Case Price</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.grd.SCM_PPO_DETAIL.AMOUNT</Name>
+		<Value>Estimated Amount</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.lblAmount</Name>
+		<Value>Estimated Amount:</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.chkDisplayAll</Name>
+		<Value>Display All</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.btnExport</Name>
+		<Value>   Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPODetail.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <!-- End of frmPPODetail -->
+
+
+  <!-- frmDailyPPO -->
+  <Titles>
+		<Name>frmDailyPPO.Title</Name>
+		<Value>Daily PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.grpHeader</Name>
+		<Value>PPO Header</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.lblPPOCode</Name>
+		<Value>PPO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.lblCustCode</Name>
+		<Value>Customer</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDailyPPO.lblShipToCode</Name>
+		<Value>Ship to code</Value>
+	</Titles>
+	<Titles>
+		<Name>frmDailyPPO.lblOrdDate</Name>
+		<Value>Order date</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.lblWeekNo</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.grpSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.lblBrandyID</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.lblVariantID</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.lblPackSize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.lblP_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.grd</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.grd.SCM_DAILY_PPO.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.grd.SCM_DAILY_PPO.STDSKU_NAME</Name>
+		<Value>BasePack Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.grd.SCM_DAILY_PPO.PRO_CODE</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.grd.SCM_DAILY_PPO.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.grd.SCM_DAILY_PPO.REQ_QTY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.grd.SCM_DAILY_PPO.REQ_DATE</Name>
+		<Value>Delivery Date</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.grd.SCM_DAILY_PPO.UOM</Name>
+		<Value>UOM</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.grd.SCM_DAILY_PPO.REF3</Name>
+		<Value>REF3</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.grd.SCM_DAILY_PPO.BRAND_ID</Name>
+		<Value>Brand ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.grpButton</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.btnExport</Name>
+		<Value>   Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyPPO.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <!-- End of frmDailyPPO -->
+
+
+  <!-- frmPPORevised -->
+  <Titles>
+		<Name>frmPPORevised.Title</Name>
+		<Value>Revised PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grpHeader</Name>
+		<Value>PPO Header</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.lblPPOCode</Name>
+		<Value>PPO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.lblCustCode</Name>
+		<Value>Customer</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPORevised.lblShipToCode</Name>
+		<Value>Ship to code</Value>
+	</Titles>
+  <Titles>
+    <Name>frmPPORevised.lblShipToName</Name>
+    <Value>Ship to name</Value>
+  </Titles>
+	<Titles>
+		<Name>frmPPORevised.lblOrdDate</Name>
+		<Value>Order date</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.lblWeekNo</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grpSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.lblBrandyID</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.lblVariantID</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.lblPackSize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.lblP_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd</Name>
+		<Value>Revised PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.STDSKU_NAME</Name>
+		<Value>BasePack Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.PRO_CODE</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.ORD_QTY</Name>
+		<Value>Order quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.AUT_REV_QTY</Name>
+		<Value>Revised quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.AUT_REV_SHIPTO1_QTY</Name>
+		<Value>Rev Ship To 1 Qty</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.AUT_REV_SHIPTO2_QTY</Name>
+		<Value>Rev Ship To 2 Qty</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.AUT_REV_SHIPTO3_QTY</Name>
+		<Value>Rev Ship To 3 Qty</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.AUT_REV_SHIPTO4_QTY</Name>
+		<Value>Rev Ship To 4 Qty</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.AUT_REV_SHIPTO5_QTY</Name>
+		<Value>Rev Ship To 5 Qty</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.REV_QTY</Name>
+		<Value>CSA Revise</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.REV_SHIPTO1_QTY</Name>
+		<Value>CSA Revise Ship To 1</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.REV_SHIPTO2_QTY</Name>
+		<Value>CSA Revise Ship To 2</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.REV_SHIPTO3_QTY</Name>
+		<Value>CSA Revise Ship To 3</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.REV_SHIPTO4_QTY</Name>
+		<Value>CSA Revise Ship To 4</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.REV_SHIPTO5_QTY</Name>
+		<Value>CSA Revise Ship To 5</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.UOM</Name>
+		<Value>UOM</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.BRAND_ID</Name>
+		<Value>Brand ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.CASE_PRICE</Name>
+		<Value>Case Price</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grd.SCM_PPO_REVISED.AMOUNT</Name>
+		<Value>Estimated Amount</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.grpButton</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.lblAmount</Name>
+		<Value>Estimated Amount</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.btnExport</Name>
+		<Value>   Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.btnApprove</Name>
+		<Value>   Approve</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.btnSave</Name>
+		<Value>   Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.btnCancel</Name>
+		<Value>   Cancel</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.btnDetail</Name>
+		<Value>   Detail</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevised.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <!-- End of frmPPORevised -->
+
+
+  <!-- frmPPORevisedReport -->
+  <Titles>
+		<Name>frmPPORevisedReport.Title</Name>
+		<Value>Revised PPO Report</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.grpHeader</Name>
+		<Value>PPO Header</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.lblPPOCode</Name>
+		<Value>PPO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.lblCustCode</Name>
+		<Value>Customer</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPORevisedReport.lblShipToCode</Name>
+		<Value>Ship to code</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPORevisedReport.lblOrdDate</Name>
+		<Value>Order date</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.lblWeekNo</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.grd</Name>
+		<Value>Revised PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.grd.SCM_PPO_REVISED.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.grd.SCM_PPO_REVISED.STDSKU_NAME</Name>
+		<Value>BasePack Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.grd.SCM_PPO_REVISED.ORD_QTY</Name>
+		<Value>Order Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.grd.SCM_PPO_REVISED.SUM_REV_QTY</Name>
+		<Value>Revised Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.grd.SCM_PPO_REVISED.BRAND_ID</Name>
+		<Value>Brand ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.grd.SCM_PPO_REVISED.DEV</Name>
+		<Value>%</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.grd.SCM_PPO_REVISED.NOTE</Name>
+		<Value>Note</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.chkDisplayAll</Name>
+		<Value>Display All</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.btnExport</Name>
+		<Value>   Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.btnDetail</Name>
+		<Value>   Detail</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedReport.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <!-- End of frmPPORevisedReport -->
+
+
+  <!-- frmPPORevisedDetail -->
+  <Titles>
+		<Name>frmPPORevisedDetail.Title</Name>
+		<Value>Detail</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedDetail.grd.SCM_PPO_REVISED_DETAIL.PPO_CODE</Name>
+		<Value>PPO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedDetail.grd.SCM_PPO_REVISED_DETAIL.PRO_CODE</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedDetail.grd.SCM_PPO_REVISED_DETAIL.ORD_QTY</Name>
+		<Value>Order quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedDetail.grd.SCM_PPO_REVISED_DETAIL.REV_QTY</Name>
+		<Value>Revised quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedDetail.grd.SCM_PPO_REVISED_DETAIL.UOM</Name>
+		<Value>UOM</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedDetail.grd.SCM_PPO_REVISED_DETAIL.DEAL_ID</Name>
+		<Value>Allocation</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedDetail.grd.SCM_PPO_REVISED_DETAIL.DESCRIPTION</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedDetail.grpButton</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedDetail.btnDetail</Name>
+		<Value>   Detail</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPORevisedDetail.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+
+  <!-- frmCOSearch -->
+  <Titles>
+		<Name>frmCOSearch.Title</Name>
+		<Value>Search Confirm Orders</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grpSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.lblCustCode</Name>
+		<Value>Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.lblWeek</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.lblCOCode</Name>
+		<Value>CO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.lblPPOCode</Name>
+		<Value>PPO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.lblInvID</Name>
+		<Value>Invoice ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grd</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grd.SCM_CO_HEADER.CO_CODE</Name>
+		<Value>CO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grd.SCM_CO_HEADER.PPO_CODE</Name>
+		<Value>PPO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grd.SCM_CO_HEADER.CUST_CODE</Name>
+		<Value>Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grd.SCM_CO_HEADER.ORD_DATE</Name>
+		<Value>Order date</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grd.SCM_CO_HEADER.DEL_DATE</Name>
+		<Value>Delivery date</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grd.SCM_CO_HEADER.TERMS</Name>
+		<Value>Terms</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grd.SCM_CO_HEADER.ORD_AMOUNT</Name>
+		<Value>Amount</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grd.SCM_CO_HEADER.INV_ID</Name>
+		<Value>Invoice ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grd.SCM_CO_HEADER.WEEK_NO</Name>
+		<Value>Week '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grd.SCM_CO_HEADER.STATUS</Name>
+		<Value>Status</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grd.SCM_CO_HEADER.REGION_CODE</Name>
+		<Value>Region Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grd.SCM_CO_HEADER.REGION_NAME</Name>
+		<Value>Region Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.grpButton</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.btnCODetail</Name>
+		<Value>   CO Detail</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCOSearch.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <!-- End of frmCOSearch -->
+
+
+
+  <!-- frmCODetail -->
+  <Titles>
+		<Name>frmCODetail.Title</Name>
+		<Value>Confirm Order Detail</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.grpHeader</Name>
+		<Value>CO Header</Value>
+	</Titles>
+    <Titles>
+		<Name>frmCODetail.lblCustCode</Name>
+		<Value>Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.lblWeekNo</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.lblDelDate</Name>
+		<Value>Delivery date</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.lblCOCode</Name>
+		<Value>CO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.lblPPOCode</Name>
+		<Value>PPO Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.lblInvID</Name>
+		<Value>Invoice ID</Value>
+	</Titles>
+    <Titles>
+		<Name>frmCODetail.grpSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.lblBrandyID</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.lblVariantID</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.lblPackSize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.lblP_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.grd.SCM_CO_DETAIL.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.grd.SCM_CO_DETAIL.PRO_CODE</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.grd.SCM_CO_DETAIL.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.grd.SCM_CO_DETAIL.DEL_QTY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.grd.SCM_CO_DETAIL.UNI_COST</Name>
+		<Value>Unit cost</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.grd.SCM_CO_DETAIL.EXT_COST</Name>
+		<Value>Ext cost</Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.grpButton</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmCODetail.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <!-- End of frmCODetail -->
+
+  <!-- frmPromotionEdit -->
+  <Titles>
+		<Name>frmPromotionEdit.Title</Name>
+		<Value>Allocation Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.lblDealID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.lblDealType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.lblPID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.btnSearch</Name>
+		<Value> Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.grd</Name>
+		<Value>Original</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.grd.SCM_PROMOTION_CUST.CUST_CODE</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.grd.SCM_PROMOTION_CUST.CUST_NAME</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.grd.SCM_PROMOTION_CUST.QUANTITY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.grdImport</Name>
+		<Value>Import</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.grdImport.SCM_PROMOTION_CUST.CUST_CODE</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.grdImport.SCM_PROMOTION_CUST.CUST_NAME</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.grdImport.SCM_PROMOTION_CUST.QUANTITY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.chkChanged</Name>
+		<Value>Check changes</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.btnImport</Name>
+		<Value>Import</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.btnExport</Name>
+		<Value>Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.btnSave</Name>
+		<Value>Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionEdit.btnClose</Name>
+		<Value>Close</Value>
+	</Titles>
+  <!-- End of frmPromotionEdit -->
+
+
+  <!-- frmPromotionView -->
+  <Titles>
+		<Name>frmPromotionView.Title</Name>
+		<Value>Allocation Details</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionView.lblDealID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionView.lblDealType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionView.lblPID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionView.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionView.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionView.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionView.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionView.lblCustCode</Name>
+		<Value>Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionView.btnSearch</Name>
+		<Value> Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionView.grd.SCM_PROMOTION_CUST.CUST_CODE</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionView.grd.SCM_PROMOTION_CUST.CUST_NAME</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionView.grd.SCM_PROMOTION_CUST.QUANTITY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionView.chkDisplayAll</Name>
+		<Value>Display All</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionView.btnClose</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <!-- End of frmPromotionView -->
+
+
+  <!-- frmSwapCust -->
+  <Titles>
+		<Name>frmSwapCust.Title</Name>
+		<Value>Customers Swap</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.grpSearch</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.lblWeek</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+    <Name>frmSwapCust.lblVersion</Name>
+    <Value> </Value>
+  </Titles>
+  <Titles>
+		<Name>frmSwapCust.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.btnRefresh</Name>
+		<Value>   Refresh</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.btnApprove</Name>
+		<Value>   Approve</Value>
+	</Titles>
+  <Titles>
+    <Name>frmSwapCust.btnExport</Name>
+    <Value>   Export Swap</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSwapCust.btnImport</Name>
+    <Value>   Import Swap</Value>
+  </Titles>
+  <Titles>
+		<Name>frmSwapCust.lblSrc</Name>
+		<Value>Suppliers</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.lblDes</Name>
+		<Value>Receivers</Value>
+	</Titles>SCM_PROMOTION_CUST_SWAP
+  <Titles>
+		<Name>frmSwapCust.chkDisplayAll</Name>
+		<Value>Display all</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.grdSrc</Name>
+		<Value>Suppliers</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.grdSrc.SCM_PROMOTION_CUST_SWAP.CUST_CODE</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.grdSrc.SCM_PROMOTION_CUST_SWAP.CUST_NAME</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.grdSrc.SCM_PROMOTION_CUST_SWAP.REMAIN_QUANTITY</Name>
+		<Value>Available</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.grdSrc.SCM_PROMOTION_CUST_SWAP.QUANTITY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.grdDes</Name>
+		<Value>Receivers</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.grdDes.SCM_PROMOTION_CUST_SWAP.CUST_CODE</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.grdDes.SCM_PROMOTION_CUST_SWAP.CUST_NAME</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.grdDes.SCM_PROMOTION_CUST_SWAP.REMAIN_QUANTITY</Name>
+		<Value>Available</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.grdDes.SCM_PROMOTION_CUST_SWAP.QUANTITY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.grpButton</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.btnReload</Name>
+		<Value>   Reload</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.btnSave</Name>
+		<Value>   Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.lblPoolQty</Name>
+		<Value>Pool Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapCust.lblPoolQtyValue</Name>
+		<Value>0</Value>
+	</Titles>
+  <!-- End of frmSwapCust -->
+
+
+
+  <!-- frmApproveSwapCust -->
+  <Titles>
+		<Name>frmApproveSwapCust.lblPoolQty</Name>
+		<Value>Pool Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.lblPoolQtyValue</Name>
+		<Value>0</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.Title</Name>
+		<Value>Customers Swap Approval</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.grpSearch</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.lblWeek</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.btnRefresh</Name>
+		<Value>   Refresh</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.lblSrc</Name>
+		<Value>Suppliers</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.lblDes</Name>
+		<Value>Receivers</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.chkDisplayAll</Name>
+		<Value>Display all</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.grdSrc</Name>
+		<Value>Suppliers</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.grdSrc.SCM_PROMOTION_CUST_SWAP.CUST_CODE</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.grdSrc.SCM_PROMOTION_CUST_SWAP.CUST_NAME</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.grdSrc.SCM_PROMOTION_CUST_SWAP.REMAIN_QUANTITY</Name>
+		<Value>Available '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.grdSrc.SCM_PROMOTION_CUST_SWAP.QUANTITY</Name>
+		<Value>Quantity '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.grdDes</Name>
+		<Value>Receivers</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.grdDes.SCM_PROMOTION_CUST_SWAP.CUST_CODE</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.grdDes.SCM_PROMOTION_CUST_SWAP.CUST_NAME</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.grdDes.SCM_PROMOTION_CUST_SWAP.REMAIN_QUANTITY</Name>
+		<Value>Available '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.grdDes.SCM_PROMOTION_CUST_SWAP.QUANTITY</Name>
+		<Value>Quantity '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.grpButton</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.btnReload</Name>
+		<Value>   Reload</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.btnApprove</Name>
+		<Value>   Approve</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapCust.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <!-- End of frmApproveSwapCust -->
+
+
+
+  <!-- frmSwapRegion -->
+  <Titles>
+		<Name>frmSwapRegion.lblPoolQty</Name>
+		<Value>Pool Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.lblPoolQtyValue</Name>
+		<Value>0</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.Title</Name>
+		<Value>Region Swap</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.grpSearch</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.lblWeek</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.btnRefresh</Name>
+		<Value>   Refresh</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.btnApprove</Name>
+		<Value>   Approve</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.lblSrc</Name>
+		<Value>Suppliers</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.lblDes</Name>
+		<Value>Receivers</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.btnRefresh</Name>
+		<Value>   Refresh</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.chkEdit</Name>
+		<Value>Edit</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.chkDisplayAll</Name>
+		<Value>Display all</Value>
+	</Titles>
+ <Titles>
+		<Name>frmSwapRegion.grdSrc</Name>
+		<Value>Suppliers</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.grdSrc.SCM_PROMOTION_REGION_SWAP.REGION_NAME</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.grdSrc.SCM_PROMOTION_REGION_SWAP.STRATEGIC_REGION_CODE</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.grdSrc.SCM_PROMOTION_REGION_SWAP.REMAIN_QUANTITY</Name>
+		<Value>Available</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.grdSrc.SCM_PROMOTION_REGION_SWAP.QUANTITY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.grdDes</Name>
+		<Value>Receivers</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.grdDes.SCM_PROMOTION_REGION_SWAP.REGION_NAME</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.grdDes.SCM_PROMOTION_REGION_SWAP.STRATEGIC_REGION_CODE</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.grdDes.SCM_PROMOTION_REGION_SWAP.REMAIN_QUANTITY</Name>
+		<Value>Available</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.grdDes.SCM_PROMOTION_REGION_SWAP.QUANTITY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.grpButton</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.btnReload</Name>
+		<Value>   Reload</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.btnSave</Name>
+		<Value>   Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.lblPoolQty</Name>
+		<Value>Pool Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSwapRegion.lblPoolQtyValue</Name>
+		<Value>0</Value>
+	</Titles>
+  <!-- End of frmSwapRegion -->
+
+
+  <!-- frmApproveSwapRegion -->
+  <Titles>
+		<Name>frmApproveSwapRegion.lblPoolQty</Name>
+		<Value>Pool Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.lblPoolQtyValue</Name>
+		<Value>0</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.Title</Name>
+		<Value>Region Swap Approval</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.grpSearch</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.lblWeek</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.btnSearch</Name>
+		<Value>   Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.btnRefresh</Name>
+		<Value>   Refresh</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.chkManual</Name>
+		<Value>Swap Manual</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.lblSrc</Name>
+		<Value>Suppliers</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.lblDes</Name>
+		<Value>Receivers</Value>
+	</Titles>SCM_PROMOTION_REGION_SWAP
+  <Titles>
+		<Name>frmApproveSwapRegion.chkDisplayAll</Name>
+		<Value>Display all</Value>
+	</Titles>
+ <Titles>
+		<Name>frmApproveSwapRegion.grdSrc</Name>
+		<Value>Suppliers</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.grdSrc.SCM_PROMOTION_REGION_SWAP.REGION_NAME</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.grdSrc.SCM_PROMOTION_REGION_SWAP.STRATEGIC_REGION_CODE</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.grdSrc.SCM_PROMOTION_REGION_SWAP.REMAIN_QUANTITY</Name>
+		<Value>Available</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.grdSrc.SCM_PROMOTION_REGION_SWAP.QUANTITY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.grdDes</Name>
+		<Value>Receivers</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.grdDes.SCM_PROMOTION_REGION_SWAP.REGION_NAME</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.grdDes.SCM_PROMOTION_REGION_SWAP.STRATEGIC_REGION_CODE</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.grdDes.SCM_PROMOTION_REGION_SWAP.REMAIN_QUANTITY</Name>
+		<Value>Available</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.grdDes.SCM_PROMOTION_REGION_SWAP.QUANTITY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.grpButton</Name>
+		<Value></Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.btnReload</Name>
+		<Value>   Reload</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.btnApprove</Name>
+		<Value>   Approve</Value>
+	</Titles>
+  <Titles>
+		<Name>frmApproveSwapRegion.btnClose</Name>
+		<Value>   Close</Value>
+	</Titles>
+  <!-- End of frmApproveSwapRegion -->
+
+
+  <!-- frmRegionSKUPriority -->
+  <Titles>
+		<Name>frmRegionSKUPriority.Title</Name>
+		<Value>Region Priority Management</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.lblPackSize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.lblProductCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.btnSave</Name>
+		<Value>  Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.grd</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.grdDetail</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.grd.SCM_SKU_MASTER.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.grd.SCM_SKU_MASTER.FROM_WEEK</Name>
+		<Value>From Week '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.grd.SCM_SKU_MASTER.FROM_YEAR</Name>
+		<Value>From Year '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.grd.SCM_SKU_MASTER.TO_WEEK</Name>
+		<Value>To Week '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.grd.SCM_SKU_MASTER.TO_YEAR</Name>
+		<Value>To Year '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.grdDetail.SCM_SKU_PRIORITY_DETAIL.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+   <Titles>
+		<Name>frmRegionSKUPriority.grdDetail.SCM_SKU_PRIORITY_DETAIL.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.grdDetail.SCM_SKU_PRIORITY_DETAIL.STATUS</Name>
+		<Value>Status</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.grdDetail.SCM_SKU_PRIORITY_DETAIL.PRIORITY</Name>
+		<Value>Priority '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.grdDetail.SCM_SKU_PRIORITY_DETAIL.MAIN</Name>
+		<Value>Main Item</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.grdDetail.SCM_SKU_PRIORITY_DETAIL.STOCK_NORTH</Name>
+		<Value>North '</Value>
+	</Titles>
+   <Titles>
+		<Name>frmRegionSKUPriority.grdDetail.SCM_SKU_PRIORITY_DETAIL.STOCK_CENTRAL</Name>
+		<Value>Central '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.grdDetail.SCM_SKU_PRIORITY_DETAIL.STOCK_HCME</Name>
+		<Value>HCM '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmRegionSKUPriority.grdDetail.SCM_SKU_PRIORITY_DETAIL.STOCK_MEKONG</Name>
+		<Value>Mekong '</Value>
+	</Titles>
+  <!-- End of frmRegionSKUPriority -->
+
+
+<!-- ////////////////////////////////////////////////////////////////// -->
+  	
+<!-- frmMaintenanceSC -->
+<Titles>
+		<Name>frmMaintenanceSC.Title</Name>
+		<Value>Shipping Calendar Searching</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.lblPacksize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.lblProductCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.lblPDesc</Name>
+		<Value>Description</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.lblCustCode</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.lblCustName</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+<!-- nghiahbt begin
+<Titles>
+    <Name>frmMaintenanceSC.lblShipCode</Name>
+    <Value>Ship to Code</Value>
+</Titles>
+<Titles>
+    <Name>frmMaintenanceSC.lblShipName</Name>
+    <Value>Ship to Name</Value>
+</Titles>
+ nghiahbt end-->
+<Titles>
+		<Name>frmMaintenanceSC.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.lblStraregion</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.lblFrom</Name>
+		<Value>Date</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.btnSearch</Name>
+		<Value>	Search</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.btnEdit</Name>
+		<Value>	Edit</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.btnClose</Name>
+		<Value>	Close</Value>
+	</Titles>
+		<!-- ******************************************************** -->
+<Titles>
+		<Name>frmMaintenanceSC.grd.SCM_ORDER_SPLIT_HEADER.SPLIT_ID</Name>
+		<Value>Split ID</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.grd.SCM_ORDER_SPLIT_HEADER.CUST_CODE</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.grd.SCM_ORDER_SPLIT_HEADER.CUST_NAME</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.grd.SCM_ORDER_SPLIT_HEADER.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.grd.SCM_ORDER_SPLIT_HEADER.P_DESC</Name>
+		<Value>Description</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.grd.SCM_ORDER_SPLIT_HEADER.FROM_DATE</Name>
+		<Value>From date</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.grd.SCM_ORDER_SPLIT_HEADER.TO_DATE</Name>
+		<Value>To date</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.grd.SCM_ORDER_SPLIT_HEADER.FROM_WEEK_CYCLE</Name>
+		<Value>From week</Value>
+	</Titles>
+<Titles>
+		<Name>frmMaintenanceSC.grd.SCM_ORDER_SPLIT_HEADER.TO_WEEK_CYCLE</Name>
+		<Value>To week</Value>
+	</Titles>
+<!-- nghiahbt -->
+<Titles>
+		<Name>frmMaintenanceSC.grd.SCM_ORDER_SPLIT_HEADER.SHIP_TO_CODE</Name>
+		<Value>Ship to code</Value>
+	</Titles>
+<!-- nghiahbt end -->
+<!-- End of frmMaintenanceSC -->
+
+<!-- ////////////////////////////////////////////////////////////////// -->
+
+<!-- frmEditSC -->
+<Titles>
+		<Name>frmEditSC.Title</Name>
+		<Value>Shipping Calendar Maintenance</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.lblPacksize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.lblProductCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.lblPDesc</Name>
+		<Value>Description</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.lblCustCode</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.lblCustName</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.lblStraregion</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.lblFrom</Name>
+		<Value>From week</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.btnUpdate</Name>
+		<Value>	Save</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.btnClose</Name>
+		<Value>	Close</Value>
+	</Titles>
+<!-- nghiahbt begin-->
+<Titles>
+		<Name>frmEditSC.lblShipCode</Name>
+		<Value>Ship to Code</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.lblShipName</Name>
+		<Value>Ship to Name</Value>
+	</Titles>
+
+
+
+<Titles>
+		<Name>frmEditSC.grdSC.SCM_ORDER_SPLIT_DETAIL.SHIP_TO_CODE</Name>
+		<Value>Ship To Code</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.grdSC.SCM_ORDER_SPLIT_DETAIL.SHIP_TO_NAME</Name>
+		<Value>Ship To Name</Value>
+	</Titles>
+<!-- nghiahbt end-->
+
+	<!-- ******************************************************** -->
+<Titles>
+		<Name>frmEditSC.grdSC.SCM_ORDER_SPLIT_DETAIL.SLDAY1</Name>
+		<Value>Sun</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.grdSC.SCM_ORDER_SPLIT_DETAIL.SLDAY2</Name>
+		<Value>Mon</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.grdSC.SCM_ORDER_SPLIT_DETAIL.SLDAY3</Name>
+		<Value>Tue</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.grdSC.SCM_ORDER_SPLIT_DETAIL.SLDAY4</Name>
+		<Value>Wed</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.grdSC.SCM_ORDER_SPLIT_DETAIL.SLDAY5</Name>
+		<Value>Thu</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.grdSC.SCM_ORDER_SPLIT_DETAIL.SLDAY6</Name>
+		<Value>Fri</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.grdSC.SCM_ORDER_SPLIT_DETAIL.SLDAY7</Name>
+		<Value>Sat</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.grdSC.SCM_ORDER_SPLIT_DETAIL.SPLIT_ID</Name>
+		<Value>Split ID</Value>
+	</Titles>
+<Titles>
+		<Name>frmEditSC.grdSC.SCM_ORDER_SPLIT_DETAIL.SLWEEK</Name>
+		<Value>Week</Value>
+	</Titles>
+<!-- End of frmEditSC -->
+
+<!-- ////////////////////////////////////////////////////////////////// -->
+
+<!-- ////////////////////////////////////////////////////////////////// -->
+
+<!-- frmAddSC -->
+<Titles>
+		<Name>frmAddSC.Title</Name>
+		<Value>Shipping Calendar Definition</Value>
+	</Titles>
+
+<Titles>
+		<Name>frmAddSC.lblDivision</Name>
+		<Value>Division</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.lblCategory</Name>
+		<Value>Category</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.lblBrand</Name>
+		<Value>Brand</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.lblCustCode</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.lblCustName</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.lblStraregion</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.lblFromSaleCycle</Name>
+		<Value>From Sale Cycle</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.lblToSaleCycle</Name>
+		<Value>To</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.lblToWeek</Name>
+		<Value>To</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.lblMinQty</Name>
+		<Value>Min Quantity</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.lblYear</Name>
+		<Value>Year</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.btnUpdate</Name>
+		<Value>	Save</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.btnClose</Name>
+		<Value>	Close</Value>
+	</Titles>
+
+<!-- nghiahbt begin-->
+<Titles>
+		<Name>frmAddSC.lblShipCode</Name>
+		<Value>Ship to Code</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.lblShipName</Name>
+		<Value>Ship to Name</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.grdSC.SCM_DEFINE_ORDER_SPLIT_DETAIL.SHIP_TO_CODE</Name>
+		<Value>Ship To Code</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.grdSC.SCM_DEFINE_ORDER_SPLIT_DETAIL.SHIP_TO_NAME</Name>
+		<Value>Ship To Name</Value>
+	</Titles>
+
+<!-- nghiahbt end-->
+
+	<!-- ******************************************************** -->
+<Titles>
+		<Name>frmAddSC.grdSC.SCM_DEFINE_ORDER_SPLIT_DETAIL.SLDAY1</Name>
+		<Value>Sun</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.grdSC.SCM_DEFINE_ORDER_SPLIT_DETAIL.SLDAY2</Name>
+		<Value>Mon</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.grdSC.SCM_DEFINE_ORDER_SPLIT_DETAIL.SLDAY3</Name>
+		<Value>Tue</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.grdSC.SCM_DEFINE_ORDER_SPLIT_DETAIL.SLDAY4</Name>
+		<Value>Wed</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.grdSC.SCM_DEFINE_ORDER_SPLIT_DETAIL.SLDAY5</Name>
+		<Value>Thu</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.grdSC.SCM_DEFINE_ORDER_SPLIT_DETAIL.SLDAY6</Name>
+		<Value>Fri</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.grdSC.SCM_DEFINE_ORDER_SPLIT_DETAIL.SLDAY7</Name>
+		<Value>Sat</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.grdSC.SCM_DEFINE_ORDER_SPLIT_DETAIL.SPLIT_ID</Name>
+		<Value>Split ID</Value>
+	</Titles>
+<Titles>
+		<Name>frmAddSC.grdSC.SCM_DEFINE_ORDER_SPLIT_DETAIL.SLWEEK</Name>
+		<Value>Week</Value>
+	</Titles>
+<!-- End of frmAddSC -->
+
+<!-- ////////////////////////////////////////////////////////////////// -->
+
+
+<!-- frmSPDefault -->
+<Titles>
+		<Name>frmSPDefault.Title</Name>
+		<Value>Standard Stock Policy Definition</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.lblStraregion</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.lblStdsku</Name>
+		<Value>BasePack</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.lblFromweek</Name>
+		<Value>From week</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.lblToweek</Name>
+		<Value>To week</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.btnSearch</Name>
+		<Value>	Search</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.btnGenerate</Name>
+		<Value>	Generate</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.btnAdd</Name>
+		<Value>	Add</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.btnDelete</Name>
+		<Value>	Delete</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.btnUpdate</Name>
+		<Value>	Save</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.btnClose</Name>
+		<Value>	Close</Value>
+	</Titles>
+	<!-- ******************************************************** -->
+<Titles>
+		<Name>frmSPDefault.grdStandard.SCM_SP_STANDARD.REGION_CODE</Name>
+		<Value>Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.grdStandard.SCM_SP_STANDARD.STRATEGIC_REGION_CODE</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.grdStandard.SCM_SP_STANDARD.BRANDY_ID</Name>
+		<Value>Brandy</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.grdStandard.SCM_SP_STANDARD.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.grdStandard.SCM_SP_STANDARD.STDSKU_NAME</Name>
+		<Value>BasePack Name</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.grdStandard.SCM_SP_STANDARD.FROMDATE</Name>
+		<Value>From week</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.grdStandard.SCM_SP_STANDARD.TODATE</Name>
+		<Value>To week</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.grdStandard.SCM_SP_STANDARD.SAFESTOCK</Name>
+		<Value>Stock policy</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPDefault.grdStandard.SCM_SP_STANDARD.DELETED</Name>
+		<Value>Delete</Value>
+	</Titles>
+<!-- End of frmSPDefault -->
+
+<!-- ////////////////////////////////////////////////////////////////// -->
+
+<!-- frmSPSpecial -->
+<Titles>
+		<Name>frmSPSpecial.Title</Name>
+		<Value>Special Stock Policy Definition</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.lblStraregion</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.lblStdsku</Name>
+		<Value>BasePack</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.lblFromweek</Name>
+		<Value>From week</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.lblToweek</Name>
+		<Value>To week</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.btnSearch</Name>
+		<Value>	Search</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.btnAdd</Name>
+		<Value>	Add</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.btnDelete</Name>
+		<Value>	Delete</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.btnUpdate</Name>
+		<Value>	Save</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.btnClose</Name>
+		<Value>	Close</Value>
+	</Titles>
+	<!-- ******************************************************** -->
+<!-- nghiahbt 27-Apr-2007 begin -->
+ <Titles>
+		<Name>frmSPSpecial.lblShipCode</Name>
+		<Value>Ship To Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSPSpecial.lblShipName</Name>
+		<Value>Ship To Name</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.grdStandard.SCM_SP_SPECIAL.SHIP_TO_CODE</Name>
+		<Value>Ship To Code</Value>
+	</Titles>
+
+<!-- nghiahbt 27-Apr-2007 end -->
+<Titles>
+		<Name>frmSPSpecial.grdStandard.SCM_SP_SPECIAL.SHIP_TO_CODE</Name>
+		<Value>Ship To Code</Value>
+	</Titles>	
+<Titles>
+		<Name>frmSPSpecial.grdStandard.SCM_SP_SPECIAL.SHIP_TO_NAME</Name>
+		<Value>Ship To Name</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.grdStandard.SCM_SP_SPECIAL.REGION_CODE</Name>
+		<Value>Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.grdStandard.SCM_SP_SPECIAL.STRATEGIC_REGION_CODE</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.grdStandard.SCM_SP_SPECIAL.BRANDY_ID</Name>
+		<Value>Brandy</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.grdStandard.SCM_SP_SPECIAL.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.grdStandard.SCM_SP_SPECIAL.STDSKU_NAME</Name>
+		<Value>BasePack Name</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.grdStandard.SCM_SP_SPECIAL.FROMDATE</Name>
+		<Value>From week</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.grdStandard.SCM_SP_SPECIAL.TODATE</Name>
+		<Value>To week</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.grdStandard.SCM_SP_SPECIAL.SAFESTOCK</Name>
+		<Value>Stock policy</Value>
+	</Titles>
+<Titles>
+		<Name>frmSPSpecial.grdStandard.SCM_SP_SPECIAL.DELETED</Name>
+		<Value>Delete</Value>
+	</Titles>
+<!-- End of frmSPDefault -->
+
+<!-- ////////////////////////////////////////////////////////////////// -->
+
+<!-- frmCheckLackSP -->
+<Titles>
+		<Name>frmCheckLackSP.Title</Name>
+		<Value>Stock Policy Verification</Value>
+	</Titles>
+<Titles>
+		<Name>frmCheckLackSP.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmCheckLackSP.lblStraregion</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmCheckLackSP.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+
+<Titles>
+		<Name>frmCheckLackSP.lblFromweek</Name>
+		<Value>From week</Value>
+	</Titles>
+<Titles>
+		<Name>frmCheckLackSP.lblToweek</Name>
+		<Value>To week</Value>
+	</Titles>
+<Titles>
+		<Name>frmCheckLackSP.btnClose</Name>
+		<Value>	Close</Value>
+	</Titles>
+<Titles>
+		<Name>frmCheckLackSP.btnVerify</Name>
+		<Value>	Verify</Value>
+	</Titles>
+<Titles>
+		<Name>frmCheckLackSP.btnExport</Name>
+		<Value>	Export</Value>
+	</Titles>
+	<!-- ******************************************************** -->
+<Titles>
+		<Name>frmCheckLackSP.grd.TEMP_LACK_SP.REGION_CODE</Name>
+		<Value>Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmCheckLackSP.grd.TEMP_LACK_SP.STRATEGIC_REGION_CODE</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmCheckLackSP.grd.TEMP_LACK_SP.CUST_CODE</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+<Titles>
+		<Name>frmCheckLackSP.grd.TEMP_LACK_SP.CUST_NAME</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+<Titles>
+		<Name>frmCheckLackSP.grd.TEMP_LACK_SP.BRANDY_ID</Name>
+		<Value>Brandy</Value>
+	</Titles>
+<Titles>
+		<Name>frmCheckLackSP.grd.TEMP_LACK_SP.WEEK</Name>
+		<Value>Week</Value>
+	</Titles>
+<Titles>
+		<Name>frmCheckLackSP.grd.TEMP_LACK_SP.YEAR</Name>
+		<Value>Year</Value>
+	</Titles>
+<!-- nghiahbt add ship to 4-May-2007 BEGIN -->
+<Titles>
+		<Name>frmCheckLackSP.grd.TEMP_LACK_SP.SHIP_TO_CODE</Name>
+		<Value>Ship to Code</Value>
+	</Titles>
+<!-- nghiahbt add ship to 4-May-2007 END -->
+<!-- End of frmCheckLackSP -->
+
+<!-- ////////////////////////////////////////////////////////////////// -->
+
+<!-- frmSKU_Lack_MainProduct -->
+<Titles>
+		<Name>frmSKU_Lack_MainProduct.Title</Name>
+		<Value>View Lack Main Items</Value>
+	</Titles>
+<Titles>
+		<Name>frmSKU_Lack_MainProduct.lblStdsku</Name>
+		<Value>BasePack</Value>
+	</Titles>
+
+<Titles>
+		<Name>frmSKU_Lack_MainProduct.lblFromweek</Name>
+		<Value>From week</Value>
+	</Titles>
+<Titles>
+		<Name>frmSKU_Lack_MainProduct.lblToweek</Name>
+		<Value>To week</Value>
+	</Titles>
+<Titles>
+		<Name>frmSKU_Lack_MainProduct.btnClose</Name>
+		<Value>	Close</Value>
+	</Titles>
+<Titles>
+		<Name>frmSKU_Lack_MainProduct.btnVerify</Name>
+		<Value>	Verify</Value>
+	</Titles>
+<Titles>
+		<Name>frmSKU_Lack_MainProduct.btnExport</Name>
+		<Value>	Export</Value>
+	</Titles>
+	<!-- ******************************************************** -->
+<Titles>
+		<Name>frmSKU_Lack_MainProduct.grd.TEMP_LACK_MAINPRODUCT.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+<Titles>
+		<Name>frmSKU_Lack_MainProduct.grd.TEMP_LACK_MAINPRODUCT.STDSKU_NAME</Name>
+		<Value>BasePack Name</Value>
+	</Titles>
+<Titles>
+		<Name>frmSKU_Lack_MainProduct.grd.TEMP_LACK_MAINPRODUCT.WEEK</Name>
+		<Value>Week</Value>
+	</Titles>
+<Titles>
+		<Name>frmSKU_Lack_MainProduct.grd.TEMP_LACK_MAINPRODUCT.YEAR</Name>
+		<Value>Year</Value>
+	</Titles>
+
+<!-- End of frmCheckLackSP -->
+
+<!-- Begin frmBrandyList -->
+<Titles>
+		<Name>frmBrandyList.Brandy</Name>
+		<Value>Brandy List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmBrandyList.Variant</Name>
+		<Value>Variant List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmBrandyList.Packsize</Name>
+		<Value>Packsize List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmBrandyList.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmBrandyList.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmBrandyList.lblPacksize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmBrandyList.lblProductCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmBrandyList.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmBrandyList.btnSelect</Name>
+		<Value>  Select</Value>
+	</Titles>
+  <Titles>
+		<Name>frmBrandyList.btnClose</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmBrandyList.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmBrandyList.grdSKU.BRANDY_ID</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmBrandyList.grdSKU.VARIANT_ID</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmBrandyList.grdSKU.PACKSIZE</Name>
+		<Value>Packsize</Value>
+	</Titles>
+<!-- End of frmBrandyList -->
+
+<!-- Begin frmVariantList -->
+<Titles>
+		<Name>frmVariantList.Brandy</Name>
+		<Value>Brandy List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmVariantList.Variant</Name>
+		<Value>Variant List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmVariantList.Packsize</Name>
+		<Value>Packsize List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmVariantList.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmVariantList.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmVariantList.lblPacksize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmVariantList.lblProductCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmVariantList.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmVariantList.btnSelect</Name>
+		<Value>  Select</Value>
+	</Titles>
+  <Titles>
+		<Name>frmVariantList.btnClose</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmVariantList.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmVariantList.grdSKU.BRANDY_ID</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmVariantList.grdSKU.VARIANT_ID</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmVariantList.grdSKU.PACKSIZE</Name>
+		<Value>Packsize</Value>
+	</Titles>
+<!-- End of frmBrandyList -->
+
+<!-- Begin frmPacksizeList -->
+<Titles>
+		<Name>frmPacksizeList.Brandy</Name>
+		<Value>Brandy List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPacksizeList.Variant</Name>
+		<Value>Variant List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPacksizeList.Packsize</Name>
+		<Value>Packsize List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPacksizeList.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPacksizeList.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPacksizeList.lblPacksize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPacksizeList.lblProductCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPacksizeList.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPacksizeList.btnSelect</Name>
+		<Value>  Select</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPacksizeList.btnClose</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPacksizeList.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPacksizeList.grdSKU.BRANDY_ID</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPacksizeList.grdSKU.VARIANT_ID</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPacksizeList.grdSKU.PACKSIZE</Name>
+		<Value>Packsize</Value>
+	</Titles>
+<!-- End of frmBrandyList -->
+
+  <!--KHOANM -->
+
+
+  <Titles>
+		<Name>frmSKU_ChooseSTDSKU</Name>
+		<Value>Item List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ChooseSTDSKU.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ChooseSTDSKU.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ChooseSTDSKU.lblPacksize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ChooseSTDSKU.lblProductCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ChooseSTDSKU.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ChooseSTDSKU.btnSelect</Name>
+		<Value>  Select</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ChooseSTDSKU.btnClose</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ChooseSTDSKU.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ChooseSTDSKU.grdSKU.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+
+   
+
+  <Titles>
+		<Name>frmPromotion_ChooseSKU</Name>
+		<Value>Item List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseSKU.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseSKU.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseSKU.lblPackSize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseSKU.lblProductCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseSKU.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseSKU.btnSelect</Name>
+		<Value>  Select</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseSKU.btnClose</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseSKU.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseSKU.grdMaster.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+   <Titles>
+		<Name>frmPromotion_ChooseSKU.grdMaster</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseSKU.grdSKU</Name>
+		<Value>Item</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseSKU.grdSKU.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseSKU.grdSKU.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+
+
+
+  <Titles>
+		<Name>frmSKU_Exclude</Name>
+		<Value>Exclusive Management</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.lblPackSize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.lblProductCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.btnSave</Name>
+		<Value>  Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.grdSTDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.grdExclude</Name>
+		<Value>Item</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.grdSTDSKU.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.grdExclude.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.grdExclude.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.grdExclude.EXCLUDE</Name>
+		<Value>Stock Exclusion</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Exclude.grdExclude.STATUS</Name>
+		<Value>Status</Value>
+	</Titles>
+  
+
+
+  
+  <Titles>
+		<Name>frmSKU_ExportExclude</Name>
+		<Value>Exclusive Stock List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ExportExclude.btnExport</Name>
+		<Value>   Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ExportExclude.btnClose</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ExportExclude.grdList.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ExportExclude.grdList.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  
+  
+  <Titles>
+		<Name>frmSKU_ExportExclude_RR</Name>
+		<Value>Exclusive Running Rate List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ExportExclude_RR.btnExport</Name>
+		<Value>   Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ExportExclude_RR.btnClose</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ExportExclude_RR.grdList.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_ExportExclude_RR.grdList.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  
+
+
+  <Titles>
+		<Name>frmSKU_MinimumQTY</Name>
+		<Value>Minimum Order Definition</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.lblPackSize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.lblProductCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.btnSave</Name>
+		<Value>  Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.grdSTDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.grdSTDSKU.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.grdSKU</Name>
+		<Value>Minimum Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.grdSKU.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.grdSKU.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.grdSKU.DESCRIPTION</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.grdSKU.QUANTITY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_MinimumQTY.grdSKU.STATUS</Name>
+		<Value>Status</Value>
+	</Titles>
+
+  <!--+++++++++++++++++++ Begin: frmSKU_Priority ++++++++++++++++-->
+
+  <Titles>
+		<Name>frmSKU_Priority</Name>
+		<Value>Priority Management</Value>
+	</Titles>
+
+  <Titles>
+    <Name>frmSKU_Priority.grdSKUPriority.title</Name>
+    <Value>BasePack Priority</Value>
+  </Titles>
+  
+  <Titles>
+    <Name>frmSKU_Priority.grd.title</Name>
+    <Value>BasePack</Value>
+  </Titles>
+  
+  <Titles>
+		<Name>frmSKU_Priority.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.lblPackSize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.lblProductCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.btnSave</Name>
+		<Value>  Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.btnDelete</Name>
+		<Value>  Delete</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.grdMaster</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.grdSKU</Name>
+		<Value>Priority</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.grdSTDSKU.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+    <Name>frmSKU_Priority.grdSTDSKU.STDSKUName</Name>
+    <Value>BasePack Name</Value>
+  </Titles>
+  <Titles>
+		<Name>frmSKU_Priority.grdSTDSKU.FROMWEEK</Name>
+		<Value>From Week '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.grdSTDSKU.FROMYEAR</Name>
+		<Value>From Year '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.grdSTDSKU.TOWEEK</Name>
+		<Value>To Week '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.grdSTDSKU.TOYEAR</Name>
+		<Value>To Year '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.grdSKU.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+   <Titles>
+		<Name>frmSKU_Priority.grdSKU.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.grdSKU.STATUS</Name>
+		<Value>Status</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.PRIORITY</Name>
+		<Value>Priority '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Priority.MAIN</Name>
+		<Value>Main Item</Value>
+	</Titles>
+  
+  <!-- ++++++++++++++++++++ End :frmSKU_Priority ++++++++++++++++++++-->
+  
+  <Titles>
+		<Name>frmSKU_Stock</Name>
+		<Value>Stock Management</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.lblPackSize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.lblProductCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.btnSave</Name>
+		<Value>  Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+   <Titles>
+		<Name>frmSKU_Stock.btnImport</Name>
+		<Value>  Import</Value>
+	</Titles>
+   <Titles>
+		<Name>frmSKU_Stock.grdSTDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.grdSTDSKU.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.grdStock</Name>
+		<Value>Stock</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.grdStock.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.grdStock.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.grdStock.STOCK_NORTH</Name>
+		<Value>Stock North</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.grdStock.STOCK_CENTRAL</Name>
+		<Value>Stock Central</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.grdStock.STOCK_HCME</Name>
+		<Value>Stock HCM</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_Stock.grdStock.STOCK_MEKONG</Name>
+		<Value>Stock Mekong</Value>
+	</Titles>
+
+  
+
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer</Name>
+	  <Value>Allocation List</Value>
+	  <!--<Value>Allocation Promotion List</Value>-->
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.lblProID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.lblProType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.lblProduct</Name>
+		<Value>Item Code (F3)</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.btnAllocate</Name>
+		<Value>  Allocate Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.btnView</Name>
+		<Value>  View Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.btnEditExcel</Name>
+		<Value>    Allocate in Excel</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.grdPromotion.PRO_ID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.grdPromotion.PRO_TYPE</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.grdPromotion.FROMWEEK</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.grdPromotion.FROMYEAR</Name>
+		<Value>From Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.grdPromotion.TOWEEK</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.grdPromotion.TOYEAR</Name>
+		<Value>To Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.grdPromotion.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.grdPromotion.DESCRIPTION</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.grdPromotion.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.grdPromotion.STATUS</Name>
+		<Value>Status</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Allocate_Customer.lblStatus</Name>
+		<Value>Status</Value>
+	</Titles>
+  
+
+
+
+  <Titles>
+		<Name>frmPromotion_Approve</Name>
+	  <Value>Approval Allocation List</Value>
+	  <!--<Value>Approval Promotion List</Value>-->
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.lblProID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.lblProType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.lblProduct</Name>
+		<Value>Item Code (F3)</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.btnApproveReg</Name>
+		<Value>  Approve Region Swap</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.btnApproveCust</Name>
+		<Value>  Approve Customer Swap</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.grdPromotion.PRO_ID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.grdPromotion.PRO_TYPE</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.grdPromotion.FROMWEEK</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.grdPromotion.FROMYEAR</Name>
+		<Value>From Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.grdPromotion.TOWEEK</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.grdPromotion.TOYEAR</Name>
+		<Value>To Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.grdPromotion.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.grdPromotion.DESCRIPTION</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.grdPromotion.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.grdPromotion.STATUS</Name>
+		<Value>Status</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Approve.lblStatus</Name>
+		<Value>Status</Value>
+	</Titles>
+
+
+
+  <Titles>
+		<Name>frmPromotion_Maintain</Name>
+		<Value>Maintainance Allocation List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.lblProID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.lblProType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.lblProduct</Name>
+		<Value>Item Code (F3)</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.btnAdd</Name>
+		<Value>  Add New</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.btnView</Name>
+		<Value>  View Detail</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.btnInActive</Name>
+		<Value>  Set InActive</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.btnEdit</Name>
+		<Value>   Edit Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.btnEditRate</Name>
+		<Value>   Edit Ratio</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.btnDelete</Name>
+		<Value>   Delete</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.grdPromotion.PRO_ID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.grdPromotion.PRO_TYPE</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.grdPromotion.FROMWEEK</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.grdPromotion.FROMYEAR</Name>
+		<Value>From Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.grdPromotion.TOWEEK</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.grdPromotion.TOYEAR</Name>
+		<Value>To Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.grdPromotion.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.grdPromotion.DESCRIPTION</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.grdPromotion.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.grdPromotion.STATUS</Name>
+		<Value>Status</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Maintain.lblStatus</Name>
+		<Value>Status</Value>
+	</Titles>
+
+
+
+  <Titles>
+		<Name>frmPromotion_Quantity</Name>
+		<Value>Allocation List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.lblProID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.lblProType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.lblProduct</Name>
+		<Value>Item Code (F3)</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.btnView</Name>
+		<Value>  View Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.grdPromotion.PRO_ID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.grdPromotion.PRO_TYPE</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.grdPromotion.FROMWEEK</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.grdPromotion.FROMYEAR</Name>
+		<Value>From Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.grdPromotion.TOWEEK</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.grdPromotion.TOYEAR</Name>
+		<Value>To Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.grdPromotion.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.grdPromotion.DESCRIPTION</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.grdPromotion.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.grdPromotion.STATUS</Name>
+		<Value>Status</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Quantity.lblStatus</Name>
+		<Value>Status</Value>
+	</Titles>
+
+
+
+  <Titles>
+		<Name>frmPromotion_Swap</Name>
+	  <!--<Value>Swap Customers Promotion List</Value>-->
+		<Value>Swap Customers Allocation List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.lblProID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.lblProType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.lblProduct</Name>
+		<Value>Item Code (F3)</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.btnSwapCust</Name>
+		<Value>  Swap Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.btnSwapReg</Name>
+		<Value>  Swap Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.grdPromotion.PRO_ID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.grdPromotion.PRO_TYPE</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.grdPromotion.FROMWEEK</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.grdPromotion.FROMYEAR</Name>
+		<Value>From Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.grdPromotion.TOWEEK</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.grdPromotion.TOYEAR</Name>
+		<Value>To Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.grdPromotion.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.grdPromotion.DESCRIPTION</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.grdPromotion.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.grdPromotion.STATUS</Name>
+		<Value>Status</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Swap.lblStatus</Name>
+		<Value>Status</Value>
+	</Titles>
+
+
+
+
+  <Titles>
+		<Name>frmPromotion_SwapReg</Name>
+		<Value>Swap Regions Allocation List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.lblProID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.lblProType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.lblStatus</Name>
+		<Value>Status</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.lblProduct</Name>
+		<Value>Item Code (F3)</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.btnSwapCust</Name>
+		<Value>  Swap Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.btnSwapReg</Name>
+		<Value>  Swap Region</Value>
+	</Titles>
+   <Titles>
+		<Name>frmPromotion_SwapReg.grdPromotion.PRO_ID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.grdPromotion.PRO_TYPE</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.grdPromotion.FROMWEEK</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.grdPromotion.FROMYEAR</Name>
+		<Value>From Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.grdPromotion.TOWEEK</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.grdPromotion.TOYEAR</Name>
+		<Value>To Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.grdPromotion.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.grdPromotion.DESCRIPTION</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.grdPromotion.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_SwapReg.grdPromotion.STATUS</Name>
+		<Value>Status</Value>
+	</Titles>
+
+
+
+  <Titles>
+		<Name>frmPromotion_View</Name>
+		<Value>Allocation Customer Allocated Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.lblProID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.lblProType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.lblProduct</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.lblSRegion</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.lblQuantity</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.lblCustomer</Name>
+		<Value>Customer</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.grdCustomer.CUSTNAME</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.grdCustomer.QUANTITY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.grdCustomer.CUSTCODE</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.grdCustoemr.WEEKNO</Name>
+		<Value>Week.No</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.grdCustomer.YEARNO</Name>
+		<Value>Year.No</Value>
+	</Titles>
+   <Titles>
+		<Name>frmPromotion_View.btnImport</Name>
+		<Value>   Import</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.btnExport</Name>
+		<Value>   Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_View.btnSave</Name>
+		<Value>   Save</Value>
+	</Titles>
+
+
+
+  <Titles>
+		<Name>frmPromotion_Define</Name>
+		<Value>Allocation Definition</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.lblProID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.lblProType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.lblProduct</Name>
+		<Value>Item Code (F3)</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.btnSave</Name>
+		<Value>  Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.btnCancel</Name>
+		<Value>  Reset</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.btnInit</Name>
+		<Value>  Initialize</Value>
+	</Titles>  
+  <Titles>
+		<Name>frmPromotion_Define.grdWeek.WEEKNO</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.grdWeek.YEARNO</Name>
+		<Value>Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.grdWeek.ASNORMAL</Name>
+		<Value>As Normal</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.grdRegion.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+
+  <Titles>
+    <Name>frmPromotion_Define.grdRegion.colMIC</Name>
+    <Value>MIC</Value>
+  </Titles>
+
+  <Titles>
+    <Name>frmPromotion_Define.grd.NORTH</Name>
+		<Value>NORTH</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.grd.CENTRAL</Name>
+		<Value>CENTRAL</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.grd.HCME</Name>
+		<Value>HCME</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.grd.MEKONG</Name>
+		<Value>MEKONG</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.grdRegion</Name>
+		<Value>Region Allocation</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.grdWeek</Name>
+		<Value>Weekly Rate</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.btnExport</Name>
+		<Value>   Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Define.btnImport</Name>
+		<Value>   Import</Value>
+	</Titles>
+  
+    
+  <Titles>
+		<Name>frmPromotionUpdate</Name>
+		<Value>Allocation Definition</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.lblProID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.lblProType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.lblProduct</Name>
+		<Value>Item Code (F3)</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.btnSave</Name>
+		<Value>  Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.btnCancel</Name>
+		<Value>  Reset</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.btnInit</Name>
+		<Value>  Initialize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.grdWeek.WEEKNO</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.grdWeek.YEARNO</Name>
+		<Value>Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.grd.NORTH</Name>
+		<Value>NORTH</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.grd.CENTRAL</Name>
+		<Value>CENTRAL</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.grd.HCME</Name>
+		<Value>HCME</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.grd.MEKONG</Name>
+		<Value>MEKONG</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.grdWeek.ASNORMAL</Name>
+		<Value>As Normal</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.grdRegion.REGION_CODE</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.grdRegion.STRATEGIC_REGION_CODE</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.grdRegion.QUANTITY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+    <Titles>
+		<Name>frmPromotionUpdate.grdRegion</Name>
+		<Value>Region Allocation</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.grdWeek</Name>
+		<Value>Weekly Rate</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotionUpdate.chkMIC</Name>
+		<Value>Set to MIC</Value>
+	</Titles>
+  
+  
+  
+  <Titles>
+		<Name>frmPromotion_Customer</Name>
+		<Value>Allocation Customer Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.lblProID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.lblProType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.lblProductID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.lblProDescription</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.btnClose</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.btnSave</Name>
+		<Value>  Save and Calculate</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.btnExport</Name>
+		<Value>   Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.btnView</Name>
+		<Value>  View Detail</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.lblSRegion</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.lblQuantity</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.chkSelectAll</Name>
+		<Value>Select All</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.btnImport</Name>
+		<Value>    Import</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.grdCustomer.CUSTNAME</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.grdCustomer.CUSTCODE</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.grdCustomer.QUANTITY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_Customer.lblRemainQTY</Name>
+		<Value>Remain QTY</Value>
+	</Titles>
+  
+  <!-- begin nghiahbt -->
+  <Titles>
+		<Name>frmPromotion_Customer.btnAllocate</Name>
+		<Value>Allocate Site</Value>
+	</Titles>
+  
+  
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite</Name>
+		<Value>Allocation Customer Site Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.lblProID</Name>
+		<Value>Allocation ID</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.lblProType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.lblProductID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.lblProDescription</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.btnClose</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.btnSave</Name>
+		<Value>  Save and Calculate</Value>
+	</Titles>
+ 
+  
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+ 
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.lblQuantity</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.blCustomerCode</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+  
+  
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.grdCustomerSite.QUANTITY</Name>
+		<Value>Quantity</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.grdCustomerSite.SITECODE</Name>
+		<Value>Site Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.grdCustomerSite.SITENAME</Name>
+		<Value>Site Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_AllocateCustomerSite.lblRemainQTY</Name>
+		<Value>Remain QTY</Value>
+	</Titles>
+  
+  <!-- end nghiahbt -->
+  
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID</Name>
+		<Value>Item List</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID.lblPackSize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID.lblProductCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID.btnSelect</Name>
+		<Value>  Select</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID.btnClose</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID.btnAdd</Name>
+		<Value>  Add</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID.btnRemove</Name>
+		<Value>  Remove</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID.grdMaster.STDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+   <Titles>
+		<Name>frmPromotion_ChooseP_ID.grdMaster</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID.grdSKU</Name>
+		<Value>Item</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID.grdSKU.P_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPromotion_ChooseP_ID.grdSKU.P_DESC</Name>
+		<Value>Item Description</Value>
+	</Titles>
+  
+ 
+  <!-- Begin of frmDeliveryWeight -->
+  <Titles>
+		<Name>frmDeliveryWeight.Title</Name>
+		<Value>Maintain delivery weight</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.lblCustCode</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.lblCustName</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+  
+  <!--  nghiahbt -->
+  <Titles>
+		<Name>frmDeliveryWeight.lblShipCode</Name>
+		<Value>Ship to Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.lblShipName</Name>
+		<Value>Ship to Name</Value>
+	</Titles>
+  <!--  nghiahbt -->
+  
+  <Titles>
+		<Name>frmDeliveryWeight.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.lblStraregion</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.grdDelWeight</Name>
+		<Value>Delivery Weight</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.grdDelWeight.DW.CUST_CODE</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.grdDelWeight.DW.CUST_NAME</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.grdDelWeight.DW.UOM</Name>
+		<Value>Unit Of Measure</Value>
+	</Titles>
+  
+  <!-- nghiahbt -->
+  <Titles>
+		<Name>frmDeliveryWeight.grdDelWeight.DW.SHIP_TO_CODE</Name>
+		<Value>Ship to Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.grdDelWeight.DW.SHIP_TO_NAME</Name>
+		<Value>Ship to Name</Value>
+	</Titles>
+  <!-- nghiahbt -->
+  
+  <Titles>
+		<Name>frmDeliveryWeight.grdDelWeight.DW.DWDAY1</Name>
+		<Value>Sun</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.grdDelWeight.DW.DWDAY2</Name>
+		<Value>Mon</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.grdDelWeight.DW.DWDAY3</Name>
+		<Value>Tue</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.grdDelWeight.DW.DWDAY4</Name>
+		<Value>Wed</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.grdDelWeight.DW.DWDAY5</Name>
+		<Value>Thu</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.grdDelWeight.DW.DWDAY6</Name>
+		<Value>Fri</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.grdDelWeight.DW.DWDAY7</Name>
+		<Value>Sat</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.grdDelWeight.DW.MIN_LIMIT</Name>
+		<Value>Min Limit %</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.btnExport</Name>
+		<Value>  Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.btnImport</Name>
+		<Value>  Import</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.btnDelete</Name>
+		<Value>  Delete</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.btnSave</Name>
+		<Value>  Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDeliveryWeight.btnClose</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <!-- End of frmDeliveryWeight --> 
+ <!-- Begin of frmPPOManually.cs-->
+  <Titles>
+		<Name>frmPPOManually.Title</Name>
+		<Value>PPO Creating</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.grpPPOInfo</Name>
+		<Value>PPO info</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.lblDistCode</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOManually.lblShipToCode</Name>
+		<Value>Ship To Code</Value>
+	</Titles>
+
+	<Titles>
+		<Name>frmPPOManually.lblDateOrder</Name>
+		<Value>Order Date</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.lblPPOType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.lblWeek</Name>
+		<Value>Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.lblYear</Name>
+		<Value>Year</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.chkBypass</Name>
+		<Value>Bypass revision</Value>
+	</Titles>
+  <Titles> <!-- grid -->
+		<Name>frmPPOManually.grdPPO</Name>
+		<Value>Proposal purchase order</Value>
+	</Titles>
+<!-- nghiahbt added ship to 12-05-07 begin-->
+
+  <Titles>
+		<Name>frmPPOManually.grdPPO.PPOManual.ORD_QTYSHIP1</Name>
+		<Value>Ship To 1 Ord Qty</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.grdPPO.PPOManual.ORD_QTYSHIP2</Name>
+		<Value>Ship To 2 Ord Qty</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.grdPPO.PPOManual.ORD_QTYSHIP3</Name>
+		<Value>Ship To 3 Ord Qty</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.grdPPO.PPOManual.ORD_QTYSHIP4</Name>
+		<Value>Ship To 4 Ord Qty</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.grdPPO.PPOManual.ORD_QTYSHIP5</Name>
+		<Value>Ship To 5 Ord Qty</Value>
+	</Titles>
+<!-- nghiahbt added ship to 12-05-07 begin-->
+  <Titles>
+		<Name>frmPPOManually.grdPPO.PPOManual.P_ID</Name>
+		<Value>Item Code </Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.grdPPO.PPOManual.P_DESC</Name>
+		<Value>Item Description </Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.grdPPO.PPOManual.STDSKU</Name>
+		<Value>BasePack </Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.grdPPO.PPOManual.STDSKU_NAME</Name>
+		<Value>BasePack Name </Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.grdPPO.PPOManual.Price</Name>
+		<Value>Price '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.grdPPO.PPOManual.ORD_QTY</Name>
+		<Value>Order Qty '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.grdPPO.PPOManual.AMOUNT</Name>
+		<Value>Amount '</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.lblEstimate</Name>
+		<Value>Estimated Total </Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.btnNew</Name>
+		<Value>  New Item </Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.btnNewPPO</Name>
+		<Value>  New PPO</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.btnAdd</Name>
+		<Value>Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.btnClose</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOManually.btnDelete</Name>
+		<Value>Delete</Value>
+	</Titles>
+  <!-- End of frmPPOManually.cs-->
+  
+  <!-- Begin of frmDefineCase_Pallet-->
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.Title</Name>
+		<Value>Case/Pallet Definition</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.lblVariant</Name>
+		<Value>Variant</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.lblPackSize</Name>
+		<Value>Packsize</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.lblProductCode</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.lblDescription</Name>
+		<Value>Description</Value>
+	</Titles>
+   <Titles>
+		<Name>frmSKU_DefineCase_Pallet.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.btnSearch</Name>
+		<Value>  Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.btnSave</Name>
+		<Value>  Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.btnExit</Name>
+		<Value>  Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.grdMaster</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.grdMaster.colSTDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.grdMaster.colSTDSKU_NAME</Name>
+		<Value>BasePack Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.grdMaster.colCASE_PALLET</Name>
+		<Value>Case/Pallet</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.grdSKU</Name>
+		<Value>Item</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.grdSKU.colP_ID</Name>
+		<Value>Item Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.grdSKU.colSKU_CASE_PALLET</Name>
+		<Value>Case/Pallet</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.grdSKU.colP_DESC</Name>
+		<Value>Description</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSKU_DefineCase_Pallet.grdSKU.colSTATUS</Name>
+		<Value>Status</Value>
+	</Titles>
+  <!-- End of frmDefineCase_Pallet-->
+  
+  <!-- Begin of frmMinFullParameters-->
+  <Titles>
+		<Name>frmMinFullParameters.Title</Name>
+		<Value>MOQ - Full Pallet Parameters</Value>
+	</Titles>
+<!-- Begin of frmRptPPODetail-->
+  <Titles>
+		<Name>frmRptPPODetail.Title</Name>
+		<Value>PPO amount before revising</Value>
+	</Titles>
+  <!-- Begin of frmPPOInfomation-->
+ <Titles>
+		<Name>frmPPOInfomation.lbCustCode</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+ <Titles>
+		<Name>frmPPOInfomation.lbCustName</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+<Titles>
+		<Name>frmPPOInfomation.btSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+<Titles>
+		<Name>frmPPOInfomation.btClose</Name>
+		<Value>Close</Value>
+	</Titles>
+<Titles>
+		<Name>frmPPOInfomation.btSave</Name>
+		<Value>Save</Value>
+	</Titles>
+<Titles>
+		<Name>frmPPOInfomation.dtGridCus.CUSTCODE</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+<Titles>
+		<Name>frmPPOInfomation.dtGridCus.CUSTNAME</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+<Titles>
+		<Name>frmPPOInfomation.dtGridCus.Weekly</Name>
+		<Value>Weekly</Value>
+	</Titles>
+<Titles>
+		<Name>frmPPOInfomation.dtGridCus.Daily</Name>
+		<Value>Daily</Value>
+	</Titles>
+<Titles>
+		<Name>frmPPOInfomation.dtGridCus.DMS</Name>
+		<Value>DMS</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOInfomation.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+<Titles>
+		<Name>frmPPOInfomation.lblStrategic</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOInfomation.Form.Description</Name>
+		<Value>Distributor Information</Value>
+	</Titles>
+  <!-- DuyLNK 20081104 added-->
+  <Titles>
+		<Name>frmPPOInfomation.lblType</Name>
+		<Value>Type</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOInfomation.lblDMS</Name>
+		<Value>DMS</Value>
+	</Titles>
+   <Titles>
+		<Name>frmPPOInfomation.lblPano</Name>
+		<Value>Pano</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPPOInfomation.dtGridCus.Pano</Name>
+		<Value>Pano</Value>
+	</Titles>
+  <!-- end DuyLNK 20081104 added-->
+  <!-- End of frmPPOInfomation-->
+  <!-- Begin of frmDailyShippingCalendar-->
+  <Titles>
+		<Name>frmDailyShippingCalendar.dtGridSplipDay.MON</Name>
+		<Value>Mon</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyShippingCalendar.dtGridSplipDay.TUE</Name>
+		<Value>Tue</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyShippingCalendar.dtGridSplipDay.WED</Name>
+		<Value>Wed</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyShippingCalendar.dtGridSplipDay.THU</Name>
+		<Value>Thu</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyShippingCalendar.dtGridSplipDay.FRI</Name>
+		<Value>Fri</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyShippingCalendar.dtGridSplipDay.SAT</Name>
+		<Value>Sat</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDailyShippingCalendar.btExport</Name>
+		<Value>Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPPOInfomation</Name>
+		<Value>Distributor Information</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuDailyShippingCalendar</Name>
+		<Value>Define Daily Shipping Calendar</Value>
+	</Titles>
+    <Titles>
+		<Name>frmDailyShippingCalendar.Form.Description</Name>
+		<Value>Define Daily Shipping Calendar</Value>
+	</Titles>
+  <!-- End of frmDailyShippingCalendar-->
+  <!-- Begin of frmPanoShippingCalendar-->
+  <Titles>
+		<Name>frmPanoShippingCalendar.dtGridSplipDay.MON</Name>
+		<Value>Mon</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPanoShippingCalendar.dtGridSplipDay.TUE</Name>
+		<Value>Tue</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPanoShippingCalendar.dtGridSplipDay.WED</Name>
+		<Value>Wed</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPanoShippingCalendar.dtGridSplipDay.THU</Name>
+		<Value>Thu</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPanoShippingCalendar.dtGridSplipDay.FRI</Name>
+		<Value>Fri</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPanoShippingCalendar.dtGridSplipDay.SAT</Name>
+		<Value>Sat</Value>
+	</Titles>
+  <Titles>
+		<Name>frmPanoShippingCalendar.btExport</Name>
+		<Value>Export</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPanoShippingCalendar</Name>
+		<Value>Define Pano Shipping Calendar</Value>
+	</Titles>
+    <Titles>
+		<Name>frmPanoShippingCalendar.Form.Description</Name>
+		<Value>Define Pano Shipping Calendar</Value>
+	</Titles>
+  <!-- End of frmPanoShippingCalendar-->
+  <!-- Begin of frmDailyPPOAllocationPercentage-->
+  <Titles>
+		<Name>frmDailyPPOAllocationPercentage.Form.Description</Name>
+		<Value>Allocate Daily Percentage</Value>
+	</Titles>
+  <!-- End of frmDailyPPOAllocationPercentage-->
+  <!-- Begin of frmPanoShippingPercentage-->
+  <Titles>
+		<Name>frmPanoShippingPercentage.Form.Description</Name>
+		<Value>Pano Shipping Percentage</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuPanoShippingPercentage</Name>
+		<Value>Pano Shipping Percentage</Value>
+	</Titles>
+  <!-- End of frmPanoShippingPercentage-->
+   <!-- Begin of frmChooseDailyCutomer-->
+  <Titles>
+		<Name>frmChooseDailyCutomer.Form.Description</Name>
+		<Value>Choose Customer</Value>
+	</Titles>
+  <Titles>
+    <Name>frmChooseDailyCutomer.New</Name>
+    <Value>Choose New Customer</Value>
+  </Titles>
+  <Titles>
+		<Name>frmMain.mnuDailyPPOAllocationPercentage</Name>
+		<Value>Allocate Daily Percentage</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuDefineSimilarSKU</Name>
+		<Value>Define Similar BasePack</Value>
+	</Titles>
+  <!-- End of frmChooseDailyCutomer-->
+  <!-- Begin of frmSPDefineByShipTo-->
+  <Titles>
+		<Name>frmSPDefineByShipTo.Form.Description</Name>
+		<Value>Define By ShipTo</Value>
+	</Titles>
+   <Titles>
+		<Name>frmSPDefineByShipTo.grdCustomer.REGION_CODE</Name>
+		<Value>Region</Value>
+	</Titles>
+   <Titles>
+		<Name>frmSPDefineByShipTo.grdCustomer.STRATEGIC</Name>
+		<Value>Strategic Region</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSPDefineByShipTo.grdCustomer.CUST_CODE</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSPDefineByShipTo.grdCustomer.CUST_NAME</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSPDefineByShipTo.grdCustomer.SHIP_TO_CODE</Name>
+		<Value>Ship To Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSPDefineByShipTo.grdCustomer.SELECT</Name>
+		<Value>Select</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSPDefineByShipTo.grdSTDSKU.Brandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+   <Titles>
+		<Name>frmSPDefineByShipTo.grdSTDSKU.STDSKU_CODE</Name>
+		<Value>BasePack Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSPDefineByShipTo.grdSTDSKU.STDSKU_NAME</Name>
+		<Value>BasePack Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSPDefineByShipTo.grdSTDSKU.FROM_WEEK</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSPDefineByShipTo.grdSTDSKU.TO_WEEK</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmSPDefineByShipTo.grdSTDSKU.Delete</Name>
+		<Value>Delete</Value>
+	</Titles>
+   <!-- End of frmChooseDailyCutomer-->
+   <Titles>
+		<Name>frmMain.mnuSPDefineByShipTo</Name>
+		<Value>Define By ShipTo</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuExportDailyParam</Name>
+		<Value>Export Daily Parameters</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuDefineLeadTime</Name>
+		<Value>Define Lead Time</Value>
+	</Titles>
+  <Titles>
+		<Name>frmMain.mnuDefineHiloday</Name>
+		<Value>Define Holiday</Value>
+	</Titles>
+  <!-- DaoTH add 20100528 -->
+  <Titles>
+    <Name>frmMain.mnuDefineCalendar</Name>
+    <Value>Define Calendar Master</Value>
+  </Titles>
+  <!-- Begin of frmDefineInActiveSKU-->
+  <Titles>
+		<Name>frmDefineInActiveSKU.Form.Description</Name>
+		<Value>Define Inactive BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDefineInActiveSKU.lblBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDefineInActiveSKU.lblSTDSKU</Name>
+		<Value>BasePack</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDefineInActiveSKU.lblFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDefineInActiveSKU.lblToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDefineInActiveSKU.btnAdd</Name>
+		<Value>Add</Value>
+	</Titles>
+   <Titles>
+		<Name>frmDefineInActiveSKU.btnClose</Name>
+		<Value>Close</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDefineInActiveSKU.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDefineInActiveSKU.btnDelete</Name>
+		<Value>Delete</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDefineInActiveSKU.btnSave</Name>
+		<Value>Save</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDefineInActiveSKU.colSTDSKUCode</Name>
+		<Value>BasePack Code</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDefineInActiveSKU.colSTDSKUName</Name>
+		<Value>BasePack Name</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDefineInActiveSKU.colSTDSKUBrandy</Name>
+		<Value>Brandy</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDefineInActiveSKU.colSTDSKUFromWeek</Name>
+		<Value>From Week</Value>
+	</Titles>
+  <Titles>
+		<Name>frmDefineInActiveSKU.colSTDSKUToWeek</Name>
+		<Value>To Week</Value>
+	</Titles>
+   <Titles>
+		<Name>frmMain.mnuDefineInActiveSKU</Name>
+		<Value>Define Inactive BasePack</Value>
+	</Titles>
+<!-- Begin of frmDefineInActiveSKU-->
+
+<!--Define for frmDefinePanoShipTo, frmDefinePanoSKU-->
+	<Titles>
+		<Name>frmMain.mnuDefinePanoShipTo</Name>
+		<Value>Define Pano Ship To</Value>
+	</Titles>
+	
+	<Titles>
+		<Name>frmMain.mnuDefinePanoSKU</Name>
+		<Value>Define Pano BasePack</Value>
+	</Titles>
+	
+	<Titles>
+		<Name>common.btnSearch</Name>
+		<Value> Search</Value>
+	</Titles>
+	<Titles>
+		<Name>common.btnSave</Name>
+		<Value> Save</Value>
+	</Titles>
+	<Titles>
+		<Name>common.btnAdd</Name>
+		<Value> Add</Value>
+	</Titles>
+	<Titles>
+		<Name>common.btnDelete</Name>
+		<Value> Delete</Value>
+	</Titles>
+	<Titles>
+		<Name>common.btnClose</Name>
+		<Value> Close</Value>
+	</Titles>
+	
+	<!--DucND added frmMain 12122008-->
+	<!--Begin of frmSMSConfiguration-->
+	<Titles>
+		<Name>frmMain.mnuSMSConfiguration</Name>
+		<Value>SMS Configuration</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.Form.Description</Name>
+		<Value>eOrder_SMS</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.lblMain</Name>
+		<Value>eOrder_SMS Configuration</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.groupBox1</Name>
+		<Value>HO-SCM</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label2</Name>
+		<Value>Config check schedule on HO-SCM</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label3</Name>
+		<Value>Check weekly order time:Time for checking weekly order.</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label4</Name>
+		<Value>Recheck frequency:Recheck time</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label5</Name>
+		<Value>Recheck after:Duration between each checking</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.chkActive_uplift</Name>
+		<Value>Enable</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label6</Name>
+		<Value>Daily Checking Time:</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label7</Name>
+		<Value>Weekly Checking Time:</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label8</Name>
+		<Value>Recheck Frequency:</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label9</Name>
+		<Value>Recheck After:</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label10</Name>
+		<Value>minutes</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.groupBox3</Name>
+		<Value>BPCS</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label11</Name>
+		<Value>Config check schedule on BPCS</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label12</Name>
+		<Value>PPO Complete Duration: Duration for completing one order in BPCS</Value>
+	</Titles>
+  <Titles>
+    <Name>frmSMSConfiguration.label14</Name>
+    <Value>PPO Import Duration: Duration for import one order in BPCS</Value>
+  </Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label13</Name>
+		<Value>Check all orders complete time:Time for checking all order from HO-SCM are processedsuccessfully or not</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label14</Name>
+		<Value>successfully or not</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label15</Name>
+		<Value>Recheck frequency:Recheck time</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label16</Name>
+		<Value>Recheck after:Duration between each checking</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.chkactive_bpcs</Name>
+		<Value>Enable</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label17</Name>
+		<Value>PPO Complete Duration:</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label18</Name>
+		<Value>All PPO completed time:</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label19</Name>
+		<Value>Recheck Frequency:</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label20</Name>
+		<Value>Recheck After:</Value>
+	</Titles>
+  <Titles>
+    <Name>frmSMSConfiguration.label17Weekly</Name>
+    <Value>PPO Complete Duration:</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSMSConfiguration.label18Weekly</Name>
+    <Value>All PPO completed time:</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSMSConfiguration.label19Weekly</Name>
+    <Value>Recheck Frequency:</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSMSConfiguration.label20Weekly</Name>
+    <Value>Recheck After:</Value>
+  </Titles>  
+	<Titles>
+		<Name>frmSMSConfiguration.label21</Name>
+		<Value>minutes</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.label22</Name>
+		<Value>minutes</Value>
+	</Titles>
+  <Titles>
+    <Name>frmSMSConfiguration.label23</Name>
+    <Value>Check daily order time: Time for checking daily order.</Value>
+  </Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.groupBox5</Name>
+		<Value>Inform Method</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.chkSMS</Name>
+		<Value>SMS</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.chkEmail</Name>
+		<Value>Email</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.btnSubmit</Name>
+		<Value>OK</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.btnCancel</Name>
+		<Value>Close</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSConfiguration.btnApply</Name>
+		<Value>Save</Value>
+	</Titles>
+  <Titles>
+    <Name>frmSMSConfiguration.lblImportDuration</Name>
+    <Value>PPO Import Duration:</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSMSConfiguration.lblImportDurationWeekly</Name>
+    <Value>PPO Import Duration:</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSMSConfiguration.lblTimeUnit</Name>
+    <Value>minutes</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSMSConfiguration.gbBPCS</Name>
+    <Value>Daily</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSMSConfiguration.gbBPCSWeekly</Name>
+    <Value>Weekly</Value>
+  </Titles>
+	<!--End of frmSMSConfiguration-->
+	
+	<!--Begin of frmSMSReport-->
+	<Titles>
+		<Name>frmMain.mnuSMSReport</Name>
+		<Value>SMS Report</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.Form.Description</Name>
+		<Value>eOrder_SMS Report</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.groupBox2</Name>
+		<Value>Search Info</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.lblDistributor</Name>
+		<Value>Distributor:</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.lblInformStatus</Name>
+		<Value>Inform Status:</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.lblFromDate</Name>
+		<Value>From Date:</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.lblToDate</Name>
+		<Value>To Date:</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.btnClose</Name>
+		<Value>Close</Value>
+	</Titles>
+	
+	<Titles>
+		<Name>frmSMSReport.grdReport.created_date</Name>
+		<Value>CREATED_DATE</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.grdReport.receive_person</Name>
+		<Value>RECEIVE_PERSON</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.grdReport.role</Name>
+		<Value>ROLE</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.grdReport.inform_method</Name>
+		<Value>INFORM_METHOD</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.grdReport.email</Name>
+		<Value>EMAIL</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.grdReport.sms</Name>
+		<Value>SMS</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.grdReport.distributor</Name>
+		<Value>DISTRIBUTOR</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.grdReport.po_name</Name>
+		<Value>PO_NAME</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.grdReport.po_type</Name>
+		<Value>PPO_TYPE</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.grdReport.time_check</Name>
+		<Value>TIME_CHECK</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.grdReport.inform_time</Name>
+		<Value>INFORM_TIME</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.grdReport.inform_status</Name>
+		<Value>INFORM_STATUS</Value>
+	</Titles>
+	<Titles>
+		<Name>frmSMSReport.grdReport.note</Name>
+		<Value>NOTE</Value>
+	</Titles>
+	<!--End of frmSMSReport-->
+	<!--frmPPOSearch duylnk 15-12-2008-->
+	<Titles>
+		<Name>frmPPOSearch.lblRegion</Name>
+		<Value>Region</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.lblCustCode</Name>
+		<Value>Customer</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.lblWeek</Name>
+		<Value>Week</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.lblYear</Name>
+		<Value>Year</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.lblType</Name>
+		<Value>Type</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.lblDMS</Name>
+		<Value>DMS</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.lblPano</Name>
+		<Value>Pano</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.lblWeekDay</Name>
+		<Value>Week Day</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.colOrdNum</Name>
+		<Value>No.</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.colPPOCode</Name>
+		<Value>PPO Code</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.colCustCode</Name>
+		<Value>Customer Code</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.colCustName</Name>
+		<Value>Customer Name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.colRegionCode</Name>
+		<Value>Region Code</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.colRegionName</Name>
+		<Value>Region Name</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.colWeekNo</Name>
+		<Value>Week</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.colYearNo</Name>
+		<Value>Year</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.colStatusName</Name>
+		<Value>Status</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.colType</Name>
+		<Value>Type</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.btnClose</Name>
+		<Value>Close</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.btnDailyPPO</Name>
+		<Value>Daily PPO</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.btnExport</Name>
+		<Value>Export</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.btnPPODetail</Name>
+		<Value>PPO Detail</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.btnReport</Name>
+		<Value>Report</Value>
+	</Titles>
+    <Titles>
+		<Name>frmPPOSearch.btnRevisedPPO</Name>
+		<Value>Revised PPO</Value>
+	</Titles>
+	<Titles>
+		<Name>frmPPOSearch.btnSearch</Name>
+		<Value>Search</Value>
+	</Titles>
+  
+  <Titles>
+  <Name>frmMain.mnuDMSManagement</Name>
+  <Value>Distributors Management</Value>
+  </Titles>
+  
+  <Titles>    
+      <Name>frmMain.mnuSKU_Warehouse_Stock</Name>
+      <Value>Define Warehouse Stock</Value>
+    </Titles>
+
+    <Titles>
+      <Name>frmSMSReport.lblDescription</Name>
+      <Value>Report form for reporting problem occur when checking UPLIFT and BPCS</Value>
+    </Titles>    
+  
+	<!--end frmPPOSearch duylnk 15-12-2008-->
+
+  <!--Duylnk-->
+  <!--frmSKU_Warehouse_Stock duylnk 24-12-2008-->
+
+
+
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.Title</Name>
+    <Value>Warehouse Stock Management</Value>
+  </Titles>
+
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.lblBrandy</Name>
+    <Value>Brandy</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.lblVariant</Name>
+    <Value>Variant</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.lblPackSize</Name>
+    <Value>Packsize</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.lblProductCode</Name>
+    <Value>Item Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.lblDescription</Name>
+    <Value>Description</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.btnSave</Name>
+    <Value>  Save</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.btnExit</Name>
+    <Value>  Close</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.btnSearch</Name>
+    <Value>  Search</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.btnImport</Name>
+    <Value>  Import</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.grdSTDSKU</Name>
+    <Value>BasePack</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.grdSTDSKU.SCM_STDSKU.STDSKU</Name>
+    <Value>Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.grdSTDSKU.SCM_STDSKU.STDSKU_NAME</Name>
+    <Value>Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.grdItemCode</Name>
+    <Value>Item Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.grdItemCode.SCM_PRODUCT.P_ID</Name>
+    <Value>Item Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.grdItemCode.SCM_PRODUCT.P_DESC</Name>
+    <Value>Item Description</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.grdWarehouseStock</Name>
+    <Value>Warehouse Stock</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.grdWarehouseStock.SCM_WAREHOUSE.WAREHOUSE_CODE</Name>
+    <Value>Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.grdWarehouseStock.SCM_WAREHOUSE.WAREHOUSE_NAME</Name>
+    <Value>Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSKU_Warehouse_Stock.grdWarehouseStock.SCM_WAREHOUSE.WAREHOUSE_STOCK</Name>
+    <Value>Stock</Value>
+  </Titles>
+  <!-- Begin of frmDMSManagement-->
+  <Titles>
+    <Name>frmDMSManagement.lblRegion</Name>
+    <Value>Region</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblStrategicRegion</Name>
+    <Value>Strategic Region</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblWarehouse</Name>
+    <Value>Warehouse</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblType</Name>
+    <Value>Type</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblPano</Name>
+    <Value>Pano</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblCustCode</Name>
+    <Value>Customer Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblCustName</Name>
+    <Value>Customer Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblSUPName</Name>
+    <Value>SUP Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblDMS</Name>
+    <Value>DMS</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.btnSearch</Name>
+    <Value>   Search</Value>
+  </Titles>
+
+  <Titles>
+    <Name>frmDMSManagement.btnChangeCode</Name>
+    <Value>Change Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.btnAdd</Name>
+    <Value>   Add</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.btnDelete</Name>
+    <Value>  Delete</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.btnSave</Name>
+    <Value>   Save</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.btnClose</Name>
+    <Value>   Close</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.grdCust</Name>
+    <Value>Customer</Value>
+  </Titles>
+
+  <Titles>
+    <Name>frmDMSManagement.lblCustCode1</Name>
+    <Value>Customer Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblCustName1</Name>
+    <Value>Customer Name</Value>
+  </Titles>
+
+  <Titles>
+    <Name>frmDMSManagement.lblPopulation1</Name>
+    <Value>Population</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.chkActive</Name>
+    <Value>Active</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.chkDMS</Name>
+    <Value>DMS</Value>
+  </Titles>
+
+
+  <Titles>
+    <Name>frmDMSManagement.chkPano</Name>
+    <Value>Pano</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblType1</Name>
+    <Value>Type</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblRegion1</Name>
+    <Value>Region</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblStrategicRegion1</Name>
+    <Value>Strategic Region</Value>
+  </Titles>
+
+
+
+  <Titles>
+    <Name>frmDMSManagement.lblWarehouse1</Name>
+    <Value>Warehouse</Value>
+  </Titles>
+
+  <Titles>
+    <Name>frmDMSManagement.lblChannel1</Name>
+    <Value>Channel</Value>
+  </Titles>
+
+  <Titles>
+    <Name>frmDMSManagement.lblChannelSegment1</Name>
+    <Value>Channel Segment</Value>
+  </Titles>
+
+  <Titles>
+    <Name>frmDMSManagement.lblProvince1</Name>
+    <Value>Province</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblSubProvince1</Name>
+    <Value>Sub Province</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblSUPName1</Name>
+    <Value>SUP Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblSUPPhone1</Name>
+    <Value>SUP Phone</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblSUPEmail1</Name>
+    <Value>SUP Email</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.lblStatus</Name>
+    <Value>Status</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.grdCust.SCM_DISTRIBUTOR_HIERARCHY.CUST_CODE</Name>
+    <Value>Customer Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.grdCust.SCM_DISTRIBUTOR_HIERARCHY.CUST_NAME</Name>
+    <Value>Customer Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.grdCust.SCM_DISTRIBUTOR_HIERARCHY.REGION_NAME</Name>
+    <Value>Region</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.grdCust.SCM_DISTRIBUTOR_HIERARCHY.STRATEGIC_REGION_CODE</Name>
+    <Value>Strategic Region</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.grdCust.SCM_DISTRIBUTOR_HIERARCHY.PROVINCE_NAME</Name>
+    <Value>Channel</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.grdCust.SCM_DISTRIBUTOR_HIERARCHY.SUB_PROVINCE_NAME</Name>
+    <Value>Channel Segment</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.grdCust.SCM_DISTRIBUTOR_HIERARCHY.PPO_TYPE_NAME</Name>
+    <Value>Type</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.grdCust.SCM_DISTRIBUTOR_HIERARCHY.DMS</Name>
+    <Value>DMS</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.grdCust.SCM_DISTRIBUTOR_HIERARCHY.PANO</Name>
+    <Value>Pano</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.grdCust.SCM_DISTRIBUTOR_HIERARCHY.SUP_NAME</Name>
+    <Value>SUP Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.grdCust.SCM_DISTRIBUTOR_HIERARCHY.WAREHOUSE_NAME</Name>
+    <Value>Warehouse</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.grdCust.SCM_DISTRIBUTOR_HIERARCHY.ACTIVE</Name>
+    <Value>Active</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.Title</Name>
+    <Value>Distributor Management</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDMSManagement.Process.ChangCode</Name>
+    <Value>Processing...</Value>
+  </Titles>
+  <!-- End of frmDMSManagement-->
+  <!--end Duylnk-->
+
+  <!--++++++++++++ frmBaselineRunningRate: 2009-03-01 ++++++++-->
+  <Titles>
+    <Name>frmMain.mnuBaselineRunningRate</Name>
+    <Value>Define Baselined Running Rate</Value>
+  </Titles>
+
+  <Titles>
+    <Name>frmBaselinedRR.lblRegion</Name>
+    <Value>Region </Value>
+  </Titles>
+  <Titles>
+    <Name>frmBaselinedRR.lblStrateRegion</Name>
+    <Value>Strategic Region</Value>
+  </Titles>
+  <Titles>
+    <Name>frmBaselinedRR.lblCustCode</Name>
+    <Value>Customer Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmBaselinedRR.lblCustName</Name>
+    <Value>Customer Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmBaselinedRR.lblBrandy</Name>
+    <Value>Brandy </Value>
+  </Titles>
+  <Titles>
+    <Name>frmBaselinedRR.lblStdsku</Name>
+    <Value>BasePack</Value>
+  </Titles>
+  
+   
+  <Titles>
+    <Name>frmBaselinedRR.grdCustomer.title</Name>
+    <Value>Customer </Value>
+  </Titles>
+  <Titles>
+    <Name>frmBaselinedRR.grdCustomer.colCustomerCode</Name>
+    <Value>Customer Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmBaselinedRR.grdCustomer.colCustomerName</Name>
+    <Value>Customer Name</Value>
+  </Titles> 
+
+  <Titles>
+    <Name>frmBaselinedRR.grdShipTo.title</Name>
+    <Value>Ship To </Value>
+  </Titles>
+  <Titles>
+    <Name>frmBaselinedRR.grdShipTo.colShipToCode</Name>
+    <Value>Ship To Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmBaselinedRR.grdShipTo.colShipToName</Name>
+    <Value>Ship To Name</Value>
+  </Titles>
+
+
+  <Titles>
+    <Name>frmBaselinedRR.grdBaselinedRR.title</Name>
+    <Value>BaseLined Running Rate</Value>
+  </Titles> 
+  <Titles>
+    <Name>frmBaselinedRR.grdBaselinedRR.colSTDSKU</Name>
+    <Value>BasePack </Value>
+  </Titles>
+  <Titles>
+    <Name>frmBaselinedRR.grdBaselinedRR.colSTDSKUName</Name>
+    <Value>BasePack Name </Value>
+  </Titles>
+  <Titles>
+    <Name>frmBaselinedRR.grdBaselinedRR.colBaselineRR</Name>
+    <Value>BaseLined RR  .</Value>
+  </Titles>
+  <!--++++++++++++ End frmBaselineRunningRate ++++++++++++++++-->
+
+  <!--++++++++++++ Begin: Region ++++++++++++-->
+  <Titles>
+    <Name>RegionTitle.HN</Name>
+    <Value>North .</Value>
+  </Titles>
+
+  <Titles>
+    <Name>RegionTitle.DD</Name>
+    <Value>Central .</Value>
+  </Titles>
+
+  <Titles>
+    <Name>RegionTitle.HE</Name>
+    <Value>HCME .</Value>
+  </Titles>
+  
+  <Titles>
+    <Name>RegionTitle.CT</Name>
+    <Value>Mekong .</Value>
+  </Titles>
+  <Titles>
+    <Name>RegionTitle.MT</Name>
+    <Value>Stock Metro .</Value>
+  </Titles>
+  <!--++++++++++++ End Region +++++++++++-->
+  <Titles>
+    <Name>frmMain.mnuImportPPO</Name>
+    <Value>Import PPO</Value>
+  </Titles>
+ 
+
+  <!-- frmExportEXPPPOTMP -->
+  <Titles>
+    <Name>frmExportEXPPPOTMP.Title</Name>
+    <Value>Generate nonDMS PPO Manually</Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.grpSearch</Name>
+    <Value>Search PPO</Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.lblCustCode</Name>
+    <Value>Customer</Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.lblShipTo</Name>
+    <Value>Ship To</Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.lblYear</Name>
+    <Value>Year</Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.lblWeek</Name>
+    <Value>Week</Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.lblRegion</Name>
+    <Value>Region</Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.btnSearch</Name>
+    <Value>   Search</Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.grd</Name>
+    <Value></Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.grd.PPO_CODE</Name>
+    <Value>PPO Code </Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.grd.CUST_CODE</Name>
+    <Value>Customer Code </Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.grd.CUST_NAME</Name>
+    <Value>Customer Name </Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.grd.ORD_DATE</Name>
+    <Value>Order date </Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.grd.WEEK_NO</Name>
+    <Value>Week </Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.grd.YEAR_NO</Name>
+    <Value>Year </Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.grd.TYPE</Name>
+    <Value>Type </Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.grd.REGION_NAME</Name>
+    <Value>Region </Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.grd.SELECT</Name>
+    <Value>Select </Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.btnExport</Name>
+    <Value>   Generate</Value>
+  </Titles>
+  <Titles>
+    <Name>frmExportEXPPPOTMP.btnClose</Name>
+    <Value>   Close</Value>
+  </Titles>
+  <!-- End of frmExportEXPPPOTMP -->
+  <!-- frmSPFrequencyReport -->
+  <Titles>
+    <Name>frmMain.mnuSPFrequencyReport</Name>
+    <Value>SP Frequency Report</Value>
+  </Titles>  
+  <Titles>
+    <Name>frmSPFrequencyReport.Title</Name>
+    <Value>Stock Norm Report</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.btnExport</Name>
+    <Value>   Export</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.btnClose</Name>
+    <Value>   Close</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.btnSearch</Name>
+    <Value>   View</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.lblFromweek</Name>
+    <Value>From Week</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.lblToweek</Name>
+    <Value>To Week</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.lblBrandy</Name>
+    <Value>Brandy</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.lblSTDSKU</Name>
+    <Value>BasePack</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.tabCat</Name>
+    <Value>CAT</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.tabBrandy</Name>
+    <Value>BRANDY</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.tabSTDSKU</Name>
+    <Value>BasePack</Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.grdBrandy.BRANDY_ID</Name>
+    <Value>Brandy ID </Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.grdBrandy.BRANDY_NAME</Name>
+    <Value>Brandy Name </Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.grdSTDSKU.STDSKU</Name>
+    <Value>BasePack </Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.grdSTDSKU.STDSKU_NAME</Name>
+    <Value>BasePack Name </Value>
+  </Titles>
+  <Titles>
+    <Name>frmSPFrequencyReport.grdCat.CAT_ID</Name>
+    <Value>CAT </Value>
+  </Titles>
+  
+  <!-- End of frmSPFrequencyReport -->
+  <!--++++++++++++ Begin: frmGenerateAdditionalxOrder ++++++++++++-->
+      <!-- begin form:-->
+   <Titles>
+    <Name>frmMain.mnuGenerateAdditionalxOrder</Name>
+    <Value>Generate Additional xOrder</Value>
+  </Titles>
+  
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Title</Name>
+    <Value>Generate Additional xOrder</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.grdCustomer.CustCode</Name>
+    <Value>Customer Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.grdCustomer.ShipToCode</Name>
+    <Value>Ship To Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.grdCustomer.ShipToName</Name>
+    <Value>Ship To Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.grdCustomer.RegionName</Name>
+    <Value>Region Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.grdCustomer.PPOCode</Name>
+    <Value>PPO Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.grdCustomer.OrdDate</Name>
+    <Value>Order Date</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.grdCustomer.Week</Name>
+    <Value>Week</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.grdCustomer.Year</Name>
+    <Value>Year</Value>
+  </Titles>
+  
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.lblRegion</Name>
+    <Value>Region</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.lblStraRegion</Name>
+    <Value>Strategic Region</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.lblCustomer</Name>
+    <Value>Customer</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.lblWeek</Name>
+    <Value>Week</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.lblYear</Name>
+    <Value>Year</Value>
+  </Titles>
+  
+  <!-- end form:-->
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.Title</Name>
+    <Value>MAU BO SUNG TANG/GIAM DON HANG TUAN</Value>
+  </Titles>
+  
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.WeekNo</Name>
+    <Value>Tuan: {0}</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.CustCode</Name>
+    <Value>Ma NPP: {0}</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.CustName</Name>
+    <Value>Ten NPP: {0}</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.OrderDate</Name>
+    <Value>Ngay dat: {0}</Value>
+  </Titles>
+
+  
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.HeaderTextColumn.MAIN_ITEM_CODE</Name>
+    <Value>Ma san pham chuan</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.HeaderTextColumn.MAIN_ITEM_NAME</Name>
+    <Value>Ten san pham</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.HeaderTextColumn.ITEM_CODE</Name>
+    <Value>Ma hang</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.HeaderTextColumn.ORDPROPOSAL</Name>
+    <Value>So luong de nghi tang/giam</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.HeaderTextColumn.PRICE</Name>
+    <Value>Don gia</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.HeaderTextColumn.COST</Name>
+    <Value>Thanh tien(tang/giam)</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.HeaderTextColumn.STOCKCHANGE</Name>
+    <Value>Ton kho(tai thoi diem bo sung/giam)</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.HeaderTextColumn.REASON</Name>
+    <Value>Nguyen Nhan</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.HeaderTextColumn.LAST_CO_QTY</Name>
+    <Value>CO</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.HeaderTextColumn.COST_CO</Name>
+    <Value>Thanh tien CO</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.HeaderTextColumn.SALES_WEEKS</Name>
+    <Value>So tuan co ban</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.HeaderTextColumn.RR</Name>
+    <Value>Binh quan ban/ngay</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.HeaderTextColumn.STOCK_POLICY</Name>
+    <Value>Ton kho quy dinh</Value>
+  </Titles>
+  <Titles>
+    <Name>frmGenerateAdditionalxOrder.Excel.HeaderTextColumn.LAST_CLOSE_STOCK</Name>
+    <Value>Ton kho tai thoi diem xuat PPO</Value>
+  </Titles>
+  <!--++++++++++++ End frmGenerateAdditionalxOrder +++++++++++-->
+
+  <!--PashaMS added frmMain 23072009-->
+  <!--Begin of frmDefineManagement-->
+  <Titles>
+    <Name>frmMain.mnuDefineParameter</Name>
+    <Value>Define Parameter</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.Title</Name>
+    <Value>Define Parameter</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.lblRegion</Name>
+    <Value>Region</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.lblParamGroup</Name>
+    <Value>Parameter Group</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.lblParameter</Name>
+    <Value>Parameter</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.btnView</Name>
+    <Value>Search</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.lblParamName</Name>
+    <Value>Parameter Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.lblDesc</Name>
+    <Value>Description</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.lblParamValue</Name>
+    <Value>Parameter Value</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.lblCustCode</Name>
+    <Value>Customer Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.lblCustName</Name>
+    <Value>Customer Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.btnSearch</Name>
+    <Value>Search</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.btnAdd</Name>
+    <Value>Add Parameter</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.grpCustomerList</Name>
+    <Value>Customer List</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.grpParameterList</Name>
+    <Value>Parameter List</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.lblStrategicRegion</Name>
+    <Value>Strategic Region</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.grdCust.CUST_CODE</Name>
+    <Value>Customer Code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.grdCust.CUST_NAME</Name>
+    <Value>Customer Name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParamete.grdCust.CUSTOMER_SHIP_TO_CODE</Name>
+    <Value>Ship to code</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.grdCust.CUSTOMER_SHIP_TO_NAME</Name>
+    <Value>Ship to name</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.btnResend</Name>
+    <Value>Resend</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.btnSave</Name>
+    <Value>Save</Value>
+  </Titles>
+  <Titles>
+    <Name>frmDefineParameter.btnClose</Name>
+    <Value>Close</Value>
+  </Titles>
+  <Titles>
+    <Name>frmNewParameter.lblParameter</Name>
+    <Value>Parameter</Value>
+  </Titles>
+  <!-- end form:-->
+   
+  <Titles>
+    <Name>frmMain.mnuGeneral</Name>
+    <Value>General</Value>
+  </Titles>
+  
+  <Titles>
+    <Name>frmRptCSARevisedPPODetail.Title</Name>
+    <Value>PPO amount after revising by CSA</Value>
+  </Titles>
+  
+  <Titles>
+    <Name>frmMain.mnuRptCSARevisedPPODetail</Name>
+    <Value>PPO amount after revising by CSA</Value>
+  </Titles>
+  <!--Information for export from U to Hub-->
+  <Titles>
+    <Name>frmMaintainShipTo.ExportShipToToHub.PrefixFileName</Name>
+    <Value>4418_ULF-IB-01_</Value>
+  </Titles>
+  <Titles>
+    <Name>frmMaintainShipTo.ExportShipToToHub.DataSetName</Name>
+    <Value>ULF-IB-01</Value>
+  </Titles>
+  <Titles>
+    <Name>frmMaintainShipTo.ExportShipToToHub.Namespace</Name>
+    <Value>http://unilever.com/DMSHub</Value>
+  </Titles>
+  <Titles>
+    <Name>frmMaintainShipTo.ExportShipToToHub.TableName</Name>
+    <Value>MainSiteSubSite</Value>
+  </Titles>
+  <!--DaoTH add: Information for export from U to Hub-->
+  <Titles>
+    <Name>frmCalendarMaster.Type</Name>
+    <Value>Type </Value>
+  </Titles>
+  <Titles>
+    <Name>frmCalendarMaster.StartDate</Name>
+    <Value>Start Date</Value>
+  </Titles>
+  <Titles>
+    <Name>frmCalendarMaster.EndDate</Name>
+    <Value>End Date</Value>
+  </Titles>
+  <Titles>
+    <Name>frmCalendarMaster.year</Name>
+    <Value>Year</Value>
+  </Titles>
+  <Titles>
+    <Name>frmCalendarMaster.btAdd</Name>
+    <Value>Add</Value>
+  </Titles>
+  <Titles>
+    <Name>frmCalendarMaster.btSearch</Name>
+    <Value>Search</Value>
+  </Titles>
+  <Titles>
+    <Name>frmCalendarMaster.btExport</Name>
+    <Value>Export</Value>
+  </Titles>
+  <Titles>
+    <Name>frmCalendarMaster.btImport</Name>
+    <Value>Import</Value>
+  </Titles>
+  <!--END:: Information for export from U to Hub-->
+</SCM>

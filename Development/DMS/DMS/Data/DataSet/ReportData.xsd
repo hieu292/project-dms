@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="ReportData" targetNamespace="http://tempuri.org/ReportData.xsd" xmlns:mstns="http://tempuri.org/ReportData.xsd" xmlns="http://tempuri.org/ReportData.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="ReportData" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="ReportData" msprop:Generator_DataSetName="ReportData">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="QUALIFIELDRESULT" msprop:Generator_UserTableName="QUALIFIELDRESULT" msprop:Generator_RowDeletedName="QUALIFIELDRESULTRowDeleted" msprop:Generator_RowChangedName="QUALIFIELDRESULTRowChanged" msprop:Generator_RowClassName="QUALIFIELDRESULTRow" msprop:Generator_RowChangingName="QUALIFIELDRESULTRowChanging" msprop:Generator_RowEvArgName="QUALIFIELDRESULTRowChangeEvent" msprop:Generator_RowEvHandlerName="QUALIFIELDRESULTRowChangeEventHandler" msprop:Generator_TableClassName="QUALIFIELDRESULTDataTable" msprop:Generator_TableVarName="tableQUALIFIELDRESULT" msprop:Generator_RowDeletingName="QUALIFIELDRESULTRowDeleting" msprop:Generator_TablePropName="QUALIFIELDRESULT">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NO" msprop:Generator_UserColumnName="NO" msprop:Generator_ColumnVarNameInTable="columnNO" msprop:Generator_ColumnPropNameInRow="NO" msprop:Generator_ColumnPropNameInTable="NOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CHECKED" msprop:Generator_UserColumnName="CHECKED" msprop:Generator_ColumnVarNameInTable="columnCHECKED" msprop:Generator_ColumnPropNameInRow="CHECKED" msprop:Generator_ColumnPropNameInTable="CHECKEDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DistributorID" msprop:Generator_UserColumnName="DistributorID" msprop:Generator_ColumnVarNameInTable="columnDistributorID" msprop:Generator_ColumnPropNameInRow="DistributorID" msprop:Generator_ColumnPropNameInTable="DistributorIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DistributorName" msprop:Generator_UserColumnName="DistributorName" msprop:Generator_ColumnVarNameInTable="columnDistributorName" msprop:Generator_ColumnPropNameInRow="DistributorName" msprop:Generator_ColumnPropNameInTable="DistributorNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ClaimDate" msprop:Generator_UserColumnName="ClaimDate" msprop:Generator_ColumnVarNameInTable="columnClaimDate" msprop:Generator_ColumnPropNameInRow="ClaimDate" msprop:Generator_ColumnPropNameInTable="ClaimDateColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Status" msprop:Generator_UserColumnName="Status" msprop:Generator_ColumnVarNameInTable="columnStatus" msprop:Generator_ColumnPropNameInRow="Status" msprop:Generator_ColumnPropNameInTable="StatusColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SalesSupID" msprop:Generator_UserColumnName="SalesSupID" msprop:Generator_ColumnVarNameInTable="columnSalesSupID" msprop:Generator_ColumnPropNameInRow="SalesSupID" msprop:Generator_ColumnPropNameInTable="SalesSupIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Remark" msprop:Generator_UserColumnName="Remark" msprop:Generator_ColumnVarNameInTable="columnRemark" msprop:Generator_ColumnPropNameInRow="Remark" msprop:Generator_ColumnPropNameInTable="RemarkColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SchemeID" msprop:Generator_UserColumnName="SchemeID" msprop:Generator_ColumnVarNameInTable="columnSchemeID" msprop:Generator_ColumnPropNameInRow="SchemeID" msprop:Generator_ColumnPropNameInTable="SchemeIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalClaimScratchCard" msprop:Generator_UserColumnName="TotalClaimScratchCard" msprop:Generator_ColumnVarNameInTable="columnTotalClaimScratchCard" msprop:Generator_ColumnPropNameInRow="TotalClaimScratchCard" msprop:Generator_ColumnPropNameInTable="TotalClaimScratchCardColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalClaimQuantity" msprop:Generator_UserColumnName="TotalClaimQuantity" msprop:Generator_ColumnVarNameInTable="columnTotalClaimQuantity" msprop:Generator_ColumnPropNameInRow="TotalClaimQuantity" msprop:Generator_ColumnPropNameInTable="TotalClaimQuantityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="TotalClaimAmount" msprop:Generator_UserColumnName="TotalClaimAmount" msprop:Generator_ColumnVarNameInTable="columnTotalClaimAmount" msprop:Generator_ColumnPropNameInRow="TotalClaimAmount" msprop:Generator_ColumnPropNameInTable="TotalClaimAmountColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="QUALIFIELDRESULTDETAIL" msprop:Generator_UserTableName="QUALIFIELDRESULTDETAIL" msprop:Generator_RowDeletedName="QUALIFIELDRESULTDETAILRowDeleted" msprop:Generator_TableClassName="QUALIFIELDRESULTDETAILDataTable" msprop:Generator_RowChangedName="QUALIFIELDRESULTDETAILRowChanged" msprop:Generator_RowClassName="QUALIFIELDRESULTDETAILRow" msprop:Generator_RowChangingName="QUALIFIELDRESULTDETAILRowChanging" msprop:Generator_RowEvArgName="QUALIFIELDRESULTDETAILRowChangeEvent" msprop:Generator_RowEvHandlerName="QUALIFIELDRESULTDETAILRowChangeEventHandler" msprop:Generator_TablePropName="QUALIFIELDRESULTDETAIL" msprop:Generator_TableVarName="tableQUALIFIELDRESULTDETAIL" msprop:Generator_RowDeletingName="QUALIFIELDRESULTDETAILRowDeleting">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="NO" msprop:Generator_UserColumnName="NO" msprop:Generator_ColumnPropNameInRow="NO" msprop:Generator_ColumnVarNameInTable="columnNO" msprop:Generator_ColumnPropNameInTable="NOColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CardID" msdata:Caption="CHECKED" msprop:Generator_UserColumnName="CardID" msprop:Generator_ColumnPropNameInRow="CardID" msprop:Generator_ColumnVarNameInTable="columnCardID" msprop:Generator_ColumnPropNameInTable="CardIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CardType" msdata:Caption="DistributorID" msprop:Generator_UserColumnName="CardType" msprop:Generator_ColumnPropNameInRow="CardType" msprop:Generator_ColumnVarNameInTable="columnCardType" msprop:Generator_ColumnPropNameInTable="CardTypeColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="Description" msdata:Caption="DistributorName" msprop:Generator_UserColumnName="Description" msprop:Generator_ColumnPropNameInRow="Description" msprop:Generator_ColumnVarNameInTable="columnDescription" msprop:Generator_ColumnPropNameInTable="DescriptionColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="CardQuantity" msdata:Caption="ClaimDate" msprop:Generator_UserColumnName="CardQuantity" msprop:Generator_ColumnPropNameInRow="CardQuantity" msprop:Generator_ColumnVarNameInTable="columnCardQuantity" msprop:Generator_ColumnPropNameInTable="CardQuantityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ClaimQuantity" msdata:Caption="Status" msprop:Generator_UserColumnName="ClaimQuantity" msprop:Generator_ColumnPropNameInRow="ClaimQuantity" msprop:Generator_ColumnVarNameInTable="columnClaimQuantity" msprop:Generator_ColumnPropNameInTable="ClaimQuantityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="RewardProductName" msdata:Caption="SalesSupID" msprop:Generator_UserColumnName="RewardProductName" msprop:Generator_ColumnPropNameInRow="RewardProductName" msprop:Generator_ColumnVarNameInTable="columnRewardProductName" msprop:Generator_ColumnPropNameInTable="RewardProductNameColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ClaimAmount" msdata:Caption="Remark" msprop:Generator_UserColumnName="ClaimAmount" msprop:Generator_ColumnPropNameInRow="ClaimAmount" msprop:Generator_ColumnVarNameInTable="columnClaimAmount" msprop:Generator_ColumnPropNameInTable="ClaimAmountColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="QualifiedQuantity" msdata:Caption="SchemeID" msprop:Generator_UserColumnName="QualifiedQuantity" msprop:Generator_ColumnPropNameInRow="QualifiedQuantity" msprop:Generator_ColumnVarNameInTable="columnQualifiedQuantity" msprop:Generator_ColumnPropNameInTable="QualifiedQuantityColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DRemark" msdata:Caption="TotalClaimScratchCard" msprop:Generator_UserColumnName="DRemark" msprop:Generator_ColumnPropNameInRow="DRemark" msprop:Generator_ColumnVarNameInTable="columnDRemark" msprop:Generator_ColumnPropNameInTable="DRemarkColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SchemeID" msdata:Caption="TotalClaimQuantity" msprop:Generator_UserColumnName="SchemeID" msprop:Generator_ColumnPropNameInRow="SchemeID" msprop:Generator_ColumnVarNameInTable="columnSchemeID" msprop:Generator_ColumnPropNameInTable="SchemeIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="DistributorId" msdata:Caption="TotalClaimAmount" msprop:Generator_UserColumnName="DistributorId" msprop:Generator_ColumnPropNameInRow="DistributorId" msprop:Generator_ColumnVarNameInTable="columnDistributorId" msprop:Generator_ColumnPropNameInTable="DistributorIdColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="SalesSupID" msprop:Generator_UserColumnName="SalesSupID" msprop:Generator_ColumnPropNameInRow="SalesSupID" msprop:Generator_ColumnVarNameInTable="columnSalesSupID" msprop:Generator_ColumnPropNameInTable="SalesSupIDColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="ClaimDate" msprop:Generator_UserColumnName="ClaimDate" msprop:Generator_ColumnPropNameInRow="ClaimDate" msprop:Generator_ColumnVarNameInTable="columnClaimDate" msprop:Generator_ColumnPropNameInTable="ClaimDateColumn" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
