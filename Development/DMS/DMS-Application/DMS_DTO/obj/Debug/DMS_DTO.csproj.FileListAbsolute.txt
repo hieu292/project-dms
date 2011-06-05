@@ -1,5 +1,0 @@
-F:\project-dms\Development\DMS\DMS-Application\DMS_DTO\bin\Debug\DMS_DTO.dll
-F:\project-dms\Development\DMS\DMS-Application\DMS_DTO\bin\Debug\DMS_DTO.pdb
-F:\project-dms\Development\DMS\DMS-Application\DMS_DTO\obj\Debug\ResolveAssemblyReference.cache
-F:\project-dms\Development\DMS\DMS-Application\DMS_DTO\obj\Debug\DMS_DTO.dll
-F:\project-dms\Development\DMS\DMS-Application\DMS_DTO\obj\Debug\DMS_DTO.pdb

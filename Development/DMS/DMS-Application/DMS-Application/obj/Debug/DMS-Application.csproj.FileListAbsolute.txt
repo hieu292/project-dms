@@ -1,8 +1,0 @@
-F:\project-dms\Development\DMS\DMS-Application\DMS-Application\bin\Debug\DMS-Application.exe.config
-F:\project-dms\Development\DMS\DMS-Application\DMS-Application\bin\Debug\DMS-Application.exe
-F:\project-dms\Development\DMS\DMS-Application\DMS-Application\bin\Debug\DMS-Application.pdb
-F:\project-dms\Development\DMS\DMS-Application\DMS-Application\obj\Debug\ResolveAssemblyReference.cache
-F:\project-dms\Development\DMS\DMS-Application\DMS-Application\obj\Debug\DMS_Application.Properties.Resources.resources
-F:\project-dms\Development\DMS\DMS-Application\DMS-Application\obj\Debug\DMS-Application.csproj.GenerateResource.Cache
-F:\project-dms\Development\DMS\DMS-Application\DMS-Application\obj\Debug\DMS-Application.exe
-F:\project-dms\Development\DMS\DMS-Application\DMS-Application\obj\Debug\DMS-Application.pdb

@@ -1,6 +1,0 @@
-F:\project-dms\Development\DMS\DMS-Application\DMS_DAO\bin\Debug\DMS_DAO.dll.config
-F:\project-dms\Development\DMS\DMS-Application\DMS_DAO\bin\Debug\DMS_DAO.dll
-F:\project-dms\Development\DMS\DMS-Application\DMS_DAO\bin\Debug\DMS_DAO.pdb
-F:\project-dms\Development\DMS\DMS-Application\DMS_DAO\obj\Debug\ResolveAssemblyReference.cache
-F:\project-dms\Development\DMS\DMS-Application\DMS_DAO\obj\Debug\DMS_DAO.dll
-F:\project-dms\Development\DMS\DMS-Application\DMS_DAO\obj\Debug\DMS_DAO.pdb
