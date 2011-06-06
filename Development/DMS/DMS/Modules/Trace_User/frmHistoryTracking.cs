@@ -5,10 +5,10 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using System.Data;
 using System.Data.SqlClient;
-using SCM.BusinessObject.Authenticate;
-using SCM.Utils;
+using DMS.BusinessObject.Authenticate;
+using DMS.Utils;
 
-namespace SCM.Presentation
+namespace DMS.Presentation
 {
 	/// <summary>
 	/// Summary description for frmHistoryTracking.
@@ -188,22 +188,22 @@ namespace SCM.Presentation
             this.cboTable.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboTable.Items.AddRange(new object[] {
             "[ALL]",
-            "SCM_DELIVERY_WEIGHT",
-            "SCM_SKU_PRIORITY",
-            "SCM_SKU_MASTER",
-            "SCM_PROMOTION",
-            "SCM_PROMOTION_WEEK",
-            "SCM_PROMOTION_CUST_WEEK",
-            "SCM_PROMOTION_CUST",
-            "SCM_PROMOTION_REGION",
-            "SCM_SKU_PRIORITY_DETAIL",
-            "SCM_PROMOTION_CUST",
-            "SCM_DEFINE_ORDER_SPLIT_HEADER",
-            "SCM_DEFINE_ORDER_SPLIT_DETAIL",
-            "SCM_SP_SPECIAL",
-            "SCM_SP_STANDARD",
-            "SCM_PROMOTION_REGION_SWAP",
-            "SCM_PROMOTION_CUST_SWAP"});
+            "GENERAL_DELIVERY_WEIGHT",
+            "GENERAL_SKU_PRIORITY",
+            "GENERAL_SKU_MASTER",
+            "GENERAL_PROMOTION",
+            "GENERAL_PROMOTION_WEEK",
+            "GENERAL_PROMOTION_CUST_WEEK",
+            "GENERAL_PROMOTION_CUST",
+            "GENERAL_PROMOTION_REGION",
+            "GENERAL_SKU_PRIORITY_DETAIL",
+            "GENERAL_PROMOTION_CUST",
+            "GENERAL_DEFINE_ORDER_SPLIT_HEADER",
+            "GENERAL_DEFINE_ORDER_SPLIT_DETAIL",
+            "GENERAL_SP_SPECIAL",
+            "GENERAL_SP_STANDARD",
+            "GENERAL_PROMOTION_REGION_SWAP",
+            "GENERAL_PROMOTION_CUST_SWAP"});
             this.cboTable.Location = new System.Drawing.Point(427, 16);
             this.cboTable.Name = "cboTable";
             this.cboTable.Size = new System.Drawing.Size(232, 21);

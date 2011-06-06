@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Data;
 
-namespace SCM.Presentation
+namespace DMS.Presentation
 {
 	/// <summary>
 	/// Summary description for IDataEdit.

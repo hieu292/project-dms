@@ -5,12 +5,12 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data;
-using SCM;
-using SCM.BusinessObject;
+using DMS;
+using DMS.BusinessObject;
 using System.IO;
-using SCM.Utils;
+using DMS.Utils;
 
-namespace SCM.Presentation
+namespace DMS.Presentation
 {
 	/// <summary>
 	/// Summary description for SCM_Parameter.

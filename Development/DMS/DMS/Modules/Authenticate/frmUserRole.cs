@@ -5,10 +5,10 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using System.Data;
 
-using SCM.BusinessObject;
-using SCM.Utils;
+using DMS.BusinessObject;
+using DMS.Utils;
 
-namespace SCM.Presentation
+namespace DMS.Presentation
 {
 	/// <summary>
 	/// Summary description for frmRole.
@@ -291,7 +291,7 @@ namespace SCM.Presentation
 		/// </summary>
 		/// <param name="dt"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public void UpdateAll(DataTable dt)
@@ -317,7 +317,7 @@ namespace SCM.Presentation
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public bool ValidateData()
@@ -366,7 +366,7 @@ namespace SCM.Presentation
 		/// Init data
 		/// </summary>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void InitData()
@@ -386,7 +386,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnSearch_Click(object sender, System.EventArgs e)
@@ -400,7 +400,7 @@ namespace SCM.Presentation
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataRow GetCurrentRow()
@@ -415,7 +415,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void EventListener(object sender, EventArgs e)
@@ -495,7 +495,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnClose_Click(object sender, System.EventArgs e)
@@ -509,7 +509,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnPolicy_Click(object sender, System.EventArgs e)
@@ -535,7 +535,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void frmUserRole_Activated(object sender, System.EventArgs e)

@@ -1,4 +1,4 @@
-﻿namespace SCM.Presentation
+﻿namespace DMS.Presentation
 {
     partial class frmAbout
     {
@@ -48,7 +48,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImage = global::SCM.Properties.Resources.logo;
+            this.pictureBox2.BackgroundImage = global::DMS.Properties.Resources.logo;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(-11, 12);
             this.pictureBox2.Name = "pictureBox2";
@@ -59,7 +59,7 @@
             // btnClose
             // 
             this.btnClose.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnClose.Image = global::SCM.Properties.Resources.Reset;
+            this.btnClose.Image = global::DMS.Properties.Resources.Reset;
             this.btnClose.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnClose.Location = new System.Drawing.Point(406, 169);
             this.btnClose.Name = "btnClose";
@@ -71,7 +71,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = global::SCM.Properties.Resources.logoDMS;
+            this.pictureBox1.BackgroundImage = global::DMS.Properties.Resources.logoDMS;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(243, 12);
             this.pictureBox1.Name = "pictureBox1";

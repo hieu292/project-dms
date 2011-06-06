@@ -4,10 +4,10 @@ using System.Collections;
 using System.ComponentModel;
 using System.Windows.Forms;
 
-using SCM.BusinessObject;
-using SCM.Utils;
+using DMS.BusinessObject;
+using DMS.Utils;
 
-namespace SCM.Presentation
+namespace DMS.Presentation
 {
 	/// <summary>
 	/// Summary description for frmChangePWD.
@@ -207,7 +207,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnCancel_Click(object sender, System.EventArgs e)
@@ -221,7 +221,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnOK_Click(object sender, System.EventArgs e)
@@ -254,7 +254,7 @@ namespace SCM.Presentation
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public bool ValidateData()
@@ -297,7 +297,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void frmChangePWD_Activated(object sender, System.EventArgs e)

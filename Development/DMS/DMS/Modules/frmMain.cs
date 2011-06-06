@@ -7,23 +7,23 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Configuration;
 using System.IO;
-using SCM.Presentation;
-using SCM.DataAccessObject;
-using SCM.BusinessObject;
-using SCM.Utils;
-using SCM.Controls;
+using DMS.Presentation;
+using DMS.DataAccessObject;
+using DMS.BusinessObject;
+using DMS.Utils;
+using DMS.Controls;
 using System.Threading;
 
 using DotNetSkin.SkinControls;
 using PureComponents.NicePanel;
 
-namespace SCM
+namespace DMS
 {
 	/// <summary>
 	/// Summary description for frmMain
 	/// </summary>
 	/// <remarks>
-	/// Author: Le Dinh Nguyen. 
+	/// Author: Le Tien Phat. 
 	/// </remarks>
 	public class frmMain : System.Windows.Forms.Form
 	{
@@ -128,10 +128,10 @@ namespace SCM
             this.IsMdiContainer = true;
             this.Menu = this.mnuMain;
             this.Name = "frmMain";
-            this.Text = "SCM System";
+            this.Text = "Distributor Management System";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.frmMain_Load);
             this.Closing += new System.ComponentModel.CancelEventHandler(this.frmMain_Closing);
+            this.Load += new System.EventHandler(this.frmMain_Load);
             this.ResumeLayout(false);
 
 		}
@@ -141,7 +141,7 @@ namespace SCM
 		/// The main entry point for the application.
 		/// </summary>
 		/// <remarks>
-		/// Author:			Le Dinh Nguyen. 
+		/// Author:			Le Tien Phat. 
 		/// Created date:	14/05/2011
 		/// </remarks>
 		[STAThread]
@@ -153,7 +153,7 @@ namespace SCM
                 Application.CurrentCulture = ci;
 
                 bool createdNew = true;
-                using (Mutex mutex = new Mutex(true, "SCM", out createdNew))
+                using (Mutex mutex = new Mutex(true, "GENERAL", out createdNew))
                 {
                     if (createdNew)
                     {
@@ -178,7 +178,7 @@ namespace SCM
 		//private static string DESCRIPTION = "DESCRIPTION";
 		//private static string MENU_PID = "MENU_PID";
 		private static string ICON_NAME = "ICON_NAME";
-		private static string AssemblyName = "SCM.Presentation.";
+		private static string AssemblyName = "GENERAL.Presentation.";
 		private static string frmMainName = "frmMain.";
 
 		/// <summary>
@@ -187,7 +187,7 @@ namespace SCM
 		/// <param name="dt"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			Le Dinh Nguyen. 
+		/// Author:			Le Tien Phat. 
 		/// Created date:	14/05/2011
 		/// </remarks>
 		private MainMenu BuildMenu(DataTable dt)
@@ -225,7 +225,7 @@ namespace SCM
 		/// <param name="parent"></param>
 		/// <param name="dt"></param>
 		/// <remarks>
-		/// Author:			Le Dinh Nguyen. 
+		/// Author:			Le Tien Phat. 
 		/// Created date:	14/05/2011
 		/// </remarks>
         private void AddSub(MDMenuItem parent, DataTable dt)
@@ -309,7 +309,7 @@ namespace SCM
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			Le Dinh Nguyen. 
+		/// Author:			Le Tien Phat. 
 		/// Created date:	14/05/2011
 		/// </remarks>
 		private void MenuItem_OnClick(object sender, EventArgs e)
@@ -408,7 +408,7 @@ namespace SCM
                 formName = item.FormName;
                 if (formName.Length > 0 && formName != AssemblyName)
                 {
-                    if (formName == "SCM.Presentation.frmLogin")
+                    if (formName == "GENERAL.Presentation.frmLogin")
                     {
                         mnuLogin_Click(null, null);
                     }
@@ -438,7 +438,7 @@ namespace SCM
 		/// </summary>
 		/// <param name="dt"></param>
 		/// <remarks>
-		/// Author:			Le Dinh Nguyen. 
+		/// Author:			Le Tien Phat. 
 		/// Created date:	14/05/2011
 		/// </remarks>
         public void CreateToolBar(DataTable dt)
@@ -537,7 +537,7 @@ namespace SCM
 		/// Close all MDI Children Windows
 		/// </summary>
 		/// <remarks>
-		/// Author:			Le Dinh Nguyen. 
+		/// Author:			Le Tien Phat. 
 		/// Created date:	14/05/2011
 		/// </remarks>
 		public void CloseAllWindow()
@@ -558,7 +558,7 @@ namespace SCM
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			Le Dinh Nguyen. 
+		/// Author:			Le Tien Phat. 
 		/// Created date:	14/05/2011
 		/// </remarks>
 		private void mnuLogin_Click(object sender, System.EventArgs e)
@@ -590,7 +590,7 @@ namespace SCM
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			Le Dinh Nguyen. 
+		/// Author:			Le Tien Phat. 
 		/// Created date:	14/05/2011
 		/// </remarks>
 		private void frmMain_Load(object sender, System.EventArgs e)
@@ -604,7 +604,7 @@ namespace SCM
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			Le Dinh Nguyen. 
+		/// Author:			Le Tien Phat. 
 		/// Created date:	14/05/2011
 		/// </remarks>
 		private void frmMain_Closing(object sender, System.ComponentModel.CancelEventArgs e)
@@ -625,7 +625,7 @@ namespace SCM
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			Le Dinh Nguyen. 
+		/// Author:			Le Tien Phat. 
 		/// Created date:	14/05/2011
 		/// </remarks>
 		private void ToolBarButtonOnClick(object sender, ToolBarButtonClickEventArgs e)

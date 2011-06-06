@@ -3,12 +3,12 @@ using System.Drawing;
 using System.Collections;
 using System.ComponentModel;
 using System.Windows.Forms;
-using SCM.Controls;
-using SCM.Utils;
-using SCM.BusinessObject;
+using DMS.Controls;
+using DMS.Utils;
+using DMS.BusinessObject;
 using System.Data;
 
-namespace SCM.Presentation
+namespace DMS.Presentation
 {
 	/// <summary>
 	/// Summary description for frmSMSConfiguration.

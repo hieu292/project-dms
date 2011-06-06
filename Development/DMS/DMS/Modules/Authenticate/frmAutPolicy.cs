@@ -5,10 +5,10 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using System.Data;
 
-using SCM.BusinessObject;
-using SCM.Utils;
+using DMS.BusinessObject;
+using DMS.Utils;
 
-namespace SCM.Presentation
+namespace DMS.Presentation
 {
 	/// <summary>
 	/// Summary description for frmAutPolicy.
@@ -315,7 +315,7 @@ namespace SCM.Presentation
 		/// </summary>
 		/// <param name="URoleID"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void InitData(string URoleID)
@@ -343,7 +343,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void chkSelected_CheckedChanged(object sender, System.EventArgs e)
@@ -379,7 +379,7 @@ namespace SCM.Presentation
 		/// <param name="added"></param>
 		/// <param name="deleted"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void GetChanged(ref ArrayList added, ref ArrayList deleted)
@@ -399,7 +399,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnSave_Click(object sender, System.EventArgs e)
@@ -426,7 +426,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnCancel_Click(object sender, System.EventArgs e)

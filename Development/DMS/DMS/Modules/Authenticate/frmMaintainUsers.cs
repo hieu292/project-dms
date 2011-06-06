@@ -6,10 +6,10 @@ using System.Windows.Forms;
 using System.Data;
 using System.Data.SqlClient;
 
-using SCM.BusinessObject;
-using SCM.Utils;
+using DMS.BusinessObject;
+using DMS.Utils;
 
-namespace SCM.Presentation
+namespace DMS.Presentation
 {
 	/// <summary>
 	/// Summary description for frmMaintainUsers.
@@ -439,7 +439,7 @@ namespace SCM.Presentation
 		/// Init data
 		/// </summary>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public void InitData()
@@ -466,7 +466,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnDelete_Click(object sender, System.EventArgs e)
@@ -512,7 +512,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnAdd_Click(object sender, System.EventArgs e)
@@ -529,7 +529,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnEdit_Click(object sender, System.EventArgs e)
@@ -564,7 +564,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnRights_Click(object sender, System.EventArgs e)
@@ -583,7 +583,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnSearch_Click(object sender, System.EventArgs e)
@@ -609,7 +609,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnClose_Click(object sender, System.EventArgs e)
@@ -623,7 +623,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void frmMaintainUsers_Activated(object sender, System.EventArgs e)

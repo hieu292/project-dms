@@ -4,10 +4,10 @@ using System.Collections;
 using System.ComponentModel;
 using System.Windows.Forms;
 
-using SCM.Utils;
-using SCM.BusinessObject;
+using DMS.Utils;
+using DMS.BusinessObject;
 
-namespace SCM.Presentation
+namespace DMS.Presentation
 {
 	/// <summary>
 	/// Summary description for frmChangeCustCode.

@@ -6,10 +6,10 @@ using System.Windows.Forms;
 using System.Data;
 using System.Data.SqlClient;
 
-using SCM.BusinessObject;
-using SCM.Utils;
+using DMS.BusinessObject;
+using DMS.Utils;
 
-namespace SCM.Presentation
+namespace DMS.Presentation
 {
 	/// <summary>
 	/// Summary description for frmAddUser.
@@ -541,7 +541,7 @@ namespace SCM.Presentation
 		/// Init data
 		/// </summary>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void InitData()
@@ -560,7 +560,7 @@ namespace SCM.Presentation
 		/// </summary>
 		/// <param name="username"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void InitData(string username)
@@ -594,7 +594,7 @@ namespace SCM.Presentation
 		/// Bind data of datatable to Control
 		/// </summary>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void BindDataToControl()
@@ -647,7 +647,7 @@ namespace SCM.Presentation
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public bool ValidateData()
@@ -770,7 +770,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnSave_Click(object sender, System.EventArgs e)
@@ -857,7 +857,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void frmAddUser_Activated(object sender, System.EventArgs e)
@@ -871,7 +871,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private void btnCancel_Click(object sender, System.EventArgs e)

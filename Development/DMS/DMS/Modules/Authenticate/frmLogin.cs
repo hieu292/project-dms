@@ -5,10 +5,10 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using System.Configuration;
 
-using SCM.Utils;
-using SCM.BusinessObject;
+using DMS.Utils;
+using DMS.BusinessObject;
 
-namespace SCM.Presentation
+namespace DMS.Presentation
 {
 	/// <summary>
 	/// Summary description for frmLogIn.
@@ -188,7 +188,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			Le Dinh Nguyen. 
+		/// Author:			Le Tien Phat. 
 		/// Created date:	14/05/2011
 		/// </remarks>
 		private void btnLogIn_Click(object sender, System.EventArgs e)
@@ -253,7 +253,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			Le Dinh Nguyen. 
+		/// Author:			Le Tien Phat. 
 		/// Created date:	14/05/2011
 		/// </remarks>
 		private void frmLogIn_Load(object sender, System.EventArgs e)
@@ -270,7 +270,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			Le Dinh Nguyen. 
+		/// Author:			Le Tien Phat. 
 		/// Created date:	14/05/2011
 		/// </remarks>
 		private void btnCancel_Click(object sender, System.EventArgs e)
@@ -284,7 +284,7 @@ namespace SCM.Presentation
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			Le Dinh Nguyen. 
+		/// Author:			Le Tien Phat. 
 		/// Created date:	14/05/2011
 		/// </remarks>
 		private void frmLogin_Closing(object sender, System.ComponentModel.CancelEventArgs e)
