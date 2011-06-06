@@ -3527,3 +3527,84 @@ Parameter name: type
    at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
    at System.Activator.CreateInstance(Type type, Object[] args)
    at DMS.frmMain.MenuItem_OnClick(Object sender, EventArgs e) in F:\project-dms\Development\DMS\DMS\Modules\frmMain.cs:line 420
+2011-06-06 22:36:30,788 [10] ERROR DMS.frmMain - Value cannot be null.
+Parameter name: type
+System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at DMS.frmMain.MenuItem_OnClick(Object sender, EventArgs e) in F:\project-dms\Development\DMS\DMS\Modules\frmMain.cs:line 402
+2011-06-06 22:36:49,230 [10] ERROR DMS.frmMain - Value cannot be null.
+Parameter name: type
+System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at DMS.frmMain.MenuItem_OnClick(Object sender, EventArgs e) in F:\project-dms\Development\DMS\DMS\Modules\frmMain.cs:line 402
+2011-06-06 22:38:37,001 [9] ERROR DMS.frmMain - Value cannot be null.
+Parameter name: type
+System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at DMS.frmMain.MenuItem_OnClick(Object sender, EventArgs e) in F:\project-dms\Development\DMS\DMS\Modules\frmMain.cs:line 402
+2011-06-06 23:04:00,223 [10] ERROR DMS.frmMain - Value cannot be null.
+Parameter name: type
+System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at DMS.frmMain.MenuItem_OnClick(Object sender, EventArgs e) in F:\project-dms\Development\DMS\DMS\Modules\frmMain.cs:line 402
+2011-06-06 23:06:49,154 [11] ERROR DMS.frmMain - Value cannot be null.
+Parameter name: type
+System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at DMS.frmMain.ToolBarButtonOnClick(Object sender, ToolBarButtonClickEventArgs e) in F:\project-dms\Development\DMS\DMS\Modules\frmMain.cs:line 624
+2011-06-06 23:28:05,556 [10] ERROR DMS.frmMain - Value cannot be null.
+Parameter name: type
+System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at DMS.frmMain.MenuItem_OnClick(Object sender, EventArgs e) in F:\project-dms\Development\DMS\DMS\Modules\frmMain.cs:line 402
+2011-06-07 00:06:17,368 [10] ERROR DMS.DataAccessObject.clsAutUserDAO - System.Data.SqlClient.SqlException: Invalid object name 'GENERAL_AUT_FEATURE_DETAIL'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DMS.DataAccessObject.clsAutUserDAO.Login(String username, String password, Int32 expiredDays, Int32& result) in F:\project-dms\Development\DMS\DMS\DAL\Authenticate\clsAutUserDAO.cs:line 709
+2011-06-07 00:06:17,421 [10] ERROR DMS.BusinessObject.clsAutUserBO - System.Exception: clsAutUserDAO.LogIn error
+   at DMS.DataAccessObject.clsAutUserDAO.Login(String username, String password, Int32 expiredDays, Int32& result) in F:\project-dms\Development\DMS\DMS\DAL\Authenticate\clsAutUserDAO.cs:line 718
+   at DMS.BusinessObject.clsAutUserBO.Login(String username, String password) in F:\project-dms\Development\DMS\DMS\BUS\Authenticate\clsAutUserBO.cs:line 284
+2011-06-07 00:06:45,403 [10] ERROR DMS.DataAccessObject.clsAutUserDAO - System.Data.SqlClient.SqlException: Invalid object name 'GENERAL_AUT_FEATURE_DETAIL'.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj)
+   at System.Data.SqlClient.TdsParser.Run(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj)
+   at System.Data.SqlClient.SqlDataReader.ConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method, DbAsyncResult result)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DMS.DataAccessObject.clsAutUserDAO.Login(String username, String password, Int32 expiredDays, Int32& result) in F:\project-dms\Development\DMS\DMS\DAL\Authenticate\clsAutUserDAO.cs:line 709
