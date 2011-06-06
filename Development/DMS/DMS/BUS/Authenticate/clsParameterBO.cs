@@ -6,11 +6,11 @@ using System.IO;
 using System.Windows.Forms;
 using System.Web;
 
-using SCM.DataAccessObject;
-using SCM.BusinessObject;
-using SCM.Utils;
+using DMS.DataAccessObject;
+using DMS.BusinessObject;
+using DMS.Utils;
 
-namespace SCM.BusinessObject
+namespace DMS.BusinessObject
 {
 	/// <summary>
 	/// Summary description for CustomerBO.
@@ -34,7 +34,7 @@ namespace SCM.BusinessObject
 		
 		public DataTable LoadAll()
 		{
-			return dao.GetDataTable("SELECT DISTINCT PARAM_GROUP FROM SCM_PARAMETERS ORDER BY PARAM_GROUP DESC");
+			return dao.GetDataTable("SELECT DISTINCT PARAM_GROUP FROM GENERAL_PARAMETERS ORDER BY PARAM_GROUP DESC");
 		}
 		
 		
@@ -170,7 +170,7 @@ namespace SCM.BusinessObject
 			try
 			{
 				string path = "";
-				DataTable dt = dao.GetDataTable("select distinct cust_code from SCM_DISTRIBUTOR_HIERARCHY where PPO_TYPE = 'D' AND STATUS = 'AC'");
+				DataTable dt = dao.GetDataTable("select distinct cust_code from GENERAL_DISTRIBUTOR_HIERARCHY where PPO_TYPE = 'D' AND STATUS = 'AC'");
 				string strExportPath = dao.GetExportParamPath();
 				foreach(DataRow drow in dt.Rows)
 				{

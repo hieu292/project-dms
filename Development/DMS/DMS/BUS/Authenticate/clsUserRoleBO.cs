@@ -2,16 +2,16 @@
 using System.Data;
 using System.Text;
 
-using SCM.Utils;
-using SCM.DataAccessObject;
+using DMS.Utils;
+using DMS.DataAccessObject;
 
-namespace SCM.BusinessObject
+namespace DMS.BusinessObject
 {
 	/// <summary>
 	/// Summary description for clsUserRoleBO.
 	/// </summary>
 	/// <remarks>
-	/// Author:			NguyenLD. FPTSS.
+	/// Author:			PhatLT. FPTSS.
 	/// Created date:	14/02/2011
 	/// </remarks>
 	public class clsUserRoleBO : clsBaseBO
@@ -29,7 +29,7 @@ namespace SCM.BusinessObject
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable GetSchemaTable()
@@ -38,19 +38,19 @@ namespace SCM.BusinessObject
 		}
 
 		/// <summary>
-		/// Search data from SCM_AUT_USERROLE table
+		/// Search data from GENERAL_AUT_USERROLE table
 		/// </summary>
 		/// <param name="dt"></param>
 		/// <param name="URoleID"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable Search(DataTable dt, string URoleID)
 		{
 			clsCommon common = new clsCommon();
-			string strSql = "SELECT UROLE_ID, ROLE_NAME FROM SCM_AUT_USERROLE ";
+			string strSql = "SELECT UROLE_ID, ROLE_NAME FROM GENERAL_AUT_USERROLE ";
 
 			StringBuilder sb = new StringBuilder();
 			if(URoleID != null && URoleID.Length > 0)
@@ -67,7 +67,7 @@ namespace SCM.BusinessObject
         public DataTable CheckIsExistAcount(string URoleID)
         {
             clsCommon common = new clsCommon();
-            string strSql = "SELECT * FROM SCM_AUT_USER ";
+            string strSql = "SELECT * FROM GENERAL_AUT_USER ";
 
             StringBuilder sb = new StringBuilder();
             if (URoleID != null && URoleID.Length > 0)
@@ -87,7 +87,7 @@ namespace SCM.BusinessObject
 		/// <param name="dt"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int UpdateAll(DataTable dt)

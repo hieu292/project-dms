@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Data;
 using System.Collections;
-using SCM.DataAccessObject;
+using DMS.DataAccessObject;
 
-namespace SCM.BusinessObject
+namespace DMS.BusinessObject
 {
 	/// <summary>
 	/// Summary description for clsAutPolicyBO.
 	/// </summary>
 	/// <remarks>
-	/// Author:			NguyenLD. FPTSS.
+	/// Author:			PhatLT. FPTSS.
 	/// Created date:	14/02/2011
 	/// </remarks>
 	public class clsAutPolicyBO:clsBaseBO
@@ -25,7 +25,7 @@ namespace SCM.BusinessObject
 		/// <param name="URoleID"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable GetPolicy(string URoleID)
@@ -41,7 +41,7 @@ namespace SCM.BusinessObject
 		/// <param name="deleted"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int UpdateAll(string URoleID, ArrayList added, ArrayList deleted)

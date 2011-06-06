@@ -6,14 +6,14 @@ using System.IO;
 using System.Collections;
 using System.Windows.Forms;
 
-using SCM.Utils;
-using SCM.DataAccessObject;
+using DMS.Utils;
+using DMS.DataAccessObject;
 
 using System.Runtime.InteropServices; // For COMException
 using System.Diagnostics; // to ensure EXCEL process is really killed
 using System.ComponentModel;
 
-namespace SCM.BusinessObject
+namespace DMS.BusinessObject
 {
 	/// <summary>
 	/// Summary description for BaseBO.
@@ -55,7 +55,7 @@ namespace SCM.BusinessObject
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int GetCurrentWeek()
@@ -81,7 +81,7 @@ namespace SCM.BusinessObject
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int GetCurrentYear()
@@ -96,7 +96,7 @@ namespace SCM.BusinessObject
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable GetRegions()
@@ -118,12 +118,12 @@ namespace SCM.BusinessObject
 		/// <param name="pid"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataRow GetProduct(string pid)
 		{
-			SqlCommand cmd = new SqlCommand("SELECT P_ID, P_DESC, PCS_PER_CASE, NET_WEIGHT, PRICE, DIVISION_ID, CAT_ID, SUB_CAT_ID, BRAND_ID, STATUS, BRANDY_ID, BRANDY_NAME, VARIANT_ID, PACKSIZE, STDSKU, STDSKU_NAME FROM SCM_PRODUCT WHERE P_ID = @P_ID");
+			SqlCommand cmd = new SqlCommand("SELECT P_ID, P_DESC, PCS_PER_CASE, NET_WEIGHT, PRICE, DIVISION_ID, CAT_ID, SUB_CAT_ID, BRAND_ID, STATUS, BRANDY_ID, BRANDY_NAME, VARIANT_ID, PACKSIZE, STDSKU, STDSKU_NAME FROM GENERAL_PRODUCT WHERE P_ID = @P_ID");
 			cmd.Parameters.Add("@P_ID", SqlDbType.VarChar, 14).Value = pid;
 			DataTable dt = dao.GetDataTable(cmd);
 			if(dt.Rows.Count == 0)
@@ -137,13 +137,13 @@ namespace SCM.BusinessObject
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable GetCustomers()
 		{
 			clsCommon common = new clsCommon();
-			string strSql = string.Format("SELECT DISTINCT CUST_CODE, CUST_NAME FROM SCM_DISTRIBUTOR_HIERARCHY ORDER BY CUST_CODE");
+			string strSql = string.Format("SELECT DISTINCT CUST_CODE, CUST_NAME FROM GENERAL_DISTRIBUTOR_HIERARCHY ORDER BY CUST_CODE");
 			DataTable dt = dao.GetDataTable(strSql);
 			DataRow row = dt.NewRow();
 			row[0] = string.Empty;
@@ -158,7 +158,7 @@ namespace SCM.BusinessObject
 
 			try
 			{
-				strSql = "SELECT SHIP_TO_CODE, SHIP_TO_NAME, PROMOTION_PERCENT, ADDRESS = CASE WHEN ADDRESS <> '' THEN ADDRESS ELSE '(n/a)' END, PHONE = CASE WHEN PHONE <> '' THEN PHONE ELSE '(n/a)' END, CONTACT_PERSON = CASE WHEN CONTACT_PERSON <> '' THEN CONTACT_PERSON ELSE '(n/a)' END, MAIN_SITE = CASE WHEN MAIN_SITE = 'Y' THEN 'Yes' ELSE 'No' END, STATUS = CASE WHEN STATUS = 'AC' THEN 'Active' ELSE 'Inactive' END, RURAL FROM SCM_SHIP_TO WHERE STATUS = 'AC' AND CUST_CODE = '" + strCustCode + "' ORDER BY MAIN_SITE DESC, SHIP_TO_CODE";
+				strSql = "SELECT SHIP_TO_CODE, SHIP_TO_NAME, PROMOTION_PERCENT, ADDRESS = CASE WHEN ADDRESS <> '' THEN ADDRESS ELSE '(n/a)' END, PHONE = CASE WHEN PHONE <> '' THEN PHONE ELSE '(n/a)' END, CONTACT_PERSON = CASE WHEN CONTACT_PERSON <> '' THEN CONTACT_PERSON ELSE '(n/a)' END, MAIN_SITE = CASE WHEN MAIN_SITE = 'Y' THEN 'Yes' ELSE 'No' END, STATUS = CASE WHEN STATUS = 'AC' THEN 'Active' ELSE 'Inactive' END, RURAL FROM GENERAL_SHIP_TO WHERE STATUS = 'AC' AND CUST_CODE = '" + strCustCode + "' ORDER BY MAIN_SITE DESC, SHIP_TO_CODE";
 				return dao.GetDataTable(strSql);
 			}
 			catch(Exception ex)
@@ -204,12 +204,12 @@ namespace SCM.BusinessObject
 		/// <param name="custCode"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public string GetRegionCode(string custCode)
 		{
-			string strSql = string.Format("SELECT TOP 1 REGION_CODE FROM SCM_DISTRIBUTOR_HIERARCHY WHERE CUST_CODE = '{0}'", custCode);
+			string strSql = string.Format("SELECT TOP 1 REGION_CODE FROM GENERAL_DISTRIBUTOR_HIERARCHY WHERE CUST_CODE = '{0}'", custCode);
 			object obj = dao.ExecuteScalar(strSql);
 			if(obj == null)
 				return "";
@@ -226,7 +226,7 @@ namespace SCM.BusinessObject
 		/// Export data table to Excel
 		/// </summary>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public void ExportToExcel(DataTable dt)
@@ -286,7 +286,7 @@ namespace SCM.BusinessObject
 		/// <param name="dt"></param>
 		/// <param name="grdStyle"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public void ExportToExcel(DataTable dt, DataGridTableStyle grdStyle)
@@ -309,7 +309,7 @@ namespace SCM.BusinessObject
 		/// <param name="startRow"></param>
 		/// <param name="startCol"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public void ExportToExcel(DataView view, DataGridTableStyle grdStyle, int startRow, int startCol)
@@ -333,7 +333,7 @@ namespace SCM.BusinessObject
 		/// <param name="startRow"></param>
 		/// <param name="startCol"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public void ExportToExcel(DataView view, string[] headers, int[] indexes, int startRow, int startCol)
@@ -364,7 +364,7 @@ namespace SCM.BusinessObject
 		/// Export data table to Excel
 		/// </summary>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public void ExportToExcel(DataView view, DataGridTableStyle grdStyle, int startRow, int startCol, Excel.Worksheet sheet)
@@ -381,7 +381,7 @@ namespace SCM.BusinessObject
 		/// Export data table to Excel
 		/// </summary>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public void ExportToExcel(DataView view, string[] headers, int[] indexes, int startRow, int startCol, Excel.Worksheet sheet)
@@ -422,7 +422,7 @@ namespace SCM.BusinessObject
 		/// Export data table to Excel
 		/// </summary>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public void ExportToExcel(DataTable dt, string[] headers, int[] indexes)
@@ -439,7 +439,7 @@ namespace SCM.BusinessObject
 		/// <param name="value"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public string EncodeString(string value)

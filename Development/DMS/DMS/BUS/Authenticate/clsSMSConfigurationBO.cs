@@ -6,11 +6,11 @@ using System.IO;
 using System.Windows.Forms;
 using System.Web;
 using System.Collections;
-using SCM.DataAccessObject;
-using SCM.BusinessObject;
-using SCM.Utils;
+using DMS.DataAccessObject;
+using DMS.BusinessObject;
+using DMS.Utils;
 
-namespace SCM.BusinessObject
+namespace DMS.BusinessObject
 {
 	/// <summary>
 	/// Summary description for clsSMSConfigurationBO.

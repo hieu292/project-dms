@@ -2,9 +2,9 @@
 using System.Data;
 using System.Data.SqlClient;
 
-using SCM.DataAccessObject.Authenticate;
+using DMS.DataAccessObject.Authenticate;
 
-namespace SCM.BusinessObject.Authenticate
+namespace DMS.BusinessObject.Authenticate
 {
 	/// <summary>
 	/// Summary description for cls.

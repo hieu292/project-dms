@@ -5,16 +5,16 @@ using System.Collections;
 using System.Text;
 using log4net;
 
-using SCM.DataAccessObject;
-using SCM.Utils;
+using DMS.DataAccessObject;
+using DMS.Utils;
 
-namespace SCM.BusinessObject
+namespace DMS.BusinessObject
 {
 	/// <summary>
 	/// Summary description for clsAutUserBO.
 	/// </summary>
 	/// <remarks>
-	/// Author:			NguyenLD. FPTSS.
+	/// Author:			PhatLT. FPTSS.
 	/// Created date:	14/02/2011
 	/// </remarks>
 	public class clsAutUserBO
@@ -27,11 +27,11 @@ namespace SCM.BusinessObject
 		public clsAutUserBO(){}
 
 		/// <summary>
-		/// Get schema of SCM_AUT_USER table
+		/// Get schema of GENERAL_AUT_USER table
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable GetSchemaTable()
@@ -51,13 +51,13 @@ namespace SCM.BusinessObject
 		/// <param name="status"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable Search(DataTable dt, string userName, string firstName, string lastName, string email, string roleID, string status)
 		{
 			clsCommon common = new clsCommon();
-			string strSql = "SELECT USERNAME, PASSWORD, FIRSTNAME, LASTNAME, EMAIL, ADDRESS, PHONE, START_DATE, END_DATE, PWD_CHG_DATE, STATUS, UROLE_ID, DESCRIPTION FROM SCM_AUT_USER";
+			string strSql = "SELECT USERNAME, PASSWORD, FIRSTNAME, LASTNAME, EMAIL, ADDRESS, PHONE, START_DATE, END_DATE, PWD_CHG_DATE, STATUS, UROLE_ID, DESCRIPTION FROM GENERAL_AUT_USER";
 			StringBuilder sb = new StringBuilder();
 
 			if(userName != null && userName.Length > 0)
@@ -96,11 +96,11 @@ namespace SCM.BusinessObject
 			return dao.GetDataTable(dt, strSql);
 		}
 		/// <summary>
-		/// Load all user from SCM_AUT_USER table
+		/// Load all user from GENERAL_AUT_USER table
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable LoadAll()
@@ -114,7 +114,7 @@ namespace SCM.BusinessObject
 		/// <param name="userName"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public bool Exist(string userName)
@@ -122,7 +122,7 @@ namespace SCM.BusinessObject
 			return dao.Exist(userName);
 		}
 		/// <summary>
-		/// Get one user from SCM_AUT_USER table by username
+		/// Get one user from GENERAL_AUT_USER table by username
 		/// </summary>
 		/// <param name="username"></param>
 		/// <returns></returns>
@@ -141,7 +141,7 @@ namespace SCM.BusinessObject
 		}
 
 		/// <summary>
-		/// Get Region from SCM_AUT_USER_REGION table by UserName
+		/// Get Region from GENERAL_AUT_USER_REGION table by UserName
 		/// </summary>
 		/// <param name="UserName"></param>
 		/// <returns></returns>
@@ -158,7 +158,7 @@ namespace SCM.BusinessObject
 		/// <param name="strategicRegions"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int SetRights(string userName, ArrayList regions, ArrayList strategicRegions)
@@ -166,7 +166,7 @@ namespace SCM.BusinessObject
 			return dao.SetRights(userName, regions, strategicRegions);
 		}
 		/// <summary>
-		/// Get StragicRegion from SCM_AUT_USER_STRATEGIC_REGION table by UserName
+		/// Get StragicRegion from GENERAL_AUT_USER_STRATEGIC_REGION table by UserName
 		/// </summary>
 		/// <param name="UserName"></param>
 		/// <returns></returns>
@@ -176,11 +176,11 @@ namespace SCM.BusinessObject
 		}
 
 		/// <summary>
-		/// Load All UserRole from SCM_AUT_USERROLE table
+		/// Load All UserRole from GENERAL_AUT_USERROLE table
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable LoadAllUserRole()
@@ -189,12 +189,12 @@ namespace SCM.BusinessObject
 		}
 
 		/// <summary>
-		/// Insert one row into SCM_AUT_USER table
+		/// Insert one row into GENERAL_AUT_USER table
 		/// </summary>
 		/// <param name="row"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int Insert(DataRow row)
@@ -203,12 +203,12 @@ namespace SCM.BusinessObject
 		}
 
 		/// <summary>
-		/// Update one row of SCM_AUT_USER by USERNAME
+		/// Update one row of GENERAL_AUT_USER by USERNAME
 		/// </summary>
 		/// <param name="row"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int Update(DataRow row)
@@ -222,22 +222,22 @@ namespace SCM.BusinessObject
 		/// <param name="cmdText"></param>
 		/// <returns>return DataTable</returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable GetCommonMenu()
 		{
-			//string strSql = "SELECT FORM_ID, FORM_NAME, MENU_NAME, MENU_LEVEL, MENU_PID, MENU_ZORDER, TOOLBAR_BUTTON_INDEX, TOOLBAR_BUTTON_NAME, TOOLBAR_NAME, DESCRIPTION, ICON_NAME FROM SCM_AUT_FORM WHERE MENU_NAME IN ('mnuFile', 'mnuWindow', 'mnuHelp', 'mnuLogin', 'mnuSeparate', 'mnuExit', 'mnuWindowCascade', 'mnuWindowTileHoz', 'mnuHelpTopic', 'mnuSeparate', 'mnuHelpAbout', 'mnuEN', 'mnuVN', 'mnuMaximized', 'mnuSystemStyle')";
-			string strSql = "SELECT FORM_ID, FORM_NAME, MENU_NAME, MENU_LEVEL, MENU_PID, MENU_ZORDER, TOOLBAR_BUTTON_INDEX, TOOLBAR_BUTTON_NAME, TOOLBAR_NAME, DESCRIPTION, ICON_NAME FROM SCM_AUT_FORM WHERE COMMON_MENU = '1'";
+			//string strSql = "SELECT FORM_ID, FORM_NAME, MENU_NAME, MENU_LEVEL, MENU_PID, MENU_ZORDER, TOOLBAR_BUTTON_INDEX, TOOLBAR_BUTTON_NAME, TOOLBAR_NAME, DESCRIPTION, ICON_NAME FROM GENERAL_AUT_FORM WHERE MENU_NAME IN ('mnuFile', 'mnuWindow', 'mnuHelp', 'mnuLogin', 'mnuSeparate', 'mnuExit', 'mnuWindowCascade', 'mnuWindowTileHoz', 'mnuHelpTopic', 'mnuSeparate', 'mnuHelpAbout', 'mnuEN', 'mnuVN', 'mnuMaximized', 'mnuSystemStyle')";
+			string strSql = "SELECT FORM_ID, FORM_NAME, MENU_NAME, MENU_LEVEL, MENU_PID, MENU_ZORDER, TOOLBAR_BUTTON_INDEX, TOOLBAR_BUTTON_NAME, TOOLBAR_NAME, DESCRIPTION, ICON_NAME FROM GENERAL_AUT_FORM WHERE COMMON_MENU = '1'";
 			return dao.GetDataTable(strSql);
 		}
 		/// <summary>
-		/// Delete one row of SCM_AUT_USER by USERNAME
+		/// Delete one row of GENERAL_AUT_USER by USERNAME
 		/// </summary>
 		/// <param name="username"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int Delete(string username)
@@ -253,7 +253,7 @@ namespace SCM.BusinessObject
 		/// <param name="newPassword"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int ChangePassword(string username, string oldPassword, string newPassword)
@@ -268,7 +268,7 @@ namespace SCM.BusinessObject
 		/// <param name="password"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int Login(string username, string password)
@@ -301,7 +301,7 @@ namespace SCM.BusinessObject
 		/// </summary>
 		/// <returns>Return all feature of this user</returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable GetAuthority()
@@ -313,7 +313,7 @@ namespace SCM.BusinessObject
 		/// Clear authority
 		/// </summary>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public void ClearAuthority()
