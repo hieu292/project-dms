@@ -10,7 +10,7 @@
     <ApplicationIcon>bin\Debug\Icons\VMIIcon.ico</ApplicationIcon>
     <AssemblyKeyContainerName>
     </AssemblyKeyContainerName>
-    <AssemblyName>SCM</AssemblyName>
+    <AssemblyName>DMS</AssemblyName>
     <AssemblyOriginatorKeyFile>
     </AssemblyOriginatorKeyFile>
     <DefaultClientScript>JScript</DefaultClientScript>
@@ -18,9 +18,9 @@
     <DefaultTargetSchema>IE50</DefaultTargetSchema>
     <DelaySign>false</DelaySign>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>SCM</RootNamespace>
+    <RootNamespace>DMS</RootNamespace>
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
-    <StartupObject>SCM.frmMain</StartupObject>
+    <StartupObject>DMS.frmMain</StartupObject>
     <FileUpgradeFlags>
     </FileUpgradeFlags>
     <UpgradeBackupLocation>
@@ -162,6 +162,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\Debug\GENERAL.vshost.exe" />
     <Content Include="Resources\Add.gif" />
     <Content Include="Resources\Delete.gif" />
     <Content Include="Resources\HO-SchemeScartchSchemeInformation.png" />
@@ -176,8 +177,9 @@
     <Content Include="Resources\SendIcon.png" />
     <Content Include="Resources\SendReport.png" />
     <Content Include="Resources\viewSummary.png" />
-    <None Include="App.config" />
-    <None Include="bin\Debug\Log4Net.config" />
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="bin\Debug\Template\Template For Promotion.xls" />
     <None Include="Data\DataSet\ReportData.xsc">
       <DependentUpon>ReportData.xsd</DependentUpon>
@@ -329,10 +331,6 @@
     <Content Include="bin\Debug\Images\VMI_buttonCancel.png" />
     <Content Include="bin\Debug\Images\VMI_button_style.png" />
     <Content Include="bin\Debug\Images\VMI_LoginBT.png" />
-    <Content Include="bin\Debug\SCM.Messages.EN.xml" />
-    <Content Include="bin\Debug\SCM.Messages.VN.xml" />
-    <Content Include="bin\Debug\SCM.Titles.EN.xml" />
-    <Content Include="bin\Debug\SCM.Titles.VN.xml" />
     <Content Include="DLL\dotnetskin.skincontrols.dll" />
     <Content Include="DLL\ICSharpCode.SharpZipLib.dll" />
     <Content Include="DLL\Interop.Excel.dll" />
@@ -475,11 +473,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ReportData.xsd</DependentUpon>
     </Compile>
-    <Compile Include="Data\SCM_PARAMETERData.cs" />
     <Compile Include="Entity\ReportDataEtt.cs" />
     <Compile Include="Entity\ReportParamEtt.cs" />
-    <Compile Include="Entity\SCM_PARAMETEREtt.cs" />
-    <Compile Include="Entity\SCM_PARAMETERKey.cs" />
     <Compile Include="Modules\Authenticate\frmAutPolicy.cs">
       <SubType>Form</SubType>
     </Compile>
