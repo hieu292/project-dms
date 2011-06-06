@@ -4,9 +4,9 @@ using System.Data.SqlClient;
 using System.Windows.Forms;
 using System.IO;
 
-using SCM.Utils;
+using DMS.Utils;
 
-namespace SCM.DataAccessObject
+namespace DMS.DataAccessObject
 {
 	/// <summary>
 	/// Summary description for clsParameterDAO.
@@ -33,7 +33,7 @@ namespace SCM.DataAccessObject
 			SqlConnection con = Connection;
 			if(con == null)
 				throw new Exception(CONNECTION_ERROR);
-            string strSql = "SELECT PARAM_NAME, PARAM_VALUE, PARAM_TYPE, DESCRIPTION FROM SCM_PARAMETERS WHERE PARAM_GROUP LIKE '{0}' AND (PARAM_NAME LIKE '%{1}%' OR DESCRIPTION LIKE '%{2}%')";
+            string strSql = "SELECT PARAM_NAME, PARAM_VALUE, PARAM_TYPE, DESCRIPTION FROM GENERAL_PARAMETERS WHERE PARAM_GROUP LIKE '{0}' AND (PARAM_NAME LIKE '%{1}%' OR DESCRIPTION LIKE '%{2}%')";
             strSql = string.Format(strSql,strParam_Group, strParam,strParam);
             SqlCommand cmd = new SqlCommand(strSql, con);
 
@@ -146,7 +146,7 @@ namespace SCM.DataAccessObject
 					
 						DataTable dt = new DataTable();
 
-						string strSql = "SELECT * FROM SCM_PARAMETERS WHERE PARAM_NAME = 'DEF_RR_WEEKS' OR PARAM_NAME = 'DEF_PPO_UPPER_ADJ_PER' OR PARAM_NAME = 'DEF_PPO_LOWER_ADJ_PER'";
+						string strSql = "SELECT * FROM GENERAL_PARAMETERS WHERE PARAM_NAME = 'DEF_RR_WEEKS' OR PARAM_NAME = 'DEF_PPO_UPPER_ADJ_PER' OR PARAM_NAME = 'DEF_PPO_LOWER_ADJ_PER'";
 						dt = GetDataTable(strSql);
 						dt.TableName = "StockParameters";
 						dt.Rows[0][0] = "PPO_LOWER_ADJ_PER";
@@ -232,7 +232,7 @@ namespace SCM.DataAccessObject
 		{
 			string strWorkingDir = System.Environment.CurrentDirectory + "\\EXPORTED_PARAM";
 			string strRetVal = "";
-			string strSql = "SELECT PARAM_VALUE FROM SCM_PARAMETERS WHERE PARAM_NAME = 'DEF_PARAM_PATH'";
+			string strSql = "SELECT PARAM_VALUE FROM GENERAL_PARAMETERS WHERE PARAM_NAME = 'DEF_PARAM_PATH'";
 			SqlDataReader dr = GetSqlDataReader(strSql);
 			if (dr.Read())
 			{
@@ -278,7 +278,7 @@ namespace SCM.DataAccessObject
 				if (con.State != ConnectionState.Open)
 					con.Open();
 				trans = con.BeginTransaction();
-				cmd.CommandText = "SELECT PARAM_VALUE FROM SCM_PARAMETERS WHERE PARAM_NAME = 'DEF_RR_WEEKS'";
+				cmd.CommandText = "SELECT PARAM_VALUE FROM GENERAL_PARAMETERS WHERE PARAM_NAME = 'DEF_RR_WEEKS'";
 				cmd.CommandTimeout = 0;
 				cmd.Connection = con;
 				cmd.Transaction = trans;
@@ -319,7 +319,7 @@ namespace SCM.DataAccessObject
 				if (con.State != ConnectionState.Open)
 					con.Open();
 				trans = con.BeginTransaction();
-				cmd.CommandText = "SELECT PARAM_VALUE FROM SCM_PARAMETERS WHERE PARAM_NAME = 'DEF_PPO_LOWER_ADJ_PER'";
+				cmd.CommandText = "SELECT PARAM_VALUE FROM GENERAL_PARAMETERS WHERE PARAM_NAME = 'DEF_PPO_LOWER_ADJ_PER'";
 				cmd.CommandTimeout = 0;
 				cmd.Connection = con;
 				cmd.Transaction = trans;
@@ -361,7 +361,7 @@ namespace SCM.DataAccessObject
 				if (con.State != ConnectionState.Open)
 					con.Open();
 				trans = con.BeginTransaction();
-				cmd.CommandText = "SELECT PARAM_VALUE FROM SCM_PARAMETERS WHERE PARAM_NAME = 'DEF_PPO_UPPER_ADJ_PER'";
+				cmd.CommandText = "SELECT PARAM_VALUE FROM GENERAL_PARAMETERS WHERE PARAM_NAME = 'DEF_PPO_UPPER_ADJ_PER'";
 				cmd.CommandTimeout = 0;
 				cmd.Connection = con;
 				cmd.Transaction = trans;
@@ -404,7 +404,7 @@ namespace SCM.DataAccessObject
 				if (con.State != ConnectionState.Open)
 					con.Open();
 				trans = con.BeginTransaction();
-				cmd.CommandText = "SELECT STATUS FROM SCM_PARAMETERS WHERE PARAM_NAME = 'DEF_PPO_LOWER_ADJ_PER' OR PARAM_NAME = 'DEF_PPO_UPPER_ADJ_PER' OR PARAM_NAME = 'DEF_RR_WEEKS' ";
+				cmd.CommandText = "SELECT STATUS FROM GENERAL_PARAMETERS WHERE PARAM_NAME = 'DEF_PPO_LOWER_ADJ_PER' OR PARAM_NAME = 'DEF_PPO_UPPER_ADJ_PER' OR PARAM_NAME = 'DEF_RR_WEEKS' ";
 				cmd.CommandTimeout = 0;
 				cmd.Connection = con;
 				cmd.Transaction = trans;
@@ -455,7 +455,7 @@ namespace SCM.DataAccessObject
 				if (con.State != ConnectionState.Open)
 					con.Open();
 				trans = con.BeginTransaction();
-				cmd.CommandText = "UPDATE SCM_PARAMETERS SET STATUS = '0' WHERE (PARAM_NAME = 'DEF_PPO_UPPER_ADJ_PER' OR PARAM_NAME = 'DEF_PPO_LOWER_ADJ_PER' OR PARAM_NAME = 'DEF_RR_WEEKS') AND STATUS = '1' ";
+				cmd.CommandText = "UPDATE GENERAL_PARAMETERS SET STATUS = '0' WHERE (PARAM_NAME = 'DEF_PPO_UPPER_ADJ_PER' OR PARAM_NAME = 'DEF_PPO_LOWER_ADJ_PER' OR PARAM_NAME = 'DEF_RR_WEEKS') AND STATUS = '1' ";
 				cmd.CommandTimeout = 0;
 				cmd.Connection = con;
 				cmd.Transaction = trans;
@@ -479,7 +479,7 @@ namespace SCM.DataAccessObject
         // Created Date: 02/07/2010
         public string GetFirstDayOfWeek()
         {
-            string strSQL = "SELECT * FROM SCM_PARAMETERS WHERE Param_Name = 'DATE_OF_START_WEEK'";
+            string strSQL = "SELECT * FROM GENERAL_PARAMETERS WHERE Param_Name = 'DATE_OF_START_WEEK'";
             try
             {
                 DataTable dt = this.GetDataTable(strSQL);
@@ -497,7 +497,7 @@ namespace SCM.DataAccessObject
         // Created Date: 02/07/2010
         public string GetEndDayOfWeek()
         {
-            string strSQL = "SELECT * FROM SCM_PARAMETERS WHERE Param_Name = 'DATE_OF_END_WEEK'";
+            string strSQL = "SELECT * FROM GENERAL_PARAMETERS WHERE Param_Name = 'DATE_OF_END_WEEK'";
             try
             {
                 DataTable dt = this.GetDataTable(strSQL);
@@ -515,7 +515,7 @@ namespace SCM.DataAccessObject
         // Created Date: 08/07/2010
         public string GetMaxDaysOfFirstWeek()
         {
-            string strSQL = "SELECT * FROM SCM_PARAMETERS WHERE Param_Name = 'MAX_DAYS_OF_FIRST_WEEK'";
+            string strSQL = "SELECT * FROM GENERAL_PARAMETERS WHERE Param_Name = 'MAX_DAYS_OF_FIRST_WEEK'";
             try
             {
                 DataTable dt = this.GetDataTable(strSQL);

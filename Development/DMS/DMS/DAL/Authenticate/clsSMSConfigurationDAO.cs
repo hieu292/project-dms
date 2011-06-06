@@ -3,10 +3,10 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 using System.IO;
-using SCM.Utils;
+using DMS.Utils;
 using System.Collections;
 
-namespace SCM.DataAccessObject
+namespace DMS.DataAccessObject
 {
 	/// <summary>
 	/// Summary description for clsSMSConfigurationDAO.
@@ -139,7 +139,7 @@ namespace SCM.DataAccessObject
 			if(con == null)
 				throw new Exception(CONNECTION_ERROR);
 
-			SqlCommand cmd = new SqlCommand("SELECT PARAM_NAME, PARAM_VALUE FROM SCM_PARAMETERS WHERE PARAM_GROUP = @Param_Group", con);
+			SqlCommand cmd = new SqlCommand("SELECT PARAM_NAME, PARAM_VALUE FROM GENERAL_PARAMETERS WHERE PARAM_GROUP = @Param_Group", con);
 			cmd.Parameters.Add("@Param_Group", SqlDbType.VarChar);
 			cmd.Parameters["@Param_Group"].Value = "SMS";
 

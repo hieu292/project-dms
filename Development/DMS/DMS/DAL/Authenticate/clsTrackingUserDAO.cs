@@ -2,7 +2,7 @@
 using System.Data;
 using System.Data.SqlClient;
 
-namespace SCM.DataAccessObject.Authenticate
+namespace DMS.DataAccessObject.Authenticate
 {
 	/// <summary>
 	/// Summary description for clsTrackingUserDAO.
@@ -24,7 +24,7 @@ namespace SCM.DataAccessObject.Authenticate
 			if(updateTime.Equals(""))
 				updateTime = "01/01/1900 00:00:00";
 			string sqlQuery =  "SELECT DISTINCT * FROM " + tableName ;
-			if(!tableName.Equals("SCM_PROMOTION_REGION_SWAP") && !tableName.Equals("SCM_PROMOTION_CUST_SWAP"))
+			if(!tableName.Equals("GENERAL_PROMOTION_REGION_SWAP") && !tableName.Equals("GENERAL_PROMOTION_CUST_SWAP"))
 			{
 				sqlQuery += " WHERE CREATE_USER = '" + createUser +"' AND CONVERT(VARCHAR(20),CREATE_TIME,103) + ' ' + CONVERT(VARCHAR(20),CREATE_TIME,108) = '" + createTime +
 					"' AND UPDATE_USER = '"+ updateUser + 
@@ -70,7 +70,7 @@ namespace SCM.DataAccessObject.Authenticate
 				con.Close();
 			}
 			string strSqlQuery = " SELECT DISTINCT CREATE_USER,CASE CREATE_TIME WHEN '1900-01-01 00:00:00.000' THEN '' ELSE CREATE_TIME END AS CREATE_TIME, UPDATE_USER,"+
-					" CASE UPDATE_TIME WHEN '1900-01-01 00:00:00.000' THEN '' ELSE UPDATE_TIME END AS UPDATE_TIME, TABLE_NAME  FROM SCM_TRACKING_COLLECTION WHERE 1=1";
+					" CASE UPDATE_TIME WHEN '1900-01-01 00:00:00.000' THEN '' ELSE UPDATE_TIME END AS UPDATE_TIME, TABLE_NAME  FROM GENERAL_TRACKING_COLLECTION WHERE 1=1";
 			if((operation == "[ALL]")&& (userName != ""))
 				strSqlQuery += " AND ((CREATE_USER = '"+ userName +"') OR (UPDATE_USER = '"+userName+"')) ";
 			else

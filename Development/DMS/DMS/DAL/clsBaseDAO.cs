@@ -4,15 +4,15 @@ using System.Data;
 using System.Collections;
 using System.Configuration;
 
-using SCM.Utils;
+using DMS.Utils;
 
-namespace SCM.DataAccessObject
+namespace DMS.DataAccessObject
 {
     /// <summary>
     /// Summary description for clsBaseDAO.
     /// </summary>
     /// <remarks>
-    /// Author:			NguyenLD. FPTSS.
+    /// Author:			PhatLT. FPTSS.
     /// Created date:	14/02/2011
     /// </remarks>
     public class clsBaseDAO
@@ -57,7 +57,7 @@ namespace SCM.DataAccessObject
         /// <param name="connectionString"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public SqlConnection GetConnection (string connectionString)
@@ -75,7 +75,7 @@ namespace SCM.DataAccessObject
         /// <param name="password"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public SqlConnection GetConnection (string server, string database, string user, string password)
@@ -90,7 +90,7 @@ namespace SCM.DataAccessObject
         /// Connection's used for the whole system.
         /// </summary>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public static SqlConnection Connection
@@ -103,7 +103,7 @@ namespace SCM.DataAccessObject
         /// Create a con by ConnectionString in Configuration and Test Connection
         /// </summary>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public static void Init ()
@@ -136,7 +136,7 @@ namespace SCM.DataAccessObject
         /// <param name="TableName"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public DataTable GetSchemaTable (string TableName)
@@ -152,7 +152,7 @@ namespace SCM.DataAccessObject
         /// <param name="cmdText"></param>
         /// <returns>return DataTable</returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public DataTable GetDataTable (string cmdText)
@@ -181,7 +181,7 @@ namespace SCM.DataAccessObject
         /// <param name="cmd"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public DataTable GetDataTable (SqlCommand cmd)
@@ -212,7 +212,7 @@ namespace SCM.DataAccessObject
         /// <param name="cmdText"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public DataTable GetDataTable (DataTable dt, string cmdText)
@@ -239,7 +239,7 @@ namespace SCM.DataAccessObject
         /// <param name="cmd"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public DataTable GetDataTable (DataTable dt, SqlCommand cmd)
@@ -268,7 +268,7 @@ namespace SCM.DataAccessObject
         /// <param name="cmdText"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public SqlDataReader GetSqlDataReader (string cmdText)
@@ -342,7 +342,7 @@ namespace SCM.DataAccessObject
         /// <param name="iparams"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public SqlCommand CreateCommand (string storeProcedure, IDataParameter[] iparams)
@@ -374,7 +374,7 @@ namespace SCM.DataAccessObject
         /// <param name="iparams"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public SqlCommand CreateCommand (string storeProcedure, SqlConnection con, IDataParameter[] iparams)
@@ -403,7 +403,7 @@ namespace SCM.DataAccessObject
         /// <param name="iparams"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public SqlCommand CreateCommandReturn (string storeProcedure, IDataParameter[] iparams)
@@ -433,7 +433,7 @@ namespace SCM.DataAccessObject
         /// <param name="iparams"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public SqlCommand CreateCommandReturn (string storeProcedure, SqlConnection con, IDataParameter[] iparams)
@@ -463,7 +463,7 @@ namespace SCM.DataAccessObject
         /// <param name="iRowEffected"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public int ExecuteProcedure (string storeProcedure, IDataParameter[] iparams, out int rowEffected)
@@ -520,7 +520,7 @@ namespace SCM.DataAccessObject
         /// <param name="iRowEffected"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public int ExecuteProcedureInTransaction (string storeProcedure, IDataParameter[] iparams, out int rowEffected)
@@ -573,7 +573,7 @@ namespace SCM.DataAccessObject
         /// <param name="cmdText"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public int Execute (string cmdText)
@@ -618,7 +618,7 @@ namespace SCM.DataAccessObject
         /// <param name="iRowEffected"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public int Execute (SqlCommand cmd)
@@ -663,7 +663,7 @@ namespace SCM.DataAccessObject
         /// <param name="iRowEffected"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public int ExecuteInTransaction (SqlCommand cmd)
@@ -718,7 +718,7 @@ namespace SCM.DataAccessObject
         /// <param name="iRowEffected"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public int ExecuteInTransaction (string cmdText)
@@ -772,7 +772,7 @@ namespace SCM.DataAccessObject
         /// <param name="iRowEffected"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public int ExecuteInTransaction (string cmdText, IDataParameter[] iparams, out int rowEffected)
@@ -834,7 +834,7 @@ namespace SCM.DataAccessObject
         /// <param name="iRowEffected"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public int Execute (string cmdText, IDataParameter[] iparams, out int rowEffected)
@@ -899,7 +899,7 @@ namespace SCM.DataAccessObject
         /// <param name="cmd"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public object ExecuteScalar (SqlCommand cmd)
@@ -941,7 +941,7 @@ namespace SCM.DataAccessObject
         /// <param name="cmdText"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public object ExecuteScalar (string cmdText)
@@ -982,7 +982,7 @@ namespace SCM.DataAccessObject
         /// <param name="cmdText"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public object ExecuteScalarInTransaction (string cmdText)
@@ -1036,7 +1036,7 @@ namespace SCM.DataAccessObject
         /// <param name="cmd"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public object ExecuteScalarInTransaction (SqlCommand cmd)
@@ -1094,7 +1094,7 @@ namespace SCM.DataAccessObject
         /// <param name="iparams"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public SqlDataReader ExecuteProcedure (string storeProcedure, IDataParameter[] iparams)
@@ -1118,7 +1118,7 @@ namespace SCM.DataAccessObject
         /// <param name="tablename"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public DataSet ExecuteProcedure (string storeProcedure, IDataParameter[] iparams, string tablename)
@@ -1139,7 +1139,7 @@ namespace SCM.DataAccessObject
         /// <param name="tablename"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public DataSet ExecuteProcedure (string storeProcedure, IDataParameter[] iparams, DataSet ds, string tablename)
@@ -1157,7 +1157,7 @@ namespace SCM.DataAccessObject
         /// <param name="value"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public string EncodeString (string value)
@@ -1173,7 +1173,7 @@ namespace SCM.DataAccessObject
         /// <param name="param_Name"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			NguyenLD. FPTSS.
+        /// Author:			PhatLT. FPTSS.
         /// Created date:	14/02/2011
         /// </remarks>
         public string GetParameterValue (string param_Name)
@@ -1182,7 +1182,7 @@ namespace SCM.DataAccessObject
 
             string param_Value;
 
-            string cmdText = "SELECT Param_Value FROM SCM_Parameters WHERE Param_Name=@Param_Name";
+            string cmdText = "SELECT Param_Value FROM GENERAL_Parameters WHERE Param_Name=@Param_Name";
 
             SqlCommand cmd = new SqlCommand(cmdText, con);
             cmd.Parameters.Add("@Param_Name", SqlDbType.VarChar).Value = param_Name;
@@ -1216,7 +1216,7 @@ namespace SCM.DataAccessObject
         /// Execute a store procedure and return a dataset that contain a table
         /// </summary>
         /// <remarks>
-        /// Author			: Le Dinh Nguyen - FSOFT G3
+        /// Author			: Le Tien Phat - FSOFT G3
         /// Modifications	: Created 20-Apr-2011
         /// </remarks>
         /// <param name="spName"></param>
@@ -1288,8 +1288,8 @@ namespace SCM.DataAccessObject
                 string sql = "SELECT '' AS 'REGION_CODE', '[ALL]' AS 'REGION_NAME' ";
                 sql += "UNION ";
                 sql += "SELECT DISTINCT A.REGION_CODE, A.REGION_NAME ";
-                sql += "FROM SCM_REGION_HIERARCHY A ";
-                sql += "    INNER JOIN SCM_AUT_USER_REGION B ";
+                sql += "FROM GENERAL_REGION_HIERARCHY A ";
+                sql += "    INNER JOIN GENERAL_AUT_USER_REGION B ";
                 sql += "       ON A.REGION_CODE = B.REGION_CODE ";
                 sql += "WHERE B.USERNAME = @USERNAME ";
                 sql += "ORDER BY REGION_CODE, REGION_NAME ";
@@ -1318,8 +1318,8 @@ namespace SCM.DataAccessObject
                 string sql = "SELECT '' AS 'REGION_CODE', '[ALL]' AS 'REGION_NAME' ";
                 sql += "UNION ";
                 sql += "SELECT DISTINCT A.REGION_CODE, A.REGION_NAME ";
-                sql += "FROM SCM_REGION_HIERARCHY A ";
-                sql += "    INNER JOIN SCM_AUT_USER_REGION B ";
+                sql += "FROM GENERAL_REGION_HIERARCHY A ";
+                sql += "    INNER JOIN GENERAL_AUT_USER_REGION B ";
                 sql += "       ON A.REGION_CODE = B.REGION_CODE ";
                 sql += "WHERE B.USERNAME = @USERNAME ";
                 sql += "ORDER BY REGION_CODE ";
@@ -1347,8 +1347,8 @@ namespace SCM.DataAccessObject
                 string sql = "SELECT '' AS 'STRATEGIC_REGION_CODE', '[ALL]' AS 'STRATEGIC_REGION_NAME' ";
                 sql += "UNION ";
                 sql += "SELECT DISTINCT A.STRATEGIC_REGION_CODE, A.STRATEGIC_REGION_NAME AS 'STRATEGIC_REGION_NAME' ";
-                sql += "FROM SCM_STRATEGIC_REGION A ";
-                sql += "    INNER JOIN SCM_AUT_USER_STRATEGIC_REGION B ";
+                sql += "FROM GENERAL_STRATEGIC_REGION A ";
+                sql += "    INNER JOIN GENERAL_AUT_USER_STRATEGIC_REGION B ";
                 sql += "       ON A.STRATEGIC_REGION_CODE = B.STRATEGIC_REGION_CODE ";
                 sql += "WHERE B.USERNAME = @USERNAME ";
                 sql += "ORDER BY STRATEGIC_REGION_CODE ,STRATEGIC_REGION_NAME";
@@ -1376,8 +1376,8 @@ namespace SCM.DataAccessObject
                 string sql = "SELECT '' AS 'STRATEGIC_REGION_CODE', '[ALL]' AS 'STRATEGIC_REGION_NAME' ";
                 sql += "UNION ";
                 sql += "SELECT DISTINCT A.STRATEGIC_REGION_CODE, A.STRATEGIC_REGION_NAME AS 'STRATEGIC_REGION_NAME' ";
-                sql += "FROM SCM_STRATEGIC_REGION A ";
-                sql += "    INNER JOIN SCM_AUT_USER_STRATEGIC_REGION B ";
+                sql += "FROM GENERAL_STRATEGIC_REGION A ";
+                sql += "    INNER JOIN GENERAL_AUT_USER_STRATEGIC_REGION B ";
                 sql += "       ON A.STRATEGIC_REGION_CODE = B.STRATEGIC_REGION_CODE ";
                 sql += "WHERE B.USERNAME = @USERNAME ";
                 sql += "ORDER BY STRATEGIC_REGION_CODE ";
@@ -1408,16 +1408,16 @@ namespace SCM.DataAccessObject
             {
                 // Modified by: TuanDH
                 // Date: 06/08/2010
-                // Description: copy form SCM tool, PPO manual importing
+                // Description: copy form GENERAL tool, PPO manual importing
 
-                string strSQL = "SELECT DISTINCT SALES_ORG FROM SCM_SHIP_TO WHERE SHIP_TO_CODE= '" + strShipToCode + "'";
+                string strSQL = "SELECT DISTINCT SALES_ORG FROM GENERAL_SHIP_TO WHERE SHIP_TO_CODE= '" + strShipToCode + "'";
 
                 DataTable dtSalesOrg = DataServices.ExecuteDataTable(CommandType.Text, strSQL, null);
 
                 return strSalesOrg = (dtSalesOrg == null || dtSalesOrg.Rows.Count <= 0) ? string.Empty : dtSalesOrg.Rows[0]["SALES_ORG"].ToString().Trim();
 
                 //string strCustCode = strShipToCode.Substring(1, 5);
-                //string strSQL = "SELECT DISTINCT SALES_ORG FROM SCM_DISTRIBUTOR_HIERARCHY D INNER JOIN SCM_SHIP_TO S ON D.CUST_CODE = S.CUST_CODE WHERE S.SHIP_TO_CODE= '" + strShipToCode + "'";
+                //string strSQL = "SELECT DISTINCT SALES_ORG FROM GENERAL_DISTRIBUTOR_HIERARCHY D INNER JOIN GENERAL_SHIP_TO S ON D.CUST_CODE = S.CUST_CODE WHERE S.SHIP_TO_CODE= '" + strShipToCode + "'";
                 //strSalesOrg = DataServices.ExecuteDataTable(CommandType.Text, strSQL, null).Rows[0]["SALES_ORG"].ToString().Trim();
                 //if (strSalesOrg == null || strSalesOrg.Equals(String.Empty))
                 //    return String.Empty;
@@ -1434,9 +1434,9 @@ namespace SCM.DataAccessObject
         /// 
         /// </summary>
         /// <returns></returns>
-        public DataTable GetSchemaSCM_CALENDAR_MASTER ()
+        public DataTable GetSchemaGENERAL_CALENDAR_MASTER ()
         {
-            return DataServices.ExecuteDataTable(CommandType.Text, "SELECT * FROM  SCM_CALENDAR_MASTER WHERE 1=0", null);
+            return DataServices.ExecuteDataTable(CommandType.Text, "SELECT * FROM  GENERAL_CALENDAR_MASTER WHERE 1=0", null);
 
         }
 

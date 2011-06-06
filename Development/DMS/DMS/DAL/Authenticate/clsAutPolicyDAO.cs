@@ -4,18 +4,18 @@ using System.Data.SqlClient;
 using System.Collections;
 using System.Text;
 
-namespace SCM.DataAccessObject
+namespace DMS.DataAccessObject
 {
 	/// <summary>
 	/// Summary description for clsAutPolicyDAO.
 	/// </summary>
 	/// <remarks>
-	/// Author:			NguyenLD. FPTSS.
+	/// Author:			PhatLT. FPTSS.
 	/// Created date:	14/02/2011
 	/// </remarks>
 	public class clsAutPolicyDAO:clsBaseDAO
 	{
-		public static string TableName = "SCM_AUT_POLICY";
+		public static string TableName = "GENERAL_AUT_POLICY";
 		private static log4net.ILog log = log4net.LogManager.GetLogger(typeof(clsAutPolicyDAO));
 
 		public clsAutPolicyDAO()
@@ -28,7 +28,7 @@ namespace SCM.DataAccessObject
 		/// <param name="URoleID"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable GetPolicy(string URoleID)
@@ -51,7 +51,7 @@ namespace SCM.DataAccessObject
 		/// <param name="deleted"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int UpdateAll(string URoleID, ArrayList added, ArrayList deleted)
@@ -82,13 +82,13 @@ namespace SCM.DataAccessObject
 					}
 					sb.Remove(sb.Length - 2, 2);
 					cmd.Parameters.Clear();
-					cmd.CommandText = string.Format("DELETE FROM SCM_AUT_POLICY WHERE UROLE_ID = '{0}' AND FEATURE_ID IN ({1})", URoleID, sb.ToString());
+					cmd.CommandText = string.Format("DELETE FROM GENERAL_AUT_POLICY WHERE UROLE_ID = '{0}' AND FEATURE_ID IN ({1})", URoleID, sb.ToString());
 					count += cmd.ExecuteNonQuery();
 				}
 
 				foreach(string id in added)
 				{
-					cmd.CommandText = string.Format("INSERT INTO SCM_AUT_POLICY(FEATURE_ID, UROLE_ID, LEVEL_ID)VALUES({0}, '{1}', 0)", id, URoleID);
+					cmd.CommandText = string.Format("INSERT INTO GENERAL_AUT_POLICY(FEATURE_ID, UROLE_ID, LEVEL_ID)VALUES({0}, '{1}', 0)", id, URoleID);
 					count += cmd.ExecuteNonQuery();
 				}
 

@@ -4,33 +4,33 @@ using System.Data;
 using System.Data.SqlClient;
 using log4net;
 
-using SCM.Utils;
+using DMS.Utils;
 
-namespace SCM.DataAccessObject
+namespace DMS.DataAccessObject
 {
 	/// <summary>
 	/// Summary description for clsAutUserDAO.
 	/// </summary>
 	/// <remarks>
-	/// Author:			NguyenLD. FPTSS.
+	/// Author:			PhatLT. FPTSS.
 	/// Created date:	14/02/2011
 	/// </remarks>
 	public class clsAutUserDAO : clsBaseDAO
 	{
 		private static readonly ILog log = LogManager.GetLogger(typeof(clsAutUserDAO));
 
-		private static string TableName = "SCM_AUT_USER";
+		private static string TableName = "GENERAL_AUT_USER";
 
 		private static string m_strConn = clsCommon.GetConnectionString();
 
 		public clsAutUserDAO(){}
 
 		/// <summary>
-		/// Get schema of SCM_AUT_USER table
+		/// Get schema of GENERAL_AUT_USER table
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable GetSchemaTable()
@@ -54,12 +54,12 @@ namespace SCM.DataAccessObject
 		}
 
 		/// <summary>
-		/// Get Region from SCM_AUT_USER_REGION table by UserName
+		/// Get Region from GENERAL_AUT_USER_REGION table by UserName
 		/// </summary>
 		/// <param name="UserName"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public ArrayList GetRegion(string UserName)
@@ -71,7 +71,7 @@ namespace SCM.DataAccessObject
 
 			try
 			{
-				cmd = new SqlCommand("SELECT REGION_CODE FROM SCM_AUT_USER_REGION WHERE USERNAME = @USERNAME AND NOT (REGION_CODE IS null)", con);
+				cmd = new SqlCommand("SELECT REGION_CODE FROM GENERAL_AUT_USER_REGION WHERE USERNAME = @USERNAME AND NOT (REGION_CODE IS null)", con);
 				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar, 255).Value = UserName;
 
 				if(con.State != ConnectionState.Open)
@@ -104,12 +104,12 @@ namespace SCM.DataAccessObject
 		}
 
 		/// <summary>
-		/// Get StragicRegion from SCM_AUT_USER_STRATEGIC_REGION table by UserName
+		/// Get StragicRegion from GENERAL_AUT_USER_STRATEGIC_REGION table by UserName
 		/// </summary>
 		/// <param name="UserName"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public ArrayList GetStrategicRegion(string UserName)
@@ -121,7 +121,7 @@ namespace SCM.DataAccessObject
 
 			try
 			{
-				cmd = new SqlCommand("SELECT STRATEGIC_REGION_CODE FROM SCM_AUT_USER_STRATEGIC_REGION WHERE USERNAME = @USERNAME AND NOT (STRATEGIC_REGION_CODE IS null)", con);
+				cmd = new SqlCommand("SELECT STRATEGIC_REGION_CODE FROM GENERAL_AUT_USER_STRATEGIC_REGION WHERE USERNAME = @USERNAME AND NOT (STRATEGIC_REGION_CODE IS null)", con);
 				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar, 255).Value = UserName;
 
 				if(con.State != ConnectionState.Open)
@@ -159,7 +159,7 @@ namespace SCM.DataAccessObject
 		/// <param name="userName"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public bool Exist(string userName)
@@ -173,7 +173,7 @@ namespace SCM.DataAccessObject
 
 			try
 			{
-				cmd = new SqlCommand("SELECT COUNT(*) FROM SCM_AUT_USER WHERE USERNAME = @USERNAME", con);
+				cmd = new SqlCommand("SELECT COUNT(*) FROM GENERAL_AUT_USER WHERE USERNAME = @USERNAME", con);
 				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar).Value = userName;
 
 				if(con.State != ConnectionState.Open)
@@ -208,7 +208,7 @@ namespace SCM.DataAccessObject
 		/// <param name="strategicRegions"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int SetRights(string userName, ArrayList regions, ArrayList strategicRegions)
@@ -229,23 +229,23 @@ namespace SCM.DataAccessObject
 
 				cmd = new SqlCommand("", con, trans);
 
-				//DELETE FROM SCM_AUT_USER_REGION WHERE USERNAME = @USERNAME
+				//DELETE FROM GENERAL_AUT_USER_REGION WHERE USERNAME = @USERNAME
 				cmd.Parameters.Clear();
-				cmd.CommandText = "DELETE FROM SCM_AUT_USER_REGION WHERE USERNAME = @USERNAME";
+				cmd.CommandText = "DELETE FROM GENERAL_AUT_USER_REGION WHERE USERNAME = @USERNAME";
 				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar, 20).Value = userName;
 
 				cmd.Parameters.Clear();
-				cmd.CommandText = "DELETE FROM SCM_AUT_USER_REGION WHERE USERNAME = @USERNAME";
-				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar, 20).Value = userName;
-				cmd.ExecuteNonQuery();
-
-				cmd.Parameters.Clear();
-				cmd.CommandText = "DELETE FROM SCM_AUT_USER_STRATEGIC_REGION WHERE USERNAME = @USERNAME";
+				cmd.CommandText = "DELETE FROM GENERAL_AUT_USER_REGION WHERE USERNAME = @USERNAME";
 				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar, 20).Value = userName;
 				cmd.ExecuteNonQuery();
 
 				cmd.Parameters.Clear();
-				cmd.CommandText = "INSERT INTO SCM_AUT_USER_REGION(USERNAME, REGION_CODE) VALUES (@USERNAME, @REGION_CODE)";
+				cmd.CommandText = "DELETE FROM GENERAL_AUT_USER_STRATEGIC_REGION WHERE USERNAME = @USERNAME";
+				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar, 20).Value = userName;
+				cmd.ExecuteNonQuery();
+
+				cmd.Parameters.Clear();
+				cmd.CommandText = "INSERT INTO GENERAL_AUT_USER_REGION(USERNAME, REGION_CODE) VALUES (@USERNAME, @REGION_CODE)";
 				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar, 20).Value = userName;
 				cmd.Parameters.Add("@REGION_CODE", SqlDbType.VarChar, 14);
 				foreach(string regionCode in regions)
@@ -256,7 +256,7 @@ namespace SCM.DataAccessObject
 				
 
 				cmd.Parameters.Clear();
-				cmd.CommandText = "INSERT INTO SCM_AUT_USER_STRATEGIC_REGION(USERNAME, STRATEGIC_REGION_CODE) VALUES (@USERNAME, @STRATEGIC_REGION_CODE)";
+				cmd.CommandText = "INSERT INTO GENERAL_AUT_USER_STRATEGIC_REGION(USERNAME, STRATEGIC_REGION_CODE) VALUES (@USERNAME, @STRATEGIC_REGION_CODE)";
 				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar, 20).Value = userName;
 				cmd.Parameters.Add("@STRATEGIC_REGION_CODE", SqlDbType.VarChar, 14);
 				foreach(string strategicRegionCode in strategicRegions)
@@ -289,11 +289,11 @@ namespace SCM.DataAccessObject
 			return count;
 		}
 		/// <summary>
-		/// Load all user from SCM_AUT_USER table
+		/// Load all user from GENERAL_AUT_USER table
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable LoadAll()
@@ -305,7 +305,7 @@ namespace SCM.DataAccessObject
 			{
 				dt = new DataTable(TableName);
 
-				SqlCommand cmd = new SqlCommand("SELECT USERNAME, PASSWORD, FIRSTNAME, LASTNAME, EMAIL, ADDRESS, PHONE, START_DATE, END_DATE, PWD_CHG_DATE, STATUS, UROLE_ID, DESCRIPTION FROM SCM_AUT_USER", con);
+				SqlCommand cmd = new SqlCommand("SELECT USERNAME, PASSWORD, FIRSTNAME, LASTNAME, EMAIL, ADDRESS, PHONE, START_DATE, END_DATE, PWD_CHG_DATE, STATUS, UROLE_ID, DESCRIPTION FROM GENERAL_AUT_USER", con);
 
 				SqlDataAdapter da = new SqlDataAdapter(cmd);
 				da.Fill(dt);
@@ -323,12 +323,12 @@ namespace SCM.DataAccessObject
 			}
 		}
 		/// <summary>
-		/// Get one user from SCM_AUT_USER table by username
+		/// Get one user from GENERAL_AUT_USER table by username
 		/// </summary>
 		/// <param name="username"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable GetOne(string username)
@@ -340,7 +340,7 @@ namespace SCM.DataAccessObject
 			{
 				dt = new DataTable(TableName);
 
-				SqlCommand cmd = new SqlCommand("SELECT USERNAME, PASSWORD, FIRSTNAME, LASTNAME, EMAIL, ADDRESS, PHONE, START_DATE, END_DATE, PWD_CHG_DATE, STATUS, UROLE_ID, DESCRIPTION, PASSWORD AS OLDPASSWORD FROM SCM_AUT_USER WHERE USERNAME = @USERNAME", con);
+				SqlCommand cmd = new SqlCommand("SELECT USERNAME, PASSWORD, FIRSTNAME, LASTNAME, EMAIL, ADDRESS, PHONE, START_DATE, END_DATE, PWD_CHG_DATE, STATUS, UROLE_ID, DESCRIPTION, PASSWORD AS OLDPASSWORD FROM GENERAL_AUT_USER WHERE USERNAME = @USERNAME", con);
 				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar).Value = username;
 
 				SqlDataAdapter da = new SqlDataAdapter(cmd);
@@ -368,7 +368,7 @@ namespace SCM.DataAccessObject
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable LoadAllStatus()
@@ -393,11 +393,11 @@ namespace SCM.DataAccessObject
 		}
 
 		/// <summary>
-		/// Load All UserRole from SCM_AUT_USERROLE table
+		/// Load All UserRole from GENERAL_AUT_USERROLE table
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable LoadAllUserRole()
@@ -408,7 +408,7 @@ namespace SCM.DataAccessObject
 			try
 			{
 				dt = new DataTable(TableName);
-				SqlCommand cmd = new SqlCommand("SELECT UROLE_ID, ROLE_NAME FROM SCM_AUT_USERROLE", con);
+				SqlCommand cmd = new SqlCommand("SELECT UROLE_ID, ROLE_NAME FROM GENERAL_AUT_USERROLE", con);
 				SqlDataAdapter da = new SqlDataAdapter(cmd);
 				da.Fill(dt);
 				return dt;
@@ -432,7 +432,7 @@ namespace SCM.DataAccessObject
 		/// <param name="newPassword"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int ChangePassword(string username, string oldPassword, string newPassword)
@@ -452,7 +452,7 @@ namespace SCM.DataAccessObject
 
 				trans = con.BeginTransaction();
 
-				cmd = new SqlCommand("UPDATE SCM_AUT_USER SET PASSWORD = @PASSWORD, PWD_CHG_DATE = getdate() WHERE USERNAME = @USERNAME AND PASSWORD = @ORIGINAL_PASSWORD", con, trans);
+				cmd = new SqlCommand("UPDATE GENERAL_AUT_USER SET PASSWORD = @PASSWORD, PWD_CHG_DATE = getdate() WHERE USERNAME = @USERNAME AND PASSWORD = @ORIGINAL_PASSWORD", con, trans);
 				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar, 20).Value = username;
 				cmd.Parameters.Add("@ORIGINAL_PASSWORD", SqlDbType.VarChar, 255).Value = crypto.Encode(oldPassword);
 				cmd.Parameters.Add("@PASSWORD", SqlDbType.VarChar, 255).Value = crypto.Encode(newPassword);
@@ -484,12 +484,12 @@ namespace SCM.DataAccessObject
 		}
 
 		/// <summary>
-		/// Insert one row into SCM_AUT_USER table
+		/// Insert one row into GENERAL_AUT_USER table
 		/// </summary>
 		/// <param name="row"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int Insert(DataRow row)
@@ -508,7 +508,7 @@ namespace SCM.DataAccessObject
 
 				trans = con.BeginTransaction();
 
-				cmd = new SqlCommand("INSERT INTO SCM_AUT_USER(USERNAME, PASSWORD, FIRSTNAME, LASTNAME, EMAIL, ADDRESS, PHONE, START_DATE, END_DATE, PWD_CHG_DATE, STATUS, UROLE_ID, DESCRIPTION) VALUES(@USERNAME, @PASSWORD, @FIRSTNAME, @LASTNAME, @EMAIL, @ADDRESS, @PHONE, @START_DATE, @END_DATE, getdate(), @STATUS, @UROLE_ID, @DESCRIPTION)", con, trans);
+				cmd = new SqlCommand("INSERT INTO GENERAL_AUT_USER(USERNAME, PASSWORD, FIRSTNAME, LASTNAME, EMAIL, ADDRESS, PHONE, START_DATE, END_DATE, PWD_CHG_DATE, STATUS, UROLE_ID, DESCRIPTION) VALUES(@USERNAME, @PASSWORD, @FIRSTNAME, @LASTNAME, @EMAIL, @ADDRESS, @PHONE, @START_DATE, @END_DATE, getdate(), @STATUS, @UROLE_ID, @DESCRIPTION)", con, trans);
 				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar).Value = row["USERNAME"];
 				cmd.Parameters.Add("@PASSWORD", SqlDbType.VarChar).Value = crypto.Encode(row["PASSWORD"].ToString());
 				cmd.Parameters.Add("@FIRSTNAME", SqlDbType.NVarChar).Value = row["FIRSTNAME"];
@@ -550,12 +550,12 @@ namespace SCM.DataAccessObject
 		}
 
 		/// <summary>
-		/// Update one row of SCM_AUT_USER by USERNAME
+		/// Update one row of GENERAL_AUT_USER by USERNAME
 		/// </summary>
 		/// <param name="row"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int Update(DataRow row)
@@ -578,7 +578,7 @@ namespace SCM.DataAccessObject
 				string strPWDChangeDate = "";
 				if(!row["PASSWORD"].Equals(row["OLDPASSWORD"]))
 					strPWDChangeDate = " , PWD_CHG_DATE = getdate() ";
-				string cmdText = string.Format("UPDATE SCM_AUT_USER SET PASSWORD = @PASSWORD, FIRSTNAME = @FIRSTNAME, LASTNAME = @LASTNAME, EMAIL = @EMAIL, ADDRESS = @ADDRESS, PHONE = @PHONE, START_DATE = @START_DATE, END_DATE = @END_DATE, STATUS = @STATUS, UROLE_ID = @UROLE_ID, DESCRIPTION = @DESCRIPTION {0} WHERE USERNAME = @USERNAME", strPWDChangeDate);
+				string cmdText = string.Format("UPDATE GENERAL_AUT_USER SET PASSWORD = @PASSWORD, FIRSTNAME = @FIRSTNAME, LASTNAME = @LASTNAME, EMAIL = @EMAIL, ADDRESS = @ADDRESS, PHONE = @PHONE, START_DATE = @START_DATE, END_DATE = @END_DATE, STATUS = @STATUS, UROLE_ID = @UROLE_ID, DESCRIPTION = @DESCRIPTION {0} WHERE USERNAME = @USERNAME", strPWDChangeDate);
 				cmd = new SqlCommand(cmdText, con, trans);
 				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar).Value = row["USERNAME"];
 				cmd.Parameters.Add("@PASSWORD", SqlDbType.VarChar).Value = crypto.Encode(newPassword);
@@ -620,12 +620,12 @@ namespace SCM.DataAccessObject
 		}
 
 		/// <summary>
-		/// Delete one row of SCM_AUT_USER by USERNAME
+		/// Delete one row of GENERAL_AUT_USER by USERNAME
 		/// </summary>
 		/// <param name="username"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int Delete(string username)
@@ -643,7 +643,7 @@ namespace SCM.DataAccessObject
 
 				trans = con.BeginTransaction();
 
-				cmd = new SqlCommand("DELETE FROM SCM_AUT_USER WHERE USERNAME = @USERNAME", con, trans);
+				cmd = new SqlCommand("DELETE FROM GENERAL_AUT_USER WHERE USERNAME = @USERNAME", con, trans);
 				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar).Value = username;
 
 				count = cmd.ExecuteNonQuery();
@@ -681,7 +681,7 @@ namespace SCM.DataAccessObject
 		/// <param name="result"></param>
 		/// <returns>Return all feature of this user</returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable Login(string username, string password, int expiredDays, out int result)

@@ -3,9 +3,9 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Windows.Forms;
 using System.IO;
-using SCM.Utils;
+using DMS.Utils;
 
-namespace SCM.DataAccessObject
+namespace DMS.DataAccessObject
 {
 	/// <summary>
 	/// Summary description for clsSMSReportDAO.
@@ -28,8 +28,8 @@ namespace SCM.DataAccessObject
 		{
 			SqlCommand cmd = new SqlCommand();
 
-            string strSql = "SELECT DISTINCT INF.CREATED_DATE, INF.RECEIVE_PERSON, INF.ROLE, INF.INFORM_METHOD, INF.EMAIL, INF.SMS, DIS.CUST_NAME,INF.PPO_CODE, INF.PPO_TYPE, INF.TIME_CHECK, INF.INFORM_STATUS, INF.INFORM_TIME, INF.NOTE FROM SCM_INFORM_LOG INF"
-				+ " LEFT JOIN SCM_DISTRIBUTOR_HIERARCHY DIS ON INF.DISTRIBUTOR = DIS.CUST_CODE"
+            string strSql = "SELECT DISTINCT INF.CREATED_DATE, INF.RECEIVE_PERSON, INF.ROLE, INF.INFORM_METHOD, INF.EMAIL, INF.SMS, DIS.CUST_NAME,INF.PPO_CODE, INF.PPO_TYPE, INF.TIME_CHECK, INF.INFORM_STATUS, INF.INFORM_TIME, INF.NOTE FROM GENERAL_INFORM_LOG INF"
+				+ " LEFT JOIN GENERAL_DISTRIBUTOR_HIERARCHY DIS ON INF.DISTRIBUTOR = DIS.CUST_CODE"
 				+ " WHERE 1=1";
 			if(distributor != "")
 			{

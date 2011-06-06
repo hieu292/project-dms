@@ -3,18 +3,18 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Collections;
 
-namespace SCM.DataAccessObject
+namespace DMS.DataAccessObject
 {
 	/// <summary>
 	/// Summary description for clsUserRoleDAO.
 	/// </summary>
 	/// <remarks>
-	/// Author:			NguyenLD. FPTSS.
+	/// Author:			PhatLT. FPTSS.
 	/// Created date:	14/02/2011
 	/// </remarks>
 	public class clsUserRoleDAO:clsBaseDAO
 	{
-		public static string TableName = "SCM_AUT_USERROLE";
+		public static string TableName = "GENERAL_AUT_USERROLE";
 		private static log4net.ILog log = log4net.LogManager.GetLogger(typeof(clsUserRoleDAO));
 
 		public clsUserRoleDAO()
@@ -22,11 +22,11 @@ namespace SCM.DataAccessObject
 		}
 
 		/// <summary>
-		/// Get schema of SCM_AUT_USERROLE table
+		/// Get schema of GENERAL_AUT_USERROLE table
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable GetSchemaTable()
@@ -38,54 +38,54 @@ namespace SCM.DataAccessObject
 		}
 
 		/// <summary>
-		/// Get insert cmd of SCM_AUT_USERROLE table
+		/// Get insert cmd of GENERAL_AUT_USERROLE table
 		/// </summary>
 		/// <param name="con"></param>
 		/// <param name="trans"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public SqlCommand GetInsertCommand(SqlConnection con, SqlTransaction trans)
 		{
-			SqlCommand cmd = new SqlCommand("INSERT INTO SCM_AUT_USERROLE(UROLE_ID, ROLE_NAME) VALUES(@UROLE_ID, @ROLE_NAME)", con, trans);
+			SqlCommand cmd = new SqlCommand("INSERT INTO GENERAL_AUT_USERROLE(UROLE_ID, ROLE_NAME) VALUES(@UROLE_ID, @ROLE_NAME)", con, trans);
 			cmd.Parameters.Add("@UROLE_ID", SqlDbType.VarChar, 14, "UROLE_ID");
 			cmd.Parameters.Add("@ROLE_NAME", SqlDbType.VarChar, 255, "ROLE_NAME");
 			return cmd;
 		}
 
 		/// <summary>
-		/// Get update cmd of SCM_AUT_USERROLE table
+		/// Get update cmd of GENERAL_AUT_USERROLE table
 		/// </summary>
 		/// <param name="con"></param>
 		/// <param name="trans"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public SqlCommand GetUpdateCommand(SqlConnection con, SqlTransaction trans)
 		{
-			SqlCommand cmd = new SqlCommand("UPDATE SCM_AUT_USERROLE SET ROLE_NAME = @ROLE_NAME WHERE UROLE_ID = @UROLE_ID", con, trans);
+			SqlCommand cmd = new SqlCommand("UPDATE GENERAL_AUT_USERROLE SET ROLE_NAME = @ROLE_NAME WHERE UROLE_ID = @UROLE_ID", con, trans);
 			cmd.Parameters.Add("@ROLE_NAME", SqlDbType.VarChar, 255, "ROLE_NAME");
 			cmd.Parameters.Add("@UROLE_ID", SqlDbType.VarChar, 14, "UROLE_ID");
 			return cmd;
 		}
 
 		/// <summary>
-		/// Get delete cmd of SCM_AUT_USERROLE table
+		/// Get delete cmd of GENERAL_AUT_USERROLE table
 		/// </summary>
 		/// <param name="con"></param>
 		/// <param name="trans"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public SqlCommand GetDeleteCommand(SqlConnection con, SqlTransaction trans)
 		{
-			SqlCommand cmd = new SqlCommand("DELETE FROM SCM_AUT_USERROLE WHERE UROLE_ID = @UROLE_ID", con, trans);
+			SqlCommand cmd = new SqlCommand("DELETE FROM GENERAL_AUT_USERROLE WHERE UROLE_ID = @UROLE_ID", con, trans);
 			cmd.Parameters.Add("@UROLE_ID", SqlDbType.VarChar, 14, "UROLE_ID");
 			return cmd;
 		}
@@ -103,7 +103,7 @@ namespace SCM.DataAccessObject
 		/// </summary>
 		/// <param name="dt"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int UpdateAll(DataTable dt)
