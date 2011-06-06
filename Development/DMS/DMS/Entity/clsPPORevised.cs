@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SCM.ValueObject
+namespace DMS.ValueObject
 {
 	/// <summary>
 	/// Summary description for clsPPORevised.

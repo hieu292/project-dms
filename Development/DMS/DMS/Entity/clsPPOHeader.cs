@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections;
 
-namespace SCM.ValueObject
+namespace DMS.ValueObject
 {
 	/// <summary>
 	/// Summary description for clsPPOHeader.

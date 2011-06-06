@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace SCM.DataAccessObject
+namespace DMS.DataAccessObject
 {
     /// <summary>
     ///    
