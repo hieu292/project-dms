@@ -162,7 +162,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\GENERAL.vshost.exe" />
     <Content Include="Resources\Add.gif" />
     <Content Include="Resources\Delete.gif" />
     <Content Include="Resources\HO-SchemeScartchSchemeInformation.png" />

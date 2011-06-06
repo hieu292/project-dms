@@ -49,24 +49,6 @@ namespace DMS
 			mnuMain = BuildMenu(dt);
 			this.Menu = mnuMain;
 
-			#region Old
-//			if(clsStyleManager.Aqua)
-//				pnlToolBar = clsStyleManager.CreateMainPanel();
-//			else
-//			{
-//				pnlToolBar = new Panel();
-//				((Panel)pnlToolBar).DockPadding.Top = 1;
-//				((Panel)pnlToolBar).DockPadding.Bottom = 1;
-//			}
-//			pnlToolBar.Height = 24;
-//			pnlToolBar.Dock = DockStyle.Top;
-//			pnlToolBar.Visible = false;
-//
-//			this.Controls.Add(pnlToolBar);
-
-			//clsTitleManager.InitTitle(this, mnuMain);
-			#endregion
-
 			try
 			{
 				string filename = clsSystemConfig.ImageFolder + ConfigurationManager.AppSettings["Background"];
@@ -178,7 +160,7 @@ namespace DMS
 		//private static string DESCRIPTION = "DESCRIPTION";
 		//private static string MENU_PID = "MENU_PID";
 		private static string ICON_NAME = "ICON_NAME";
-		private static string AssemblyName = "GENERAL.Presentation.";
+		private static string AssemblyName = "DMS.Presentation.";
 		private static string frmMainName = "frmMain.";
 
 		/// <summary>
@@ -408,7 +390,7 @@ namespace DMS
                 formName = item.FormName;
                 if (formName.Length > 0 && formName != AssemblyName)
                 {
-                    if (formName == "GENERAL.Presentation.frmLogin")
+                    if (formName == "DMS.Presentation.frmLogin")
                     {
                         mnuLogin_Click(null, null);
                     }
@@ -563,20 +545,20 @@ namespace DMS
 		/// </remarks>
 		private void mnuLogin_Click(object sender, System.EventArgs e)
 		{
-			int LoginResult = clsConstants.PASSWORD_WRONG;
-			frmLogin frm = new frmLogin();
-			if(frm.ShowDialog() == DialogResult.OK)
-			{
-				LoginResult = frm.LoginResult;
-			}
+            int LoginResult = clsConstants.PASSWORD_WRONG;
+            frmLogin frm = new frmLogin();
+            if (frm.ShowDialog() == DialogResult.OK)
+            {
+                LoginResult = frm.LoginResult;
+            }
 
-			if(LoginResult == clsConstants.LOGIN_SUCCESS)
+            if (LoginResult == clsConstants.LOGIN_SUCCESS)
 			{
 				//SingleInstance.SingleApplication.Run(new frmMain());
 				clsAutUserBO bo = new clsAutUserBO();
 				DataTable dt = bo.GetAuthority();
 				this.Menu = BuildMenu(dt);
-				//CreateToolBar(dt);
+				CreateToolBar(dt);
 				bo.ClearAuthority();
 				this.Text = clsResources.GetTitle("frmMain.Title") + " - " + clsResources.GetMessage("messages.username.title", clsSystemConfig.UserName);
 				clsFormManager.MainForm = this;

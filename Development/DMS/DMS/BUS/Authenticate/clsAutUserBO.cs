@@ -227,7 +227,6 @@ namespace DMS.BusinessObject
 		/// </remarks>
 		public DataTable GetCommonMenu()
 		{
-			//string strSql = "SELECT FORM_ID, FORM_NAME, MENU_NAME, MENU_LEVEL, MENU_PID, MENU_ZORDER, TOOLBAR_BUTTON_INDEX, TOOLBAR_BUTTON_NAME, TOOLBAR_NAME, DESCRIPTION, ICON_NAME FROM GENERAL_AUT_FORM WHERE MENU_NAME IN ('mnuFile', 'mnuWindow', 'mnuHelp', 'mnuLogin', 'mnuSeparate', 'mnuExit', 'mnuWindowCascade', 'mnuWindowTileHoz', 'mnuHelpTopic', 'mnuSeparate', 'mnuHelpAbout', 'mnuEN', 'mnuVN', 'mnuMaximized', 'mnuSystemStyle')";
 			string strSql = "SELECT FORM_ID, FORM_NAME, MENU_NAME, MENU_LEVEL, MENU_PID, MENU_ZORDER, TOOLBAR_BUTTON_INDEX, TOOLBAR_BUTTON_NAME, TOOLBAR_NAME, DESCRIPTION, ICON_NAME FROM GENERAL_AUT_FORM WHERE COMMON_MENU = '1'";
 			return dao.GetDataTable(strSql);
 		}
