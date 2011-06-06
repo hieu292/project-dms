@@ -5,7 +5,7 @@ using System.Diagnostics;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace SCM.Controls
+namespace DMS.Controls
 {
 	public delegate void DataGridDisableCellHandler(object sender, DataGridDisableCellEventArgs e);
 	#region - DataGridDisableCell -

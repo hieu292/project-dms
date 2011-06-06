@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Resources;
 using System.Windows.Forms;
 
-namespace SCM.Controls
+namespace DMS.Controls
 {
 	/// <summary>
 	/// Summary description for MyMenuItem.

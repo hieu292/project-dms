@@ -3,7 +3,7 @@ using System.Data;
 using System.Windows.Forms;
 using System.Drawing;
 
-namespace SCM.Controls
+namespace DMS.Controls
 {
 	/// <summary>
 	/// Summary description for DataGridTimePickerColumn.

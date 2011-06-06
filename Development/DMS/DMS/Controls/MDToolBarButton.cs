@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace SCM.Controls
+namespace DMS.Controls
 {
 	/// <summary>
 	/// Summary description for MDToolBarButton.

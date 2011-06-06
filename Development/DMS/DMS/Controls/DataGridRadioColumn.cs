@@ -5,7 +5,7 @@ using System.ComponentModel;
 using System.Windows.Forms;
 using System.Data;
 
-namespace SCM.Controls
+namespace DMS.Controls
 {
 	/// <summary>
 	/*
