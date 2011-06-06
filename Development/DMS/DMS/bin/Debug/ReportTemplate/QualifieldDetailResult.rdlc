@@ -5,7 +5,7 @@
       <rd:DataSourceID>d642e42a-730b-4b60-98d4-550a5ce1f428</rd:DataSourceID>
       <ConnectionProperties>
         <DataProvider>SQL</DataProvider>
-        <ConnectString>Data Source=nguyenld-xp\sql2k5;Initial Catalog=HOSCM;User ID=sa;Password=12345;User Instance=False</ConnectString>
+        <ConnectString>Data Source=PhatLT-xp\sql2k5;Initial Catalog=HOSCM;User ID=sa;Password=12345;User Instance=False</ConnectString>
       </ConnectionProperties>
     </DataSource>
   </DataSources>
