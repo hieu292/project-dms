@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
 	/// <summary>
 	/// Summary description for clsConstants.
 	/// </summary>
 	/// <remarks>
-	/// Author:			NguyenLD. FPTSS.
+	/// Author:			PhatLT. FPTSS.
 	/// Created date:	14/02/2011
 	/// </remarks>
 	public static class clsConstants
@@ -147,7 +147,7 @@ namespace SCM.Utils
         public const int PPO_STATUS_READY_REVISE = 5;
 
         public const string PPO_DESCR_UPDATE = "Application updated";
-        public const string APP_NAME = "SCM";
+        public const string APP_NAME = "GENERAL";
         
 
         public const string FORMAT_IMPORT_FILE_PPO_MANUALLY = "*.zip";

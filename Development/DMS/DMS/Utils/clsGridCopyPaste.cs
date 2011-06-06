@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Windows.Forms;
 using System.Data;
-using SCM.Controls;
+using DMS.Controls;
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
 	/// <summary>
 	/// Summary description for clsGridCopyPaste.
 	/// </summary>
 	/// <remarks>
-	/// Author:			NguyenLD. FPTSS.
+	/// Author:			PhatLT. FPTSS.
 	/// Created date:	14/02/2011
 	/// </remarks>
 	public class clsGridCopyPaste
@@ -21,7 +21,7 @@ namespace SCM.Utils
 			//
 		}
 
-		#region Copy Paste From Excel Trick. Author: NguyenLD. FPTSS.
+		#region Copy Paste From Excel Trick. Author: PhatLT. FPTSS.
 		private static TextBox tempText = new TextBox();
 
 		/// <summary>
@@ -29,7 +29,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="ctrl"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void RegCopyPaste(Control ctrl)
@@ -53,7 +53,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="grd"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void RegCopyPaste(DataGrid grd)
@@ -73,7 +73,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="col"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void RegCopyPaste(DataGridTextBoxColumn col)
@@ -91,7 +91,7 @@ namespace SCM.Utils
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private static void TextBox_KeyUp(object sender, KeyEventArgs e)
@@ -116,7 +116,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="grdStyle"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void Paste(DataGridTableStyle grdStyle)

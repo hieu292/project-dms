@@ -5,7 +5,7 @@ using System.Collections;
 using System.Configuration;
 using System.Drawing;
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
 	/// <summary>
 	/// Summary description for FormManager.

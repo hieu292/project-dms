@@ -7,7 +7,7 @@ using ICSharpCode.SharpZipLib.GZip;
 using ICSharpCode.SharpZipLib.BZip2;
 using ICSharpCode.SharpZipLib.Zip.Compression;
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
 	/// <summary>
 	/// Summary description for clsZip.
@@ -25,7 +25,7 @@ namespace SCM.Utils
 		/// Zip a set of files
 		/// </summary>
 		/// <remarks>
-		/// Author			: Le Dinh Nguyen - FSOFT G3
+		/// Author			: Le Tien Phat - FSOFT G3
 		/// Modifications	: Created 24-Apr-2011
 		/// </remarks>
 		/// <param name="fileNames">Name of files are not equal</param>
@@ -174,7 +174,7 @@ namespace SCM.Utils
 		/// Unzip a file
 		/// </summary>
 		/// <remarks>
-		/// Author			: Le Dinh Nguyen - FSOFT G3
+		/// Author			: Le Tien Phat - FSOFT G3
 		/// Modifications	: Created 24-Apr-2011
 		/// </remarks>
 		/// <param name="zipFileName">Name of files are not equal</param>
@@ -269,7 +269,7 @@ namespace SCM.Utils
 		/// Remove end back slash in path string
 		/// </summary>
 		/// <remarks>
-		/// Author			: Le Dinh Nguyen - FSOFT G3
+		/// Author			: Le Tien Phat - FSOFT G3
 		/// Modifications	: Created 19-Apr-2011
 		/// </remarks>
 		/// <param name="path"></param>

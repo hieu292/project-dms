@@ -6,11 +6,11 @@ using System.Configuration;
 using System.Drawing;
 using System.IO;
 
-using SCM.Controls;
+using DMS.Controls;
 using PureComponents.NicePanel;
 using DotNetSkin.SkinControls;
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
 	/// <summary>
 	/// Summary description for clsStyleManager.
@@ -75,7 +75,7 @@ namespace SCM.Utils
 		/// Init
 		/// </summary>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void Init()
@@ -153,7 +153,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="control"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void FlatSystem(Control control)
@@ -204,7 +204,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="frm"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void ChangeStyle(Form frm)
@@ -265,7 +265,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="ctrl"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		protected static void ChangeStyle(Control ctrl)
@@ -312,7 +312,7 @@ namespace SCM.Utils
 		/// <param name="control"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		protected static bool ContainGroupBox(Control control)
@@ -334,7 +334,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="control"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void SetStyle(Control control)
@@ -469,7 +469,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="grd"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void SetStyle(DataGrid grd)
@@ -860,7 +860,7 @@ namespace SCM.Utils
 		/// <param name="control"></param>
 		/// <param name="panel"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void SwapStyle(Control control, NicePanel panel)
@@ -888,7 +888,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static PureComponents.NicePanel.NicePanel CreateMainPanel()
@@ -908,7 +908,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static PureComponents.NicePanel.NicePanel CreateNicePanel()

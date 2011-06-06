@@ -4,7 +4,7 @@ using System.Data;
 using System.Windows.Forms;
 
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
 		#region Formattable TextBox Column
 

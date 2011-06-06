@@ -2,13 +2,13 @@
 using System.Data;
 using System.Configuration;
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
 	/// <summary>
 	/// This class is used to handle the message resources for the whole system.
 	/// </summary>
 	/// <remarks>
-	/// Author:			NguyenLD. FPTSS.
+	/// Author:			PhatLT. FPTSS.
 	/// Created date:	14/02/2011
 	/// </remarks>
 	public class clsResources
@@ -43,7 +43,7 @@ namespace SCM.Utils
 		/// Initialize the message resource by the configuration
 		/// </summary>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void Init()
@@ -77,7 +77,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="language"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void Init(string language)
@@ -99,12 +99,12 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="filename"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void InitMessage(string filename)
 		{
-			DataSet ds = new DataSet("SCM");
+			DataSet ds = new DataSet("GENERAL");
 			ds.ReadXml(filename);
 			
 			try
@@ -139,12 +139,12 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="filename"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void InitTitle(string filename)
 		{
-			DataSet ds = new DataSet("SCM");
+			DataSet ds = new DataSet("GENERAL");
 			ds.ReadXml(filename);
 			
 			try
@@ -180,7 +180,7 @@ namespace SCM.Utils
 		/// <param name="key"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static string GetTitle(string key)
@@ -202,7 +202,7 @@ namespace SCM.Utils
 		/// <param name="key"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static string GetMessage(string key)
@@ -231,7 +231,7 @@ namespace SCM.Utils
 		/// <param name="arg0"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static string GetMessage(string key, object arg0)
@@ -270,7 +270,7 @@ namespace SCM.Utils
 		/// <param name="arg2"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static string GetMessage(string key, object arg0, object arg1, object arg2)
@@ -290,7 +290,7 @@ namespace SCM.Utils
 		/// <param name="args"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static string GetMessage(string key, object[]args)
@@ -312,7 +312,7 @@ namespace SCM.Utils
 		/// This class is the value object of one message.
 		/// </summary>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		protected class clsMessages:IComparable

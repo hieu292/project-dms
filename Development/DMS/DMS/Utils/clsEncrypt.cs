@@ -4,7 +4,7 @@ using System;
 using System.Data;
 using System.Collections;
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
     public class clsEncrypt
     {

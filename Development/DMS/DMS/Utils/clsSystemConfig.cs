@@ -2,15 +2,15 @@
 using System.IO;
 using System.Configuration;
 
-using SCM.DataAccessObject;
+using DMS.DataAccessObject;
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
 	/// <summary>
 	/// Manage and Init Configurations.
 	/// </summary>
 	/// <remarks>
-	/// Author:			NguyenLD. FPTSS.
+	/// Author:			PhatLT. FPTSS.
 	/// Created date:	14/02/2011
 	/// </remarks>
 	public class clsSystemConfig
@@ -59,7 +59,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static bool Init()

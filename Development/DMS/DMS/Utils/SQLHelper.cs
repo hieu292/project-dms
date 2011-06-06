@@ -24,7 +24,7 @@ using System.Xml;
 using System.Data.SqlClient;
 using System.Collections;
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
 	/// <summary>
 	/// The SqlHelper class is intended to encapsulate high performance, scalable best practices for 

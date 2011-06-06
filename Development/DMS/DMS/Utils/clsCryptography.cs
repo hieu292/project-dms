@@ -2,7 +2,7 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
 	public class clsCryptography
 	{

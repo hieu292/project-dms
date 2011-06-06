@@ -9,10 +9,10 @@ using System.Text;
 using System.Diagnostics;
 using System.Configuration;
 
-using SCM.Presentation;
-using SCM.ValueObject;
+using DMS.Presentation;
+using DMS.ValueObject;
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
     public enum PPOType
     {
@@ -24,7 +24,7 @@ namespace SCM.Utils
 	/// Summary description for Common.
 	/// </summary>
 	/// <remarks>
-	/// Author:			NguyenLD. FPTSS.
+	/// Author:			PhatLT. FPTSS.
 	/// Created date:	14/02/2011
 	/// </remarks>
 	public class clsCommon
@@ -63,7 +63,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="frm"></param>
 		/// <remarks>
-		/// Author		:	NguyenLD G3
+		/// Author		:	PhatLT G3
 		/// Created day	:	04/10/2011
 		/// </remarks>
 		public static void RemoveAllToolBar(Form frm)
@@ -96,7 +96,7 @@ namespace SCM.Utils
         /// </summary>
         /// <param name="frm"></param>
         /// <remarks>
-        /// Author		:	NguyenLD
+        /// Author		:	PhatLT
         /// Created day	:	2010-11-25
         /// </remarks>
         public static void SetBackgroundButton(Form frm, string fromName)
@@ -179,7 +179,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="control"></param>
 		/// <remarks>
-		/// Author		:	NguyenLD G3
+		/// Author		:	PhatLT G3
 		/// Created day	:	04/10/2011
 		/// </remarks>
 		public static void RegNumberOnly(Control control)
@@ -205,7 +205,7 @@ namespace SCM.Utils
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author		:	NguyenLD G3
+		/// Author		:	PhatLT G3
 		/// Created day	:	04/10/2011
 		/// </remarks>
 		private static void Control_OnKeyPress(object sender, KeyPressEventArgs e)
@@ -251,7 +251,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="grd"></param>
 		/// <remarks>
-		/// Author		:	NguyenLD G3
+		/// Author		:	PhatLT G3
 		/// Created day	:	04/10/2011
 		/// </remarks>
 		public static void RegAutoSizeCol(DataGrid grd)
@@ -268,7 +268,7 @@ namespace SCM.Utils
 		/// <param name="sender"></param>
 		/// <param name="e"></param>
 		/// <remarks>
-		/// Author		:	NguyenLD G3
+		/// Author		:	PhatLT G3
 		/// Created day	:	04/10/2011
 		/// </remarks>
 		private static void DataGrid_Resize(object sender, EventArgs e)
@@ -322,7 +322,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="cbo"></param>
 		/// <remarks>
-		/// Author		:	NguyenLD G3
+		/// Author		:	PhatLT G3
 		/// Created day	:	04/10/2011
 		/// </remarks>
 		public static void AddWeekToCombo(ComboBox cbo)
@@ -341,7 +341,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="cbo"></param>
 		/// <remarks>
-		/// Author		:	NguyenLD G3
+		/// Author		:	PhatLT G3
 		/// Created day	:	04/10/2011
 		/// </remarks>
 		public static void AddYearToCombo(ComboBox cbo)
@@ -530,7 +530,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="preExcelProcesses"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public void KillProcess(Process[]preExcelProcesses)
@@ -558,7 +558,7 @@ namespace SCM.Utils
 		/// <param name="process"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		private bool Contain(Process[] processes, Process process)
@@ -579,7 +579,7 @@ namespace SCM.Utils
 		/// <param name="headers"></param>
 		/// <param name="indexes"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public void GetExportInfo(DataView view, GridColumnStylesCollection cols, ref string[]headers, ref int [] indexes)
@@ -602,7 +602,7 @@ namespace SCM.Utils
 		/// <param name="value"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int GetInt(string value)
@@ -624,7 +624,7 @@ namespace SCM.Utils
 		/// <param name="email"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public bool IsEmail(string email) 
@@ -667,7 +667,7 @@ namespace SCM.Utils
 		/// <param name="value"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public bool IsLetterAndDigit(string value)
@@ -686,7 +686,7 @@ namespace SCM.Utils
 		/// <param name="chr"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public bool IsValidCharMail(char chr) 
@@ -708,7 +708,7 @@ namespace SCM.Utils
 		/// <param name="value"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public double GetDouble(string value)
@@ -729,7 +729,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="dt"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public void ClearErrors(DataTable dt)
@@ -744,13 +744,13 @@ namespace SCM.Utils
 		/// check whether the value just contains the number character.
 		/// </summary>
 		/// <remarks>
-		/// Author		:	NguyenLD G3
+		/// Author		:	PhatLT G3
 		/// Created day	:	04/10/2011
 		/// </remarks>
 		/// <param name="value"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public bool IsOnlyContainNumber(string value)
@@ -792,7 +792,7 @@ namespace SCM.Utils
 		/// Select distinct valuemember From a DataTable
 		/// </summary>
 		/// <remarks>
-		/// Author		:	NguyenLD G3
+		/// Author		:	PhatLT G3
 		/// Created day	:	04/10/2011
 		/// </remarks>
 		/// <param name="dt"></param>
@@ -800,7 +800,7 @@ namespace SCM.Utils
 		/// <param name="DisplayMember"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public DataTable GetDistict(DataTable dt, string ValueMember, string DisplayMember)
@@ -868,7 +868,7 @@ namespace SCM.Utils
 		/// <param name="date">format YYYYMMDD</param>
 		/// <returns>format MM/DD/YYYY</returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public string FormatDate(string date)
@@ -935,7 +935,7 @@ namespace SCM.Utils
 		/// Replace ' by ''
 		/// </summary>
 		/// <remarks>
-		/// Author		:	NguyenLD G3
+		/// Author		:	PhatLT G3
 		/// Created day	:	04/10/2011
 		/// </remarks>
 		/// <param name="value"></param>
@@ -953,7 +953,7 @@ namespace SCM.Utils
 		/// <param name="keyword"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public string EncodeKeyword(string keyword)
@@ -977,7 +977,7 @@ namespace SCM.Utils
 		/// <param name="colName"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int GetColumnIndex(DataTable dt, string colName)
@@ -1022,7 +1022,7 @@ namespace SCM.Utils
 		/// <param name="dt"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int GetFirstWeek(DataTable dt)
@@ -1045,7 +1045,7 @@ namespace SCM.Utils
 		/// <param name="proWeeks"></param>
 		/// <returns></returns>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public int GetActiveWeekFrom(clsPromotionWeek []proWeeks)

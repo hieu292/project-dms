@@ -4,7 +4,7 @@ using System.Text;
 using System.IO;
 using System.Data;
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
     public class clsIOUtil
     {

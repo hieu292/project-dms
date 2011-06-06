@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
 	/// <summary>
 	/// Summary description for clsGlobal.

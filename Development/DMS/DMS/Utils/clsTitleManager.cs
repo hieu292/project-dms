@@ -5,15 +5,15 @@ using System.Collections;
 using System.Configuration;
 using System.Drawing;
 
-using SCM.Controls;
+using DMS.Controls;
 
-namespace SCM.Utils
+namespace DMS.Utils
 {
 
 	/// <summary>
 	/// Init title for all forms.
 	/// </summary>
-	/// Author:			NguyenLD. FPTSS.
+	/// Author:			PhatLT. FPTSS.
 	/// Created date:	14/02/2011
 	/// </remarks>
 	public class clsTitleManager
@@ -29,7 +29,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="frm"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void InitTitle(Form frm)
@@ -53,7 +53,7 @@ namespace SCM.Utils
 		/// </summary>
 		/// <param name="frm"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void InitToolBarToolTip(Form frm)
@@ -78,7 +78,7 @@ namespace SCM.Utils
 		/// <param name="frm"></param>
 		/// <param name="control"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void InitTitle(Form frm, Control control)
@@ -171,7 +171,7 @@ namespace SCM.Utils
 		/// <param name="frm"></param>
 		/// <param name="control"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void InitTitle(Form frm, MainMenu main)
@@ -192,7 +192,7 @@ namespace SCM.Utils
 		/// <param name="frm"></param>
 		/// <param name="control"></param>
 		/// <remarks>
-		/// Author:			NguyenLD. FPTSS.
+		/// Author:			PhatLT. FPTSS.
 		/// Created date:	14/02/2011
 		/// </remarks>
 		public static void InitTitle(Form frm, MDMenuItem item)
