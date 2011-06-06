@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace SCM.Data.DataSet {
+namespace DMS.Data.DataSet {
     
     
     /// <summary>

@@ -1,4 +1,4 @@
-﻿namespace SCM.Data.DataSet {
+﻿namespace DMS.Data.DataSet {
 
 
     partial class ReportData
