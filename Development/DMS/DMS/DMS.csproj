@@ -463,6 +463,8 @@
     <Compile Include="DAL\clsBaseDAO.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="DAL\Master\clsCityDAO.cs" />
+    <Compile Include="DAL\Master\clsCustomerDAO.cs" />
     <Compile Include="Data\DataSet\ReportData.cs">
       <DependentUpon>ReportData.xsd</DependentUpon>
       <SubType>Component</SubType>
@@ -472,6 +474,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>ReportData.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Entity\clsCity.cs" />
+    <Compile Include="Entity\clsProduct.cs" />
     <Compile Include="Entity\ReportDataEtt.cs" />
     <Compile Include="Entity\ReportParamEtt.cs" />
     <Compile Include="Modules\Authenticate\frmAutPolicy.cs">
@@ -693,6 +697,16 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="BUS\AR\" />
+    <Folder Include="BUS\Master\" />
+    <Folder Include="BUS\OP\" />
+    <Folder Include="DAL\AR\" />
+    <Folder Include="DAL\OP\" />
+    <Folder Include="Modules\AR\" />
+    <Folder Include="Modules\Master\" />
+    <Folder Include="Modules\OP\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

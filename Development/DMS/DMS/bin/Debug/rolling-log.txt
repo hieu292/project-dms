@@ -3608,3 +3608,17 @@ Parameter name: type
    at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
    at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
    at DMS.DataAccessObject.clsAutUserDAO.Login(String username, String password, Int32 expiredDays, Int32& result) in F:\project-dms\Development\DMS\DMS\DAL\Authenticate\clsAutUserDAO.cs:line 709
+2011-06-07 22:09:58,831 [10] ERROR DMS.frmMain - Value cannot be null.
+Parameter name: type
+System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at DMS.frmMain.ToolBarButtonOnClick(Object sender, ToolBarButtonClickEventArgs e) in F:\project-dms\Development\DMS\DMS\Modules\frmMain.cs:line 624
+2011-06-07 22:10:33,591 [10] ERROR DMS.frmMain - Value cannot be null.
+Parameter name: type
+System.ArgumentNullException: Value cannot be null.
+Parameter name: type
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at DMS.frmMain.ToolBarButtonOnClick(Object sender, ToolBarButtonClickEventArgs e) in F:\project-dms\Development\DMS\DMS\Modules\frmMain.cs:line 624

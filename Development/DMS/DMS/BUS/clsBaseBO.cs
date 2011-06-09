@@ -90,27 +90,7 @@ namespace DMS.BusinessObject
             //return DateTime.Now.Year;
             return clsCommon.GetCurrentULVYear();
 		}
-        /*=======12-Mar-2009: Dung ham chung trong clsBase==============
-		/// <summary>
-		/// Get all regions by logined user
-		/// </summary>
-		/// <returns></returns>
-		/// <remarks>
-		/// Author:			PhatLT. FPTSS.
-		/// Created date:	14/02/2011
-		/// </remarks>
-		public DataTable GetRegions()
-		{
-			clsCommon common = new clsCommon();
-			string strSql = string.Format("SELECT A.REGION_CODE, REGION_NAME FROM (SELECT REGION_CODE FROM SCM_AUT_USER_REGION WHERE USERNAME = '{0}') AS A LEFT JOIN SCM_REGION_HIERARCHY B ON A.REGION_CODE = B.REGION_CODE ORDER BY B.PRIORITY", common.EncodeString(clsSystemConfig.UserName));
-			DataTable dt = dao.GetDataTable(strSql);
-			DataRow row = dt.NewRow();
-			row[0] = string.Empty;
-			row[1] = string.Empty;
-			dt.Rows.InsertAt(row, 0);
-			return dt;
-		}
-        =======================*/
+        
 
 		/// <summary>
 		/// Get one product by P_ID

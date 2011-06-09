@@ -65,19 +65,20 @@ namespace DMS.DataAccessObject
 		public ArrayList GetRegion(string UserName)
 		{
 			ArrayList arrs = new ArrayList();
-			SqlConnection con = Connection;
+            //SqlConnection con = Connection;
 			SqlDataReader reader = null;
 			SqlCommand cmd = null;
 
 			try
 			{
-				cmd = new SqlCommand("SELECT REGION_CODE FROM GENERAL_AUT_USER_REGION WHERE USERNAME = @USERNAME AND NOT (REGION_CODE IS null)", con);
+				cmd = new SqlCommand("SELECT REGION_CODE FROM GENERAL_AUT_USER_REGION WHERE USERNAME = @USERNAME AND NOT (REGION_CODE IS null)");
 				cmd.Parameters.Add("@USERNAME", SqlDbType.VarChar, 255).Value = UserName;
 
-				if(con.State != ConnectionState.Open)
-					con.Open();
+                //if(con.State != ConnectionState.Open)
+                //    con.Open();
 
-				reader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                //reader = cmd.ExecuteReader(CommandBehavior.CloseConnection);
+                reader = GetSqlDataReader(cmd);
 				while(reader.Read())
 				{
 					arrs.Add(reader[0]);
@@ -96,11 +97,11 @@ namespace DMS.DataAccessObject
 				log.Error(ex.Message, ex);
 				throw ex;
 			}
-			finally
-			{
-				if(con != null && con.State == ConnectionState.Open)
-					con.Close();
-			}
+            //finally
+            //{
+            //    if(con != null && con.State == ConnectionState.Open)
+            //        con.Close();
+            //}
 		}
 
 		/// <summary>

@@ -1067,7 +1067,7 @@ namespace DMS.Utils
 
 		public static string GetConnectionString()
 		{
-			string strConnection = ConfigurationManager.ConnectionStrings["SCM"].ConnectionString;
+            string strConnection = ConfigurationManager.ConnectionStrings["DMS"].ConnectionString;
             strConnection = strConnection.Replace("Data Source=", "Server=");
             strConnection = strConnection.Replace("Initial Catalog=", "DataBase=");
             strConnection = strConnection.Replace("User ID=", "user=");

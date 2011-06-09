@@ -12,14 +12,14 @@ namespace DMS.DataAccessObject
     /// Summary description for clsBaseDAO.
     /// </summary>
     /// <remarks>
-    /// Author:			PhatLT. FPTSS.
-    /// Created date:	14/02/2011
+    /// Author:		Le Tien Phat
+    /// Created date:	10/06/2011
     /// </remarks>
     public class clsBaseDAO
     {
         private static log4net.ILog log = log4net.LogManager.GetLogger(typeof(clsBaseDAO));
 
-        // CanLV: add 11-Mar-2009: Get connection
+        // Get connection
         private static string strConn = clsCommon.GetConnectionString();
         /// <summary>
         /// Message when cannot get the connection or the connection is null
@@ -57,8 +57,8 @@ namespace DMS.DataAccessObject
         /// <param name="connectionString"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public SqlConnection GetConnection (string connectionString)
         {
@@ -75,8 +75,8 @@ namespace DMS.DataAccessObject
         /// <param name="password"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public SqlConnection GetConnection (string server, string database, string user, string password)
         {
@@ -90,8 +90,8 @@ namespace DMS.DataAccessObject
         /// Connection's used for the whole system.
         /// </summary>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public static SqlConnection Connection
         {
@@ -103,8 +103,8 @@ namespace DMS.DataAccessObject
         /// Create a con by ConnectionString in Configuration and Test Connection
         /// </summary>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public static void Init ()
         {
@@ -136,8 +136,8 @@ namespace DMS.DataAccessObject
         /// <param name="TableName"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public DataTable GetSchemaTable (string TableName)
         {
@@ -152,8 +152,8 @@ namespace DMS.DataAccessObject
         /// <param name="cmdText"></param>
         /// <returns>return DataTable</returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public DataTable GetDataTable (string cmdText)
         {
@@ -181,8 +181,8 @@ namespace DMS.DataAccessObject
         /// <param name="cmd"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public DataTable GetDataTable (SqlCommand cmd)
         {
@@ -212,8 +212,8 @@ namespace DMS.DataAccessObject
         /// <param name="cmdText"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public DataTable GetDataTable (DataTable dt, string cmdText)
         {
@@ -239,8 +239,8 @@ namespace DMS.DataAccessObject
         /// <param name="cmd"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public DataTable GetDataTable (DataTable dt, SqlCommand cmd)
         {
@@ -268,8 +268,8 @@ namespace DMS.DataAccessObject
         /// <param name="cmdText"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public SqlDataReader GetSqlDataReader (string cmdText)
         {
@@ -342,16 +342,11 @@ namespace DMS.DataAccessObject
         /// <param name="iparams"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public SqlCommand CreateCommand (string storeProcedure, IDataParameter[] iparams)
         {
-            //			SqlConnection con = m_Connection;
-            //
-            //			SqlCommand cmd = con.CreateCommand();
-            //			cmd.CommandText = storeProcedure;
-            //			cmd.CommandType = CommandType.StoredProcedure;
 
             SqlConnection con = Connection;
 
@@ -374,16 +369,11 @@ namespace DMS.DataAccessObject
         /// <param name="iparams"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public SqlCommand CreateCommand (string storeProcedure, SqlConnection con, IDataParameter[] iparams)
         {
-            //			SqlConnection con = m_Connection;
-            //
-            //			SqlCommand cmd = con.CreateCommand();
-            //			cmd.CommandText = storeProcedure;
-            //			cmd.CommandType = CommandType.StoredProcedure;
 
             SqlCommand cmd = new SqlCommand(storeProcedure, con);
             cmd.CommandType = CommandType.StoredProcedure;
@@ -403,8 +393,8 @@ namespace DMS.DataAccessObject
         /// <param name="iparams"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public SqlCommand CreateCommandReturn (string storeProcedure, IDataParameter[] iparams)
         {
@@ -433,8 +423,8 @@ namespace DMS.DataAccessObject
         /// <param name="iparams"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public SqlCommand CreateCommandReturn (string storeProcedure, SqlConnection con, IDataParameter[] iparams)
         {
@@ -463,8 +453,8 @@ namespace DMS.DataAccessObject
         /// <param name="iRowEffected"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public int ExecuteProcedure (string storeProcedure, IDataParameter[] iparams, out int rowEffected)
         {
@@ -520,8 +510,8 @@ namespace DMS.DataAccessObject
         /// <param name="iRowEffected"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public int ExecuteProcedureInTransaction (string storeProcedure, IDataParameter[] iparams, out int rowEffected)
         {
@@ -573,8 +563,8 @@ namespace DMS.DataAccessObject
         /// <param name="cmdText"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public int Execute (string cmdText)
         {
@@ -618,8 +608,8 @@ namespace DMS.DataAccessObject
         /// <param name="iRowEffected"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public int Execute (SqlCommand cmd)
         {
@@ -663,8 +653,8 @@ namespace DMS.DataAccessObject
         /// <param name="iRowEffected"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public int ExecuteInTransaction (SqlCommand cmd)
         {
@@ -718,8 +708,8 @@ namespace DMS.DataAccessObject
         /// <param name="iRowEffected"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public int ExecuteInTransaction (string cmdText)
         {
@@ -772,8 +762,8 @@ namespace DMS.DataAccessObject
         /// <param name="iRowEffected"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public int ExecuteInTransaction (string cmdText, IDataParameter[] iparams, out int rowEffected)
         {
@@ -834,8 +824,8 @@ namespace DMS.DataAccessObject
         /// <param name="iRowEffected"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public int Execute (string cmdText, IDataParameter[] iparams, out int rowEffected)
         {
@@ -899,8 +889,8 @@ namespace DMS.DataAccessObject
         /// <param name="cmd"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public object ExecuteScalar (SqlCommand cmd)
         {
@@ -941,8 +931,8 @@ namespace DMS.DataAccessObject
         /// <param name="cmdText"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public object ExecuteScalar (string cmdText)
         {
@@ -982,8 +972,8 @@ namespace DMS.DataAccessObject
         /// <param name="cmdText"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public object ExecuteScalarInTransaction (string cmdText)
         {
@@ -1036,8 +1026,8 @@ namespace DMS.DataAccessObject
         /// <param name="cmd"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public object ExecuteScalarInTransaction (SqlCommand cmd)
         {
@@ -1094,8 +1084,8 @@ namespace DMS.DataAccessObject
         /// <param name="iparams"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public SqlDataReader ExecuteProcedure (string storeProcedure, IDataParameter[] iparams)
         {
@@ -1118,8 +1108,8 @@ namespace DMS.DataAccessObject
         /// <param name="tablename"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public DataSet ExecuteProcedure (string storeProcedure, IDataParameter[] iparams, string tablename)
         {
@@ -1139,8 +1129,8 @@ namespace DMS.DataAccessObject
         /// <param name="tablename"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public DataSet ExecuteProcedure (string storeProcedure, IDataParameter[] iparams, DataSet ds, string tablename)
         {
@@ -1157,8 +1147,8 @@ namespace DMS.DataAccessObject
         /// <param name="value"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public string EncodeString (string value)
         {
@@ -1173,8 +1163,8 @@ namespace DMS.DataAccessObject
         /// <param name="param_Name"></param>
         /// <returns></returns>
         /// <remarks>
-        /// Author:			PhatLT. FPTSS.
-        /// Created date:	14/02/2011
+        /// Author:			Le Tien Phat
+        /// Created date:	10/06/2011
         /// </remarks>
         public string GetParameterValue (string param_Name)
         {
@@ -1241,12 +1231,7 @@ namespace DMS.DataAccessObject
                 cmd.CommandText = spName;
                 cmd.CommandTimeout = 1000;
 
-                // tuannh2 modified 20080813: neu arrParam khac null thi moi chay for
-                // vi co truong hop tham so arrParam truyen vao = null
-                // foreach(SqlParameter param in arrParam)
-                // {
-                //		cmd.Parameters.Add(param);
-                // }
+
                 if (arrParam != null)
                 {
                     foreach (SqlParameter param in arrParam)
@@ -1254,7 +1239,6 @@ namespace DMS.DataAccessObject
                         cmd.Parameters.Add(param);
                     }
                 }
-                // end tuannh2
 
                 dt = new DataTable();
                 da = new SqlDataAdapter(cmd);
@@ -1278,7 +1262,7 @@ namespace DMS.DataAccessObject
 
         /// <summary>
         /// Get RegionCode by UserName
-        /// CanLV: 11-Mar-2009
+        /// 
         /// </summary>
         /// <returns></returns>
         public DataTable GetAuthorizedRegion ()
@@ -1307,7 +1291,7 @@ namespace DMS.DataAccessObject
 
         /// <summary>
         /// Get RegionCode by UserName
-        /// CanLV: 11-Mar-2009
+        /// 
         /// </summary>
         /// <param name="userName"></param>
         /// <returns></returns>
@@ -1337,7 +1321,7 @@ namespace DMS.DataAccessObject
 
         /// <summary>
         /// Get Strategic Region by UserName
-        /// CanLV: 11-Mar-2009
+        /// 
         /// </summary>
         /// <returns></returns>
         public DataTable GetAuthorizedStrategicRegion ()
@@ -1366,7 +1350,7 @@ namespace DMS.DataAccessObject
 
         /// <summary>
         /// Get Strategic Region by UserName
-        /// CanLV: 11-Mar-2009
+        ///
         /// </summary>
         /// <returns></returns>
         public DataTable GetAuthorizedStrategicRegion (string userName)
@@ -1406,9 +1390,6 @@ namespace DMS.DataAccessObject
             string strSalesOrg = "";
             try
             {
-                // Modified by: TuanDH
-                // Date: 06/08/2010
-                // Description: copy form GENERAL tool, PPO manual importing
 
                 string strSQL = "SELECT DISTINCT SALES_ORG FROM GENERAL_SHIP_TO WHERE SHIP_TO_CODE= '" + strShipToCode + "'";
 
@@ -1416,12 +1397,6 @@ namespace DMS.DataAccessObject
 
                 return strSalesOrg = (dtSalesOrg == null || dtSalesOrg.Rows.Count <= 0) ? string.Empty : dtSalesOrg.Rows[0]["SALES_ORG"].ToString().Trim();
 
-                //string strCustCode = strShipToCode.Substring(1, 5);
-                //string strSQL = "SELECT DISTINCT SALES_ORG FROM GENERAL_DISTRIBUTOR_HIERARCHY D INNER JOIN GENERAL_SHIP_TO S ON D.CUST_CODE = S.CUST_CODE WHERE S.SHIP_TO_CODE= '" + strShipToCode + "'";
-                //strSalesOrg = DataServices.ExecuteDataTable(CommandType.Text, strSQL, null).Rows[0]["SALES_ORG"].ToString().Trim();
-                //if (strSalesOrg == null || strSalesOrg.Equals(String.Empty))
-                //    return String.Empty;
-                //return strSalesOrg;
             }
             catch (Exception ex)
             {

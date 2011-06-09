@@ -55,6 +55,7 @@ namespace DMS
 				if(File.Exists(filename))
 				{
 					this.BackgroundImage = Image.FromFile(clsSystemConfig.ImageFolder + ConfigurationManager.AppSettings["Background"]);
+                    this.BackgroundImageLayout = ImageLayout.Stretch;
 				}
 			}
 			catch(Exception ex)
